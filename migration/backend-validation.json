@@ -1,0 +1,11 @@
+{
+  "tool": "phpunit",
+  "result": "passed",
+  "tests": 158,
+  "passed": 158,
+  "assertions": 2096,
+  "duration_ms": 143502,
+  "occurredAt": "2026-10-09T16:30:23.497Z",
+  "command": "scripts/php.ps1 artisan test",
+  "environment": "MySQL pingofin_test; Redis de teste; TestCase com bloqueio de banco não descartável"
+}

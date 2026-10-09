@@ -1,0 +1,3626 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-09T15:41:11.427Z",
+  "sourceCommits": {
+    "sistemafinanceiro": "88c804ad9b28161d229ef63b2c2edf2a9d285408",
+    "pingolandingpage": "b067cb9582a91edfdb191e749f8c59b8f6cb3f8b"
+  },
+  "policy": "Snapshot do conteúdo de trabalho, incluindo mudanças não commitadas; .git, ambientes, dependências, runtimes e builds excluídos. SHA256 é do conteúdo original antes das adaptações documentadas.",
+  "files": [
+    {
+      "source": "sistemafinanceiro/backend/app/Actions/Financial/ChangeFinancialEntry.php",
+      "target": "pingo-back-crm/app/Actions/Financial/ChangeFinancialEntry.php",
+      "sha256": "61009bdfcea7c714657223749df889e17845319aa47a45e53b2020759ca9ab37"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Actions/Financial/CorrectSettlement.php",
+      "target": "pingo-back-crm/app/Actions/Financial/CorrectSettlement.php",
+      "sha256": "f6f7a3228114e78dfbca12148acdb0d92a8f622063fed630f6941f84132d7f8c"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Actions/Financial/WriteSchedule.php",
+      "target": "pingo-back-crm/app/Actions/Financial/WriteSchedule.php",
+      "sha256": "cc8ef5e13da9f983baec3b989f3a5b94ba12146dad96fd392810937fd187424e"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Http/Controllers/Api/V1/Finance/ReminderController.php",
+      "target": "pingo-back-crm/app/Http/Controllers/Api/V1/Finance/ReminderController.php",
+      "sha256": "d136186b898edb5cb236d92e7f7077e0558c2ceaa32f5209ba409d0d6df8e654"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Http/Controllers/Api/V1/Finance/ReportController.php",
+      "target": "pingo-back-crm/app/Http/Controllers/Api/V1/Finance/ReportController.php",
+      "sha256": "40ec3c0ec759c26874291dd2e2e03a2ed7f01c4264a89f17e8d28906c0dcff86"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Http/Requests/Finance/CashStatementRequest.php",
+      "target": "pingo-back-crm/app/Http/Requests/Finance/CashStatementRequest.php",
+      "sha256": "616ea22ad1e02aa1b1f59d4140ca048f753710f3f573e58c6bc0190d14ec97ae"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Http/Requests/Finance/CorrectSettlementRequest.php",
+      "target": "pingo-back-crm/app/Http/Requests/Finance/CorrectSettlementRequest.php",
+      "sha256": "e610b04468c968ab4244a36b5af25f6b16d1b7d1c0d5ac9e3961e4391b5c7829"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Http/Requests/Finance/DeleteFinancialEntryRequest.php",
+      "target": "pingo-back-crm/app/Http/Requests/Finance/DeleteFinancialEntryRequest.php",
+      "sha256": "d323fc6e73612c1c14f46a703fdb65f56583ffe23cc262c0422edf7d9f7dd425"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Http/Requests/Finance/MonthlyReportRequest.php",
+      "target": "pingo-back-crm/app/Http/Requests/Finance/MonthlyReportRequest.php",
+      "sha256": "6a5a5bd689ffea980fa6c435f2d080ab47ce125a5d8cc342bef33ab657607cd7"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Http/Requests/Finance/OpenObligationsRequest.php",
+      "target": "pingo-back-crm/app/Http/Requests/Finance/OpenObligationsRequest.php",
+      "sha256": "16e095be5e4fb9e2967b24abb46ec7dfc5247724e854bf6c39375259a4f4d914"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Http/Requests/Finance/ReportRequest.php",
+      "target": "pingo-back-crm/app/Http/Requests/Finance/ReportRequest.php",
+      "sha256": "96a7cad43e65f17220753c0eda9e0f88bc0d35f32165c2dbe9536954016de8f5"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Http/Requests/Finance/UpdateFinancialEntryRequest.php",
+      "target": "pingo-back-crm/app/Http/Requests/Finance/UpdateFinancialEntryRequest.php",
+      "sha256": "4d8e7dffb681ace64ecae99306baea486031dfe528c7b7e91a4f48eda75874ef"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Http/Resources/Finance/SettlementData.php",
+      "target": "pingo-back-crm/app/Http/Resources/Finance/SettlementData.php",
+      "sha256": "8e35939419884f28d0a623a07642ff4a6e8d61bc4854bce543622b13f2035fc7"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Models/Concerns/IsSettlement.php",
+      "target": "pingo-back-crm/app/Models/Concerns/IsSettlement.php",
+      "sha256": "b5499d30b601bfc8532ec9f33c8b97218a99aa34ca8eb41c6aa6f9e1f4df2bc8"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Queries/Installments.php",
+      "target": "pingo-back-crm/app/Queries/Installments.php",
+      "sha256": "c036fde9401a550b23e5b0dd0414c5f83a96246453dada9dcd19597d21eb5ca6"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Queries/ReminderQuery.php",
+      "target": "pingo-back-crm/app/Queries/ReminderQuery.php",
+      "sha256": "3a7ac2755901dd2e8d6f1b394bde157ab1e827f282b458aa6062e972564bca1d"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Queries/Reports/CashStatementQuery.php",
+      "target": "pingo-back-crm/app/Queries/Reports/CashStatementQuery.php",
+      "sha256": "5ef247a7a7e219100e2471a536da7460435bcb8ef0032ee853a4c9688e838575"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Queries/Reports/MonthlyReportQuery.php",
+      "target": "pingo-back-crm/app/Queries/Reports/MonthlyReportQuery.php",
+      "sha256": "e08ee218eb95b697a589486a6d84b3d38c77c05493ee2c134d556403370880b8"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Queries/Reports/OpenObligationsQuery.php",
+      "target": "pingo-back-crm/app/Queries/Reports/OpenObligationsQuery.php",
+      "sha256": "6aeb00e7f1d2d5d1acdaf644fffdc62ec227469a00669bcba4f4e2c04e05459d"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Queries/Reports/ReportScope.php",
+      "target": "pingo-back-crm/app/Queries/Reports/ReportScope.php",
+      "sha256": "876c616451aa14227c1c079e1b25479f32fe9629d81acd0e03bfa58ee43bd252"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Support/FinanceFlow.php",
+      "target": "pingo-back-crm/app/Support/FinanceFlow.php",
+      "sha256": "c39480d03427449f35d6649491f45e01e8fa34ca975d3b062702e8075bd712a3"
+    },
+    {
+      "source": "sistemafinanceiro/backend/database/migrations/2026_10_08_000004_add_financial_entry_revision_and_soft_deletion.php",
+      "target": "pingo-back-crm/database/migrations/2026_10_08_000004_add_financial_entry_revision_and_soft_deletion.php",
+      "sha256": "095db7d33c3c71df4c883841de33ee430dcb43e96eb955fec9cae3075b3cf0c1"
+    },
+    {
+      "source": "sistemafinanceiro/backend/database/migrations/2026_10_08_000005_add_settlement_corrections_and_installments.php",
+      "target": "pingo-back-crm/database/migrations/2026_10_08_000005_add_settlement_corrections_and_installments.php",
+      "sha256": "24f722c1f0176deaf6c0925b336c2280fcd78272abb00ca67a14c0bf9d51a7b3"
+    },
+    {
+      "source": "sistemafinanceiro/backend/tests/Feature/FinancialEntryChangesTest.php",
+      "target": "pingo-back-crm/tests/Feature/FinancialEntryChangesTest.php",
+      "sha256": "5cdfad59f88816f9ea16f51bc0c0d43f3e1885d23686355dda4c8d2e8a369111"
+    },
+    {
+      "source": "sistemafinanceiro/backend/tests/Feature/InstallmentScheduleTest.php",
+      "target": "pingo-back-crm/tests/Feature/InstallmentScheduleTest.php",
+      "sha256": "d4cbaaed67080188f4fb7542a5e9f12192d7f6efaf03aade8196619bff6e33c4"
+    },
+    {
+      "source": "sistemafinanceiro/backend/tests/Feature/ReportsTest.php",
+      "target": "pingo-back-crm/tests/Feature/ReportsTest.php",
+      "sha256": "eb90d30fcfa30a515f7f92b7b1ac1d06627627a7ee79d9737c0f23f81b50f8c0"
+    },
+    {
+      "source": "sistemafinanceiro/backend/tests/Feature/SettlementCorrectionTest.php",
+      "target": "pingo-back-crm/tests/Feature/SettlementCorrectionTest.php",
+      "sha256": "8c9506c4e529aebc3282e56c0cdc8442d8fedd2d86f7b24cc738c901dfecb4ce"
+    },
+    {
+      "source": "sistemafinanceiro/docs/CORRECTIONS_INSTALLMENTS_VALIDATION.md",
+      "target": "pingo-doc/docs/CORRECTIONS_INSTALLMENTS_VALIDATION.md",
+      "sha256": "d857d6117ad624101c5f3d8578da6e4a863dd0fb4ea5fa0f99e1e925ab97a9f2"
+    },
+    {
+      "source": "sistemafinanceiro/docs/FINANCIAL_REFINEMENT_VALIDATION.md",
+      "target": "pingo-doc/docs/FINANCIAL_REFINEMENT_VALIDATION.md",
+      "sha256": "79359cae608f69f57110bf19d4cd1b9d9f9fd7eadd29c9673ab415e73bb614eb"
+    },
+    {
+      "source": "sistemafinanceiro/docs/REPORTS_VALIDATION.md",
+      "target": "pingo-doc/docs/REPORTS_VALIDATION.md",
+      "sha256": "7dbc41d43003c9794f3f67f963793ba149119ac6db1d9833b561f57f27ce39be"
+    },
+    {
+      "source": "sistemafinanceiro/docs/capturas/landing-produto/README.md",
+      "target": "pingo-doc/docs/capturas/landing-produto/README.md",
+      "sha256": "047252fbd26ae830d5a056dad5de745c16b7a06ae6d8422984db434d25ca3c27"
+    },
+    {
+      "source": "sistemafinanceiro/docs/capturas/landing-produto/cronograma.png",
+      "target": "pingo-doc/docs/capturas/landing-produto/cronograma.png",
+      "sha256": "8b2ae77d7909a25ac06efff52688ace2fefaa955d4da76f28c992cabdb24fed6"
+    },
+    {
+      "source": "sistemafinanceiro/docs/capturas/landing-produto/dashboard-escuro.png",
+      "target": "pingo-doc/docs/capturas/landing-produto/dashboard-escuro.png",
+      "sha256": "d3ac875f6f2c7c8ec30ae8d3bd82027c9278321863a7ddb82cf77e2bf619a87d"
+    },
+    {
+      "source": "sistemafinanceiro/docs/capturas/landing-produto/dashboard-mobile.png",
+      "target": "pingo-doc/docs/capturas/landing-produto/dashboard-mobile.png",
+      "sha256": "a4aa81317294aa3bdf3a4da60fab61f88c328a3656587465e2de082b6bda6978"
+    },
+    {
+      "source": "sistemafinanceiro/docs/capturas/landing-produto/dashboard.png",
+      "target": "pingo-doc/docs/capturas/landing-produto/dashboard.png",
+      "sha256": "fb3eed238c61ad0ded7c22366bde904db4c5b220e578f9f1837a477887c50fbe"
+    },
+    {
+      "source": "sistemafinanceiro/docs/capturas/landing-produto/despesas-mobile.png",
+      "target": "pingo-doc/docs/capturas/landing-produto/despesas-mobile.png",
+      "sha256": "fb031631fdca4896aaaef58c3f7df6c85fa70c14b0e6c4b8e965a24a038da79a"
+    },
+    {
+      "source": "sistemafinanceiro/docs/capturas/landing-produto/despesas.png",
+      "target": "pingo-doc/docs/capturas/landing-produto/despesas.png",
+      "sha256": "73bcfff6a5da18fd340e0df374bb8eec397f317a7dbe1e49315924c6b483c3fe"
+    },
+    {
+      "source": "sistemafinanceiro/docs/capturas/landing-produto/grafico.png",
+      "target": "pingo-doc/docs/capturas/landing-produto/grafico.png",
+      "sha256": "2515ed9762d17783bbd87c3c9d4b69bb553235099b5d8d171eb2547e576871f2"
+    },
+    {
+      "source": "sistemafinanceiro/docs/capturas/landing-produto/indicadores.png",
+      "target": "pingo-doc/docs/capturas/landing-produto/indicadores.png",
+      "sha256": "a52dec415aa9bc1e608ef9fd3e54d27518e9d30f40234c0eee01c137eae4f891"
+    },
+    {
+      "source": "sistemafinanceiro/docs/capturas/landing-produto/pagar-card.png",
+      "target": "pingo-doc/docs/capturas/landing-produto/pagar-card.png",
+      "sha256": "b624210e4ec30aa8335bbd80494ab16881a6e5fc867165f7eebb4e0bc6c45bac"
+    },
+    {
+      "source": "sistemafinanceiro/docs/capturas/landing-produto/parcelas-mobile.png",
+      "target": "pingo-doc/docs/capturas/landing-produto/parcelas-mobile.png",
+      "sha256": "2436aa59ba1453784a92cf23cbd22985322cf2471690221eb03d357d7f6ce7f3"
+    },
+    {
+      "source": "sistemafinanceiro/docs/capturas/landing-produto/parcelas.png",
+      "target": "pingo-doc/docs/capturas/landing-produto/parcelas.png",
+      "sha256": "9f78ca673b8d301e58c3d3dc8e01bdb36b6c292d3c0bbe58af883a7de19a84b0"
+    },
+    {
+      "source": "sistemafinanceiro/docs/capturas/landing-produto/pendencias-mobile.png",
+      "target": "pingo-doc/docs/capturas/landing-produto/pendencias-mobile.png",
+      "sha256": "e6efe7bbce4c29ca5ccae7e98133dbb6a46f064c07c2502948cf685d71439869"
+    },
+    {
+      "source": "sistemafinanceiro/docs/capturas/landing-produto/pendencias-resumo.png",
+      "target": "pingo-doc/docs/capturas/landing-produto/pendencias-resumo.png",
+      "sha256": "dd7f61709a9911857f9b75ba26f021dbfdf2feda25db4d9daba497fa3fd9896c"
+    },
+    {
+      "source": "sistemafinanceiro/docs/capturas/landing-produto/pendencias.png",
+      "target": "pingo-doc/docs/capturas/landing-produto/pendencias.png",
+      "sha256": "20b27ad65164942be4a3ac2f09afde49dd8f0cc872c388c4c495422ef66ab77a"
+    },
+    {
+      "source": "sistemafinanceiro/docs/capturas/landing-produto/receber-card.png",
+      "target": "pingo-doc/docs/capturas/landing-produto/receber-card.png",
+      "sha256": "293beb5be0924a67616d81b373c50994a83d85e6dd769eb45296b4a73758061a"
+    },
+    {
+      "source": "sistemafinanceiro/docs/capturas/landing-produto/recebido-card.png",
+      "target": "pingo-doc/docs/capturas/landing-produto/recebido-card.png",
+      "sha256": "55713be470e30748c9cbd00d7b861567bc1739602adc2e11b6e1a23948677f69"
+    },
+    {
+      "source": "sistemafinanceiro/docs/capturas/landing-produto/receitas-mobile.png",
+      "target": "pingo-doc/docs/capturas/landing-produto/receitas-mobile.png",
+      "sha256": "8568eaae104f05c342ad1a4f63c0792a6e2c50d8d56a98fd8ca2304b98ccf1f4"
+    },
+    {
+      "source": "sistemafinanceiro/docs/capturas/landing-produto/receitas.png",
+      "target": "pingo-doc/docs/capturas/landing-produto/receitas.png",
+      "sha256": "90c0d74254078b00c93eee087c68fadfaa52dae03121bc5248148d4bdb53af8d"
+    },
+    {
+      "source": "sistemafinanceiro/docs/capturas/landing-produto/relatorios-mobile.png",
+      "target": "pingo-doc/docs/capturas/landing-produto/relatorios-mobile.png",
+      "sha256": "b2efb4e4705e27b654168f2701896c635954d7ce611cc758407f918591ae7350"
+    },
+    {
+      "source": "sistemafinanceiro/docs/capturas/landing-produto/relatorios.png",
+      "target": "pingo-doc/docs/capturas/landing-produto/relatorios.png",
+      "sha256": "2e5a10a597bbe40810c2a3ba37b0d493ad25892c1d11df5ce4a1019f11e2498b"
+    },
+    {
+      "source": "sistemafinanceiro/docs/capturas/landing-produto/resultado-card.png",
+      "target": "pingo-doc/docs/capturas/landing-produto/resultado-card.png",
+      "sha256": "f4c598932a6ef0f070dd664eee5979d394b958006ea74ef25e28875f7fc0e857"
+    },
+    {
+      "source": "sistemafinanceiro/docs/capturas/landing-produto/wiser-reference.png",
+      "target": "pingo-doc/docs/capturas/landing-produto/wiser-reference.png",
+      "sha256": "311f1e98679fd49bddd51b1979bb876fd8c6612cb8a5ca78fc6fda51b6edb5cc"
+    },
+    {
+      "source": "sistemafinanceiro/docs/capturas/refinamento-07-08/dashboard-mobile.jpg",
+      "target": "pingo-doc/docs/capturas/refinamento-07-08/dashboard-mobile.jpg",
+      "sha256": "e9b3b12b9eb970b73471e4593e971abc1f416c81ece0b4a56784057674a58b07"
+    },
+    {
+      "source": "sistemafinanceiro/docs/capturas/refinamento-07-08/despesa-excluida-mobile.jpg",
+      "target": "pingo-doc/docs/capturas/refinamento-07-08/despesa-excluida-mobile.jpg",
+      "sha256": "1e87b4a942ab4f527a1fcfe2000c194f16eef7f223ee60717030157b1f714fa0"
+    },
+    {
+      "source": "sistemafinanceiro/docs/capturas/refinamento-07-08/edicao-mobile.jpg",
+      "target": "pingo-doc/docs/capturas/refinamento-07-08/edicao-mobile.jpg",
+      "sha256": "8944c33a50887a9ce83ccd40b36d91d1fa7faaa9385447c3c3b2db53f6aaf63a"
+    },
+    {
+      "source": "sistemafinanceiro/docs/capturas/refinamento-07-08/exclusao-bloqueada.jpg",
+      "target": "pingo-doc/docs/capturas/refinamento-07-08/exclusao-bloqueada.jpg",
+      "sha256": "e0aebf5b90b3a0ef34cffbd6302b79e0effc450028583f118354273ea809cb94"
+    },
+    {
+      "source": "sistemafinanceiro/docs/capturas/refinamento-07-08/exclusao-mobile.jpg",
+      "target": "pingo-doc/docs/capturas/refinamento-07-08/exclusao-mobile.jpg",
+      "sha256": "1fcb76d4fe7bf8bda2f6d0d99164e2529177f03f78064021659c90622f0608d7"
+    },
+    {
+      "source": "sistemafinanceiro/docs/capturas/refinamento-07-08/receita-salva.jpg",
+      "target": "pingo-doc/docs/capturas/refinamento-07-08/receita-salva.jpg",
+      "sha256": "7dd963b7494f271f374b5b74f0f908c1e31bf484d640c81039ffcc9d6e291ea2"
+    },
+    {
+      "source": "sistemafinanceiro/docs/capturas/refinamento-07-08/receitas-mobile.jpg",
+      "target": "pingo-doc/docs/capturas/refinamento-07-08/receitas-mobile.jpg",
+      "sha256": "7b3bb18c2498258ba8753e7bc739a42f780c02f7455aa4bd9998b576061e17e0"
+    },
+    {
+      "source": "sistemafinanceiro/docs/capturas/refinamento-07-08/resultado-final.jpg",
+      "target": "pingo-doc/docs/capturas/refinamento-07-08/resultado-final.jpg",
+      "sha256": "f52e973d58a41dd583eaa47c0fbed6bdcaaaad83977deb355c2b624ca4037f9e"
+    },
+    {
+      "source": "sistemafinanceiro/docs/capturas/refinamento-07-08/resultado-negativo.jpg",
+      "target": "pingo-doc/docs/capturas/refinamento-07-08/resultado-negativo.jpg",
+      "sha256": "0be5c5e46e4a12194aac069847b42027e9ea699b6248c5acbf77f6276d6cf53e"
+    },
+    {
+      "source": "sistemafinanceiro/docs/capturas/refinamento-07-08/resultado-positivo-escuro.jpg",
+      "target": "pingo-doc/docs/capturas/refinamento-07-08/resultado-positivo-escuro.jpg",
+      "sha256": "7db513789ab3fe6a1b5a8fa6e5d695216205dd6bbd9dc602b11982acec32cb6f"
+    },
+    {
+      "source": "sistemafinanceiro/docs/capturas/refinamento-07-08/resultado-positivo.jpg",
+      "target": "pingo-doc/docs/capturas/refinamento-07-08/resultado-positivo.jpg",
+      "sha256": "01001d6e97bbf594e8595622d26a0d7e00badc2d51e19b5c7b712b1051c2c6d2"
+    },
+    {
+      "source": "sistemafinanceiro/docs/capturas/refinamento-07-08/resultado-zero.jpg",
+      "target": "pingo-doc/docs/capturas/refinamento-07-08/resultado-zero.jpg",
+      "sha256": "e996bf35177166ae5e2bb45c2a70bd0ba0ee764365b4b765bc662d7344da9b5b"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/finance/CorrectionDialog.vue",
+      "target": "pingo-front-crm/app/components/finance/CorrectionDialog.vue",
+      "sha256": "0422532d0fb4ec8409781d6b201e3a2c762d5505d032a6e3b77d5914dbd2b19d"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/finance/EntryActions.vue",
+      "target": "pingo-front-crm/app/components/finance/EntryActions.vue",
+      "sha256": "1477f70398c9fe60513d6fc159da04d78b59c9f7bc978c2a9f7673ddeea67b1b"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/finance/InstallmentsTable.vue",
+      "target": "pingo-front-crm/app/components/finance/InstallmentsTable.vue",
+      "sha256": "9efbd875bbbaf214a5fce8fe4efbf397ca9ed443cffbff27da92669818c4921c"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/finance/ReportBasis.vue",
+      "target": "pingo-front-crm/app/components/finance/ReportBasis.vue",
+      "sha256": "2fb960dfb3a1c24e69030a2f136575c4f051cd5548d98aaebb72ab6cbc12ceb6"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/finance/ReportForecast.vue",
+      "target": "pingo-front-crm/app/components/finance/ReportForecast.vue",
+      "sha256": "560e71e267015046a93ab58ab09e742831d3d103d7f7f637fa8465d8a50ea945"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/finance/ReportMonthly.vue",
+      "target": "pingo-front-crm/app/components/finance/ReportMonthly.vue",
+      "sha256": "6d0f4474e593b350b6e564aab61f5b6858b127e4e2a28a303ccc7aa64c76f1a5"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/finance/ReportStatement.vue",
+      "target": "pingo-front-crm/app/components/finance/ReportStatement.vue",
+      "sha256": "02cc57bd9f32bf4e16c068e32f0c0bece4df2b3fe007b08e931c1bf2fefcef79"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/finance/ScheduleEditor.vue",
+      "target": "pingo-front-crm/app/components/finance/ScheduleEditor.vue",
+      "sha256": "cb55b8c15a4607177e173e5123fa6e501206acd51f1c5e0be0ac0bb3aeec2b18"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/finance/SettlementHistory.vue",
+      "target": "pingo-front-crm/app/components/finance/SettlementHistory.vue",
+      "sha256": "6f45faadd18e356c5c5c906e16aee9b2c7aab21a2f58e51b815a732f6fbfcb5a"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/pages/lembretes.vue",
+      "target": "pingo-front-crm/app/pages/lembretes.vue",
+      "sha256": "d810b18d8439a840b0c439cd2ae635968885fef1318e0b6ca21b2535b18bdc1b"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/pages/relatorios.vue",
+      "target": "pingo-front-crm/app/pages/relatorios.vue",
+      "sha256": "156296930afe12aa44a949960b8e4fe5e38c978ca5a4713c2381e740d7ae8013"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/types/reports.ts",
+      "target": "pingo-front-crm/app/types/reports.ts",
+      "sha256": "d1df02d8dfddadb34d9733c1ca22653d1975821fded3ea1d85c5fefe36ec2404"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/utils/installments.ts",
+      "target": "pingo-front-crm/app/utils/installments.ts",
+      "sha256": "fcdbbb0d2fd25939c90097a43725263aa50ee127de7644e8137682d2c4f6a61c"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/utils/reports.ts",
+      "target": "pingo-front-crm/app/utils/reports.ts",
+      "sha256": "0f7222a0f5106560bf20e02b54dd261c36086b80c8a4df73e82d33decd5b0852"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/utils/settlement-correction.ts",
+      "target": "pingo-front-crm/app/utils/settlement-correction.ts",
+      "sha256": "c8493ef1e319be2b1e2ebbc5652d5e79e1b85075dcd87ab15d52d89eb960ecdd"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/tests/installments.test.ts",
+      "target": "pingo-front-crm/tests/installments.test.ts",
+      "sha256": "dd9e901256b2394ccb8260df43f127609a0464e0385a082eeb65befb7cbaddba"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/tests/reports.test.ts",
+      "target": "pingo-front-crm/tests/reports.test.ts",
+      "sha256": "bd4ff9edffb3a9f1bf63c9f22f298515d78e8f637fac6c55ba4f2f4cf449a3d4"
+    },
+    {
+      "source": "sistemafinanceiro/.env.example",
+      "target": "pingo-back-crm/infra/.env.example",
+      "sha256": "b7bdd63847c82f55af0d85691dd791b682529c30317c62a32e8eaf6d0ca83684"
+    },
+    {
+      "source": "sistemafinanceiro/AGENTS.md",
+      "target": "pingo-doc/AGENTS.md",
+      "sha256": "5e8695dd1c006c379cb1fc092ce7800cb8893862b320375392a31c11f8ab8e5b"
+    },
+    {
+      "source": "sistemafinanceiro/ARCHITECTURE.md",
+      "target": "pingo-doc/ARCHITECTURE.md",
+      "sha256": "f27b06b1a3500b5373fcf3f286834c415ea6ee03ba92b335a40624f8562f98b0"
+    },
+    {
+      "source": "sistemafinanceiro/CLAUDE.md",
+      "target": "pingo-doc/CLAUDE.md",
+      "sha256": "0d23021b4a0bac48776faeb7a55b403cb3f1351a19fb0615282be734809c49f7"
+    },
+    {
+      "source": "sistemafinanceiro/DEFINICAO_PRODUTO.md",
+      "target": "pingo-doc/DEFINICAO_PRODUTO.md",
+      "sha256": "53ca0c3bc33094c3a89757967dae99bd8bf4771cc75f189eda778b81f0f91c76"
+    },
+    {
+      "source": "sistemafinanceiro/DESIGN_SYSTEM.md",
+      "target": "pingo-doc/DESIGN_SYSTEM.md",
+      "sha256": "bf114467e80bee1976ac50bad0966379dd23a6392a163931b65795ccfefd13a3"
+    },
+    {
+      "source": "sistemafinanceiro/README.md",
+      "target": "pingo-doc/docs/LEGACY_MONOREPO_README.md",
+      "sha256": "2622f710bdc0cd09965bb5b8557a80d873f8f2897fb29533dba82ec7beb68fd1"
+    },
+    {
+      "source": "sistemafinanceiro/backend/.editorconfig",
+      "target": "pingo-back-crm/.editorconfig",
+      "sha256": "fe39e0ad06edea8e256e44f1fc4f319a8acfa785a7470af5cf6b9ed12dc34406"
+    },
+    {
+      "source": "sistemafinanceiro/backend/.env.example",
+      "target": "pingo-back-crm/.env.example",
+      "sha256": "20138f5c2cc8fd96c5e13debee00cf6819fed71759382306557f0f794cc5ea47"
+    },
+    {
+      "source": "sistemafinanceiro/backend/.env.testing.example",
+      "target": "pingo-back-crm/.env.testing.example",
+      "sha256": "bb58959f0c1704e7e5239bcf8b2e47a66b1ff0e7065611cb42bf91758910150b"
+    },
+    {
+      "source": "sistemafinanceiro/backend/.gitattributes",
+      "target": "pingo-back-crm/.gitattributes",
+      "sha256": "a40eb27ee0b545ca5b5542daaf99fec51f84f23b3766a6353864ef2a115bc51c"
+    },
+    {
+      "source": "sistemafinanceiro/backend/.gitignore",
+      "target": "pingo-back-crm/.gitignore",
+      "sha256": "3ee1060a695b64e763d8a438ac1fe87494ff00d92680c3f63ca56bc103ed4142"
+    },
+    {
+      "source": "sistemafinanceiro/backend/README.md",
+      "target": "pingo-back-crm/README.md",
+      "sha256": "72dc374e96846e79c921ba6219e426994b4ed0811fe00c5fe7ee9b7a05a4f134"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Actions/Financial/CreateExpense.php",
+      "target": "pingo-back-crm/app/Actions/Financial/CreateExpense.php",
+      "sha256": "fbb2618105bfb4669e5cb53c82ba595fca6b6377e89c2d9a0cd68ab297d06dd2"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Actions/Financial/CreateRevenue.php",
+      "target": "pingo-back-crm/app/Actions/Financial/CreateRevenue.php",
+      "sha256": "24a986dfb2d53d051b9265185aea7772fa602704fd3ad8ea2f132a093926d0bf"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Actions/Financial/RegisterPayment.php",
+      "target": "pingo-back-crm/app/Actions/Financial/RegisterPayment.php",
+      "sha256": "eed2730061f92e6a818ce604ec454223ea02851d55baa1d1fe202c9fb1193267"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Actions/Financial/RegisterReceipt.php",
+      "target": "pingo-back-crm/app/Actions/Financial/RegisterReceipt.php",
+      "sha256": "178b25027a4f3bae11d6f654e1b5269a8bb1dcee1bddff1ea478f43f53b57e29"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Actions/Platform/AddOrganizationAdministrator.php",
+      "target": "pingo-back-crm/app/Actions/Platform/AddOrganizationAdministrator.php",
+      "sha256": "770914bd5235e645f415dbb52e3fcb256d8c54da14e1df82fbbe2401edfa219f"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Actions/Platform/DeleteOrganization.php",
+      "target": "pingo-back-crm/app/Actions/Platform/DeleteOrganization.php",
+      "sha256": "10660920ff9a63a5bfc24c5e62778ff6bee6d74fb8f5ad76cae788c094adb6ba"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Actions/Platform/ProvisionOrganization.php",
+      "target": "pingo-back-crm/app/Actions/Platform/ProvisionOrganization.php",
+      "sha256": "ee3406edd41a38818826bdd03787d0fc5be6f9da49de568f8e263b8224c969a5"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Actions/Platform/SetOrganizationSuspension.php",
+      "target": "pingo-back-crm/app/Actions/Platform/SetOrganizationSuspension.php",
+      "sha256": "dfa49352679bed918dde8c60a6550db4b0fc36b1c2f7916d7d86ded8fe777c7a"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Actions/Platform/UpdateOrganization.php",
+      "target": "pingo-back-crm/app/Actions/Platform/UpdateOrganization.php",
+      "sha256": "7c0f3f008b179af37f1e03cdd04709d4bf1a2bf26ba605ed90bfac5d0aca49fe"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Console/Commands/CreatePlatformMaster.php",
+      "target": "pingo-back-crm/app/Console/Commands/CreatePlatformMaster.php",
+      "sha256": "68a6ed23408b292c5c41c5ab4c41a5e2baf6d65e9d1d5a8ce0a31240e16c6eba"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Console/Commands/LegacyMemberships.php",
+      "target": "pingo-back-crm/app/Console/Commands/LegacyMemberships.php",
+      "sha256": "a97bbf0fc2b21fc5bc9b2077b751c42eb7687612d37ef17e2ff11c982e843616"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Console/Commands/QueueSmoke.php",
+      "target": "pingo-back-crm/app/Console/Commands/QueueSmoke.php",
+      "sha256": "691973c488d10e36afb035f3234c29b048ee1f5d2a6186d6d2257587dc350afc"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Http/Controllers/Api/V1/AuthController.php",
+      "target": "pingo-back-crm/app/Http/Controllers/Api/V1/AuthController.php",
+      "sha256": "e30551422413275bb681eb4393b814e44fbc584ce0562382db111ebd9424c6c4"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Http/Controllers/Api/V1/ContextController.php",
+      "target": "pingo-back-crm/app/Http/Controllers/Api/V1/ContextController.php",
+      "sha256": "2ab30fd8ceab9681500f683367dd12301cdbfe3b4e24898c7b4ae1054a181d54"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Http/Controllers/Api/V1/Finance/CategoryController.php",
+      "target": "pingo-back-crm/app/Http/Controllers/Api/V1/Finance/CategoryController.php",
+      "sha256": "81ce618dedbfa091d9a9d3ae7612b9e669231abd542c534518d4319bb88c3030"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Http/Controllers/Api/V1/Finance/CustomerController.php",
+      "target": "pingo-back-crm/app/Http/Controllers/Api/V1/Finance/CustomerController.php",
+      "sha256": "6e91e4d46cccc72cc92ffed588b97c2be5134568bdc3f9e9543a8202c629c6e5"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Http/Controllers/Api/V1/Finance/DashboardController.php",
+      "target": "pingo-back-crm/app/Http/Controllers/Api/V1/Finance/DashboardController.php",
+      "sha256": "7e8d40b4c69c5e67a8cb898bf1a013f7c00b3a89f5bd7800c7003884aef087d8"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Http/Controllers/Api/V1/Finance/ExpenseController.php",
+      "target": "pingo-back-crm/app/Http/Controllers/Api/V1/Finance/ExpenseController.php",
+      "sha256": "30cb24f1882585605b1df3f91bc8e31dc19ebf9a1af1d8813125c9e73b115c37"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Http/Controllers/Api/V1/Finance/RevenueController.php",
+      "target": "pingo-back-crm/app/Http/Controllers/Api/V1/Finance/RevenueController.php",
+      "sha256": "69ad02374b853efc3b556ae6316f6af79b114aa3d97453ab0c59d54403b591ea"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Http/Controllers/Api/V1/HealthController.php",
+      "target": "pingo-back-crm/app/Http/Controllers/Api/V1/HealthController.php",
+      "sha256": "c619613fb303b876d9eb3f8b082e90e93bd57f95fb2b95625911be4d2f9aa877"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Http/Controllers/Api/V1/Platform/AuthController.php",
+      "target": "pingo-back-crm/app/Http/Controllers/Api/V1/Platform/AuthController.php",
+      "sha256": "ea8ad021db2384d0c7a7ad7ea7db1824b14f93681a3c696caca06aa79db12301"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Http/Controllers/Api/V1/Platform/OrganizationController.php",
+      "target": "pingo-back-crm/app/Http/Controllers/Api/V1/Platform/OrganizationController.php",
+      "sha256": "769e8c8795c882a49df208cb6caaa08fb456850d6d5e9b6b3eefde489464b7dc"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Http/Controllers/Controller.php",
+      "target": "pingo-back-crm/app/Http/Controllers/Controller.php",
+      "sha256": "25d1c1ef8e6cc8a376553faacfba2b07d9dfaee9bdbb84f14f77517580e9deb1"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Http/Middleware/EnsurePlatformAdministrator.php",
+      "target": "pingo-back-crm/app/Http/Middleware/EnsurePlatformAdministrator.php",
+      "sha256": "98a4d5fefc33c181da9b0e9a0ab02038c0558722124bb58ade5df48dbef0e49e"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Http/Middleware/RequestId.php",
+      "target": "pingo-back-crm/app/Http/Middleware/RequestId.php",
+      "sha256": "22c3ec812330bedba02739fbb645a6a4cb322651dc487dd34ff00dfc90947f77"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Http/Middleware/ResolveOrganization.php",
+      "target": "pingo-back-crm/app/Http/Middleware/ResolveOrganization.php",
+      "sha256": "76fa8edefb07608e787caba605ebca44cab1394a97a4d9247fc2146ec1268cbf"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Http/Requests/Finance/CategoryRequest.php",
+      "target": "pingo-back-crm/app/Http/Requests/Finance/CategoryRequest.php",
+      "sha256": "43e85250a5fa9e8b03f5a27687925523c90c8892dfb4af83d08c8a92860df372"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Http/Requests/Finance/CustomerRequest.php",
+      "target": "pingo-back-crm/app/Http/Requests/Finance/CustomerRequest.php",
+      "sha256": "9f935d6aa81cfab18a36608fad63e869697158355237f54707b4f7c65b9cae88"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Http/Requests/Finance/DashboardRequest.php",
+      "target": "pingo-back-crm/app/Http/Requests/Finance/DashboardRequest.php",
+      "sha256": "dbe8c60226197f2b86c6a9a12a618bbdc7ef46ce4d01f75a5daffa47fe48d631"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Http/Requests/Finance/FinanceRequest.php",
+      "target": "pingo-back-crm/app/Http/Requests/Finance/FinanceRequest.php",
+      "sha256": "09853429529abdff304545e6f2338c4f54ceb924ce8f824436c8e154bdfe67cb"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Http/Requests/Finance/IndexCategoriesRequest.php",
+      "target": "pingo-back-crm/app/Http/Requests/Finance/IndexCategoriesRequest.php",
+      "sha256": "8d6be79ba87ecd41e3c68bda789596df9845bb4c751e48e79cbee8a55fb92c44"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Http/Requests/Finance/IndexCustomersRequest.php",
+      "target": "pingo-back-crm/app/Http/Requests/Finance/IndexCustomersRequest.php",
+      "sha256": "b6878beb5ef37d6db43a931e91b5e0454a11914e3f593e6ae66c668b50a26c2a"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Http/Requests/Finance/IndexExpensesRequest.php",
+      "target": "pingo-back-crm/app/Http/Requests/Finance/IndexExpensesRequest.php",
+      "sha256": "6feb699025095b5f2c333dc7488e4d19408d6f2cb0050640e5f9b5ac24bafd8c"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Http/Requests/Finance/IndexRevenuesRequest.php",
+      "target": "pingo-back-crm/app/Http/Requests/Finance/IndexRevenuesRequest.php",
+      "sha256": "17c6063d5c5d5d88b82e33274f59291d54992c81e3f8b07f7a5ef3aa7f060cec"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Http/Requests/Finance/StoreExpenseRequest.php",
+      "target": "pingo-back-crm/app/Http/Requests/Finance/StoreExpenseRequest.php",
+      "sha256": "8b329f06f9c3f449771ccaa698183b4ed4d7a5b1fc282a830fa47aaa44a2a9c4"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Http/Requests/Finance/StorePaymentRequest.php",
+      "target": "pingo-back-crm/app/Http/Requests/Finance/StorePaymentRequest.php",
+      "sha256": "6bc950ca78c2712ba3fac9aff8d4cbcc271caae297968c49c1c72b82b1d39cbd"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Http/Requests/Finance/StoreReceiptRequest.php",
+      "target": "pingo-back-crm/app/Http/Requests/Finance/StoreReceiptRequest.php",
+      "sha256": "4aa58539d8639899d6d408e207d7b876c30eef7474f2a62602dcf91b29fda104"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Http/Requests/Finance/StoreRevenueRequest.php",
+      "target": "pingo-back-crm/app/Http/Requests/Finance/StoreRevenueRequest.php",
+      "sha256": "58243348a52d1ca17dc8478cbf80bfb2917c9496985e8fa2ec3fb14c035a3cc8"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Http/Requests/LoginRequest.php",
+      "target": "pingo-back-crm/app/Http/Requests/LoginRequest.php",
+      "sha256": "acac8210707bde93436003f11c95258a9d044f8b41133498d72865c654e649bb"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Http/Requests/Platform/DestroyOrganizationRequest.php",
+      "target": "pingo-back-crm/app/Http/Requests/Platform/DestroyOrganizationRequest.php",
+      "sha256": "c37b8cf644fbb555e607a9ebe50708408016a2e229732c796027dcabe78261c3"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Http/Requests/Platform/IndexOrganizationsRequest.php",
+      "target": "pingo-back-crm/app/Http/Requests/Platform/IndexOrganizationsRequest.php",
+      "sha256": "8ae7920994b93a0ea1c1e68d2e00c7f10f09bf928965c126188b1c656fb961d0"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Http/Requests/Platform/PlatformRules.php",
+      "target": "pingo-back-crm/app/Http/Requests/Platform/PlatformRules.php",
+      "sha256": "059bf2f4e737e2e01806c838437270c27e191555b81d2ac419e27b8b579f8adc"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Http/Requests/Platform/StoreAdministratorRequest.php",
+      "target": "pingo-back-crm/app/Http/Requests/Platform/StoreAdministratorRequest.php",
+      "sha256": "a9358fa311490e72a5f8df10cfe8aaa61a0567dce67da428c680c562eb3e08c6"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Http/Requests/Platform/StoreOrganizationRequest.php",
+      "target": "pingo-back-crm/app/Http/Requests/Platform/StoreOrganizationRequest.php",
+      "sha256": "7f83c29f99312a523bfe797364cd75200b5843dd30d2eef64eada8b00c770230"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Http/Requests/Platform/UpdateOrganizationRequest.php",
+      "target": "pingo-back-crm/app/Http/Requests/Platform/UpdateOrganizationRequest.php",
+      "sha256": "1ead7c1a86335366fc388f7740e28aca52a50370b51229004a158df7365330a3"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Http/Resources/Finance/CategoryResource.php",
+      "target": "pingo-back-crm/app/Http/Resources/Finance/CategoryResource.php",
+      "sha256": "05c578ddf8ccd6a7b4fe25603b2b7e268a03044f5ea9b8dc70952385044aae38"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Http/Resources/Finance/CustomerResource.php",
+      "target": "pingo-back-crm/app/Http/Resources/Finance/CustomerResource.php",
+      "sha256": "7a2e9234074726618ff232c82c09066bb86c20c1985cdb8e87a40f4d29fef93a"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Http/Resources/Finance/ExpenseResource.php",
+      "target": "pingo-back-crm/app/Http/Resources/Finance/ExpenseResource.php",
+      "sha256": "ac9903a8162e5d374b45d410cfd6b02d2d8546ce04a40d276e7f81abcd343743"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Http/Resources/Finance/RevenueResource.php",
+      "target": "pingo-back-crm/app/Http/Resources/Finance/RevenueResource.php",
+      "sha256": "b89e28aaf4a54b01c754b0e4b80ccf209fcb8c75c53e1b882b50c328175aacaa"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Http/Resources/OrganizationContextResource.php",
+      "target": "pingo-back-crm/app/Http/Resources/OrganizationContextResource.php",
+      "sha256": "efab0cd9457d1aa4868ad8072115ac6b6801513e3ac77cfdf0cd4159aef38a99"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Http/Resources/Platform/PlatformOrganizationDetailResource.php",
+      "target": "pingo-back-crm/app/Http/Resources/Platform/PlatformOrganizationDetailResource.php",
+      "sha256": "784fecf2a9ed946b0e2b74eb20c98872cd9e54e34c8c8fed3f859ca5339057f3"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Http/Resources/Platform/PlatformOrganizationResource.php",
+      "target": "pingo-back-crm/app/Http/Resources/Platform/PlatformOrganizationResource.php",
+      "sha256": "f3e1997dc0765d1ebc9c23e317269d5b2715f4d3236749ccc778a4b251abb4c8"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Http/Resources/SessionResource.php",
+      "target": "pingo-back-crm/app/Http/Resources/SessionResource.php",
+      "sha256": "c539b4895e4f914315b47ec26c035466c5deff3fadc8ac681bf8a89ba1433d6f"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Internal/Kanban/Http/Controllers/KanbanTaskController.php",
+      "target": "pingo-back-crm/app/Internal/Kanban/Http/Controllers/KanbanTaskController.php",
+      "sha256": "a78330baa335aaa5304f59fc322e356a26ff4adbb2251843d102620256c11524"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Internal/Kanban/Http/Middleware/EnsureInternalKanbanAccess.php",
+      "target": "pingo-back-crm/app/Internal/Kanban/Http/Middleware/EnsureInternalKanbanAccess.php",
+      "sha256": "1ea309bb381224cc6acd7536a6035d5e2691586391e6ed2596b93172fbcdd3fa"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Internal/Kanban/Http/Requests/KanbanRequest.php",
+      "target": "pingo-back-crm/app/Internal/Kanban/Http/Requests/KanbanRequest.php",
+      "sha256": "b0917fccce77e590881611b7dab2c02a17e5c601fe996846abefcc685415d547"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Internal/Kanban/Http/Requests/MoveKanbanTaskRequest.php",
+      "target": "pingo-back-crm/app/Internal/Kanban/Http/Requests/MoveKanbanTaskRequest.php",
+      "sha256": "68d9a1db706253dd4548be272395a06d0f63ba3ad1c7dd5318ca19d65624a601"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Internal/Kanban/Http/Requests/StoreKanbanTaskRequest.php",
+      "target": "pingo-back-crm/app/Internal/Kanban/Http/Requests/StoreKanbanTaskRequest.php",
+      "sha256": "dfefa082b6326fde43869ffc6d009cc1d2eed71da7fe009bf0bcb043e251e91d"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Internal/Kanban/Http/Requests/UpdateKanbanTaskRequest.php",
+      "target": "pingo-back-crm/app/Internal/Kanban/Http/Requests/UpdateKanbanTaskRequest.php",
+      "sha256": "1edbb9fbec102c354fe1a02883c7916be91ee3a3788d4e7cd7ad97be93131d37"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Internal/Kanban/Http/Resources/KanbanTaskResource.php",
+      "target": "pingo-back-crm/app/Internal/Kanban/Http/Resources/KanbanTaskResource.php",
+      "sha256": "0e88f7bf3d7f9ba93c1763dcf88815b78eff50b28e3cd44571056250d846312a"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Internal/Kanban/InternalKanbanTask.php",
+      "target": "pingo-back-crm/app/Internal/Kanban/InternalKanbanTask.php",
+      "sha256": "e47f99857d985bb6bf0e2fb946cd87f48b23692a004178f5e1ff434adfa40c36"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Internal/Kanban/KanbanAccess.php",
+      "target": "pingo-back-crm/app/Internal/Kanban/KanbanAccess.php",
+      "sha256": "b25a6fbf4cf4c36f1880bc3d4832a50a00ca97ffb8069427b58def4f2e16af73"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Internal/Kanban/KanbanBoard.php",
+      "target": "pingo-back-crm/app/Internal/Kanban/KanbanBoard.php",
+      "sha256": "ff0594b1dd4a8ae6a17b92d563e6ccc3bee741f669284953cc60ac4f3aab423e"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Internal/Kanban/KanbanStatus.php",
+      "target": "pingo-back-crm/app/Internal/Kanban/KanbanStatus.php",
+      "sha256": "d072e70dab6b93de3216ccf6b5588393fc2c0c4712e25f9a0a5e4eb4ba6763aa"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Jobs/BootstrapSmoke.php",
+      "target": "pingo-back-crm/app/Jobs/BootstrapSmoke.php",
+      "sha256": "b46e60b97d02216896d647cf2835ac9cb2b83621a586d6147f3084b8859f738a"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Models/AuditLog.php",
+      "target": "pingo-back-crm/app/Models/AuditLog.php",
+      "sha256": "a8e035516bb78d90cec81b498e27ad50884a9eeda046ec312cce88c152f379a0"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Models/Category.php",
+      "target": "pingo-back-crm/app/Models/Category.php",
+      "sha256": "eb6be27b431bebd2b6e2ed371ddf52d5d5eeaa100cef6babd06e2997e83d9df9"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Models/Concerns/BelongsToOrganization.php",
+      "target": "pingo-back-crm/app/Models/Concerns/BelongsToOrganization.php",
+      "sha256": "d4a0b5da3ee364d78ad91b325df62142a79adfd5d538172ca5b848298c6c1e7b"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Models/Customer.php",
+      "target": "pingo-back-crm/app/Models/Customer.php",
+      "sha256": "d209f970e6bc5c300c9076f30cc28ed1f280995b5f19e5f0b0ee7a878c27e8f2"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Models/Expense.php",
+      "target": "pingo-back-crm/app/Models/Expense.php",
+      "sha256": "9c94923610ae985436f674982950a982878a2cbedda2b4e166bf542fb2016a9e"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Models/Organization.php",
+      "target": "pingo-back-crm/app/Models/Organization.php",
+      "sha256": "af21b359979d565040d8d573e4e8bf8fe519c0c90a09fe85d7a90f71d33b26fb"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Models/Payable.php",
+      "target": "pingo-back-crm/app/Models/Payable.php",
+      "sha256": "8bf1f9b9b1a0731fca2eb5cac3e3e7df850ed90201de03d67687d7e7deb3218c"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Models/Payment.php",
+      "target": "pingo-back-crm/app/Models/Payment.php",
+      "sha256": "50c5c54407658287b09b80bb6664e09d44a9a2c6e563bd2de6440d7cff41fabb"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Models/PlatformAdministrator.php",
+      "target": "pingo-back-crm/app/Models/PlatformAdministrator.php",
+      "sha256": "1f0a248d5a0f38bc7b3d7f485bc4cc7e9fa193e09a454f51a0c097e1d58dd7b8"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Models/Receipt.php",
+      "target": "pingo-back-crm/app/Models/Receipt.php",
+      "sha256": "d2e4f86bc589b46b12c2a90bbcfa9a076f95e962f3b692702e91ee7e96e7650c"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Models/Receivable.php",
+      "target": "pingo-back-crm/app/Models/Receivable.php",
+      "sha256": "c8eb11ddd795aa862f36801ea7dc52ad55259b8c7c5791309490bfc2071462a4"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Models/Revenue.php",
+      "target": "pingo-back-crm/app/Models/Revenue.php",
+      "sha256": "dbedb9c4772afc0a4f944aae2ca29ed8bda0c5fbeb4905f3bf1019ed78a8c31c"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Models/User.php",
+      "target": "pingo-back-crm/app/Models/User.php",
+      "sha256": "12d28ed16b7809cd56a7ec5168c368c4d3849e6e2d3360c96d167751ebc7962d"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Policies/CategoryPolicy.php",
+      "target": "pingo-back-crm/app/Policies/CategoryPolicy.php",
+      "sha256": "71ea7677649fe54c5ae7dedc93f7d9c8733d24dab423802b2c893114a22f6658"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Policies/Concerns/ChecksOrganizationCapability.php",
+      "target": "pingo-back-crm/app/Policies/Concerns/ChecksOrganizationCapability.php",
+      "sha256": "2ca69d98d9200527bf0b84d8612c439a70a581ac0d7e0994afc482c0f5946fd0"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Policies/CustomerPolicy.php",
+      "target": "pingo-back-crm/app/Policies/CustomerPolicy.php",
+      "sha256": "4cf2673b0d6b5068318d427abbf71bfb55fc15e3f61c9e9291d851a9c5a37cd1"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Policies/ExpensePolicy.php",
+      "target": "pingo-back-crm/app/Policies/ExpensePolicy.php",
+      "sha256": "d077ef0d17c325dad1a6aa460cdb5ce17f54485c65b080563c5eba1f7378b3f2"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Policies/OrganizationPolicy.php",
+      "target": "pingo-back-crm/app/Policies/OrganizationPolicy.php",
+      "sha256": "70150eb7e059fcbd058d383a6e102b9a0ca14e91d413cb827020ae1eae23e182"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Policies/PayablePolicy.php",
+      "target": "pingo-back-crm/app/Policies/PayablePolicy.php",
+      "sha256": "021aac10254e8abc2fc5c432a53459828f0ccfe6bae38a60bc09c5cefbfaa05a"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Policies/ReceivablePolicy.php",
+      "target": "pingo-back-crm/app/Policies/ReceivablePolicy.php",
+      "sha256": "3c807e2f0c117f667e2d88774f6ad73c8058c432f27780761d33fa35f922871c"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Policies/RevenuePolicy.php",
+      "target": "pingo-back-crm/app/Policies/RevenuePolicy.php",
+      "sha256": "4f6fa7b56a8266a620d089435b7d98e3e3e1f9a13f7c2048e0c4080141f4e010"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Providers/AppServiceProvider.php",
+      "target": "pingo-back-crm/app/Providers/AppServiceProvider.php",
+      "sha256": "bc834ff2f10bb31731ac2b77010c1427046a13fd618765f1b3da64195dbdba21"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Queries/DashboardQuery.php",
+      "target": "pingo-back-crm/app/Queries/DashboardQuery.php",
+      "sha256": "8705da78a7d96042918fa5582007213a2220673b954a46d5e6ccc4f683ef969a"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Queries/ExpenseQuery.php",
+      "target": "pingo-back-crm/app/Queries/ExpenseQuery.php",
+      "sha256": "4d2e006944d772492ba03dac8ef4b332b32f1d37ac02188f938f84841b106d8f"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Queries/RevenueQuery.php",
+      "target": "pingo-back-crm/app/Queries/RevenueQuery.php",
+      "sha256": "29f6bb32df66b4f9031fb4f72d859b7ee8f680cdc46a698971a0d3a72720ce49"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Services/InfrastructureHealth.php",
+      "target": "pingo-back-crm/app/Services/InfrastructureHealth.php",
+      "sha256": "3b6696cd6fee225750540723dd6188af7f4a60f355b73b7f03a73fbc458bf45d"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Support/AuditTrail.php",
+      "target": "pingo-back-crm/app/Support/AuditTrail.php",
+      "sha256": "470db506f0ee196bb5fd0201abab1d487580e48b0f6e892192cdb55fa1a53d94"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Support/CompanyMembership.php",
+      "target": "pingo-back-crm/app/Support/CompanyMembership.php",
+      "sha256": "a7ae3a0db4b79e83513c5d11989280372943253afa8fa48b25c7b488966a25ba"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Support/Idempotency.php",
+      "target": "pingo-back-crm/app/Support/Idempotency.php",
+      "sha256": "6fb7fa86f024d68e7e70333559456747bcc8901ef7902bda4db02e524bceff3d"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Support/Money.php",
+      "target": "pingo-back-crm/app/Support/Money.php",
+      "sha256": "c9fdd3c8598f03ff34a2890e41725a39f599c6a34bebef4acafa386a3d2d6fbd"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Support/OrganizationAccess.php",
+      "target": "pingo-back-crm/app/Support/OrganizationAccess.php",
+      "sha256": "95c5ab0d380e30e739bcc8ffa3dadd11e3eb8b4798760523e94a02bc03e63931"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Support/OrganizationContext.php",
+      "target": "pingo-back-crm/app/Support/OrganizationContext.php",
+      "sha256": "43443d56c91ebe9c80a57dd1a9a963390bae1a7af9f0c1e349472ddcd94b2b76"
+    },
+    {
+      "source": "sistemafinanceiro/backend/app/Support/PasswordPolicy.php",
+      "target": "pingo-back-crm/app/Support/PasswordPolicy.php",
+      "sha256": "cab8211094463b4ca5a9302dbb55736251d1f7425507853b0bbce6f68627f5ce"
+    },
+    {
+      "source": "sistemafinanceiro/backend/artisan",
+      "target": "pingo-back-crm/artisan",
+      "sha256": "f91a517c0c5d3a904c3f390933964a5e08ec1fc68146882730daac4aca4ffcec"
+    },
+    {
+      "source": "sistemafinanceiro/backend/bootstrap/app.php",
+      "target": "pingo-back-crm/bootstrap/app.php",
+      "sha256": "321446304b615b2374e8f5e46d0fd26b5985452e63e8b9e9b0979958ea9b4781"
+    },
+    {
+      "source": "sistemafinanceiro/backend/bootstrap/cache/.gitignore",
+      "target": "pingo-back-crm/bootstrap/cache/.gitignore",
+      "sha256": "240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d"
+    },
+    {
+      "source": "sistemafinanceiro/backend/bootstrap/providers.php",
+      "target": "pingo-back-crm/bootstrap/providers.php",
+      "sha256": "f720e185207a343d4c19fc99dbb317a4187efbcd7d38a303a695bbdd77ffb943"
+    },
+    {
+      "source": "sistemafinanceiro/backend/composer.json",
+      "target": "pingo-back-crm/composer.json",
+      "sha256": "b0153e51f9ee55e31f9beb12ddfacdb5cc93ce0b864d712c262be16402ccad2f"
+    },
+    {
+      "source": "sistemafinanceiro/backend/composer.lock",
+      "target": "pingo-back-crm/composer.lock",
+      "sha256": "e2b5d0d8cf081ce680790c1a0dbbbb35e1d3ef39b04b2fa4942cc893f01614a6"
+    },
+    {
+      "source": "sistemafinanceiro/backend/config/app.php",
+      "target": "pingo-back-crm/config/app.php",
+      "sha256": "b4b25e15efa76846a7f2e19fd1044fec4945e4e928c4098126a2b0042b034383"
+    },
+    {
+      "source": "sistemafinanceiro/backend/config/auth.php",
+      "target": "pingo-back-crm/config/auth.php",
+      "sha256": "c7e204e9785c9f596d66fb884b493f658f2327f157646bdb4088efd6b3a7773f"
+    },
+    {
+      "source": "sistemafinanceiro/backend/config/cache.php",
+      "target": "pingo-back-crm/config/cache.php",
+      "sha256": "9ee338a2fa4c39740696fed616885cdd10bfbc4ec1e3bf51ef8aa62bc85cbdf4"
+    },
+    {
+      "source": "sistemafinanceiro/backend/config/cors.php",
+      "target": "pingo-back-crm/config/cors.php",
+      "sha256": "f6a1c4530bff3b17ca28e67bc566a70392877763a5c51c3c22b205178d0bcf43"
+    },
+    {
+      "source": "sistemafinanceiro/backend/config/database.php",
+      "target": "pingo-back-crm/config/database.php",
+      "sha256": "25eb1b0983a744d7353c3306029f3d211dafa36f8f4be6058a08e3aac560fc13"
+    },
+    {
+      "source": "sistemafinanceiro/backend/config/development.php",
+      "target": "pingo-back-crm/config/development.php",
+      "sha256": "e66f3dcb4753d6206922c57902bd31f81439dac093f5510e0b133228f48970ca"
+    },
+    {
+      "source": "sistemafinanceiro/backend/config/filesystems.php",
+      "target": "pingo-back-crm/config/filesystems.php",
+      "sha256": "ba7060d7a23e490c3ce830656f6d24ad3ccf5b868e3293f2a12e411959dc5635"
+    },
+    {
+      "source": "sistemafinanceiro/backend/config/internal_kanban.php",
+      "target": "pingo-back-crm/config/internal_kanban.php",
+      "sha256": "d083f9709e9f223f8c643412d35294dd63899fb783b1f8eea76d3ed336a7d03a"
+    },
+    {
+      "source": "sistemafinanceiro/backend/config/logging.php",
+      "target": "pingo-back-crm/config/logging.php",
+      "sha256": "beb1ffd0db910f6f0b4f75214c3d5aa385d692733ece8a450f4c169d2c99ce38"
+    },
+    {
+      "source": "sistemafinanceiro/backend/config/mail.php",
+      "target": "pingo-back-crm/config/mail.php",
+      "sha256": "c43ff49a31c5f32ce21eb7159f2a4b3cd2f4074eaed5838d265646dbfedd3474"
+    },
+    {
+      "source": "sistemafinanceiro/backend/config/queue.php",
+      "target": "pingo-back-crm/config/queue.php",
+      "sha256": "7a83c090c8caec277ca960877a577806381e51526c44b4542c447a5faad4e0c8"
+    },
+    {
+      "source": "sistemafinanceiro/backend/config/services.php",
+      "target": "pingo-back-crm/config/services.php",
+      "sha256": "b7ee786ea1adbc92db9f229f479431c94503527c47051da3862eb0e4d7db70aa"
+    },
+    {
+      "source": "sistemafinanceiro/backend/config/session.php",
+      "target": "pingo-back-crm/config/session.php",
+      "sha256": "64272cfbef6f47c65bf857f1c5b1e853700c0d0278de46b86663fd83ef4aeed8"
+    },
+    {
+      "source": "sistemafinanceiro/backend/database/.gitignore",
+      "target": "pingo-back-crm/database/.gitignore",
+      "sha256": "e758642d95e83e907e010b6e46b07b3f953c7cef11fe5ebefc2a77b9d7b4d5f7"
+    },
+    {
+      "source": "sistemafinanceiro/backend/database/factories/UserFactory.php",
+      "target": "pingo-back-crm/database/factories/UserFactory.php",
+      "sha256": "50bdc543f1b09d1a57260be55ad0e1a68aee4b34f63e1109dc94d9bcd3080526"
+    },
+    {
+      "source": "sistemafinanceiro/backend/database/migrations/0001_01_01_000000_create_users_table.php",
+      "target": "pingo-back-crm/database/migrations/0001_01_01_000000_create_users_table.php",
+      "sha256": "367f9857430a107070fa479d0375afc4d746fca31cd621acf7aed0468a63bfa9"
+    },
+    {
+      "source": "sistemafinanceiro/backend/database/migrations/0001_01_01_000002_create_jobs_table.php",
+      "target": "pingo-back-crm/database/migrations/0001_01_01_000002_create_jobs_table.php",
+      "sha256": "5369032ed998bfb547758902e00aa7c4a7518f7405979f54900f447d7992db35"
+    },
+    {
+      "source": "sistemafinanceiro/backend/database/migrations/2026_10_05_000001_create_organizations.php",
+      "target": "pingo-back-crm/database/migrations/2026_10_05_000001_create_organizations.php",
+      "sha256": "2bbe050fca18a93320dd48dac1b921f4061a9ec57f1071f8c75dfd72eb48fcc0"
+    },
+    {
+      "source": "sistemafinanceiro/backend/database/migrations/2026_10_05_000002_create_internal_kanban_tasks.php",
+      "target": "pingo-back-crm/database/migrations/2026_10_05_000002_create_internal_kanban_tasks.php",
+      "sha256": "51a8f0a581d78b56b72b5ce75a513620006306dfc306e60d2e6f9c2f59043a58"
+    },
+    {
+      "source": "sistemafinanceiro/backend/database/migrations/2026_10_05_000003_create_platform_administrators.php",
+      "target": "pingo-back-crm/database/migrations/2026_10_05_000003_create_platform_administrators.php",
+      "sha256": "bcbaca94d5375f9da8f685a900ba95a6c228d167a887295a79bc34365e802ad4"
+    },
+    {
+      "source": "sistemafinanceiro/backend/database/migrations/2026_10_05_000004_add_suspended_at_to_organizations.php",
+      "target": "pingo-back-crm/database/migrations/2026_10_05_000004_add_suspended_at_to_organizations.php",
+      "sha256": "4ec8bfb8529740870cec562f34e03c356d0646eb3f25577fa304484fcaddffc6"
+    },
+    {
+      "source": "sistemafinanceiro/backend/database/migrations/2026_10_06_000001_create_customers_and_categories.php",
+      "target": "pingo-back-crm/database/migrations/2026_10_06_000001_create_customers_and_categories.php",
+      "sha256": "be4b2e02cd6deb50cbaa60ee1da5bae5a52bf7c9bef459afa8d37975810dc44e"
+    },
+    {
+      "source": "sistemafinanceiro/backend/database/migrations/2026_10_06_000002_create_revenues_and_receipts.php",
+      "target": "pingo-back-crm/database/migrations/2026_10_06_000002_create_revenues_and_receipts.php",
+      "sha256": "aa654c48ecdbde67565491f2ad7e27786d93cc340ba8fc232e4473268e9cb290"
+    },
+    {
+      "source": "sistemafinanceiro/backend/database/migrations/2026_10_06_000003_create_expenses_and_payments.php",
+      "target": "pingo-back-crm/database/migrations/2026_10_06_000003_create_expenses_and_payments.php",
+      "sha256": "997de12ce797dbee324f24b5b9f4bc732fec7941fb38c063e3cc54ffe5c8e41d"
+    },
+    {
+      "source": "sistemafinanceiro/backend/database/seeders/DatabaseSeeder.php",
+      "target": "pingo-back-crm/database/seeders/DatabaseSeeder.php",
+      "sha256": "ba68386fff30faf252e1372eb2bda28740792f95eb2e312e0da27833fb8c32d6"
+    },
+    {
+      "source": "sistemafinanceiro/backend/database/seeders/DevelopmentSeeder.php",
+      "target": "pingo-back-crm/database/seeders/DevelopmentSeeder.php",
+      "sha256": "e271e9bc3e8256c2f985777ddd7be6d0efbf70c919d50b0472ad2f5228ee9080"
+    },
+    {
+      "source": "sistemafinanceiro/backend/lang/pt_BR/validation.php",
+      "target": "pingo-back-crm/lang/pt_BR/validation.php",
+      "sha256": "9fe7b6899c798f24eb585f587ac27d24aecb7c77e65582dcb26467726ff0be83"
+    },
+    {
+      "source": "sistemafinanceiro/backend/phpunit.xml",
+      "target": "pingo-back-crm/phpunit.xml",
+      "sha256": "66c9a1f30d744e6a14288016f85836042c73f887a683751fcad7880e4de22482"
+    },
+    {
+      "source": "sistemafinanceiro/backend/public/.htaccess",
+      "target": "pingo-back-crm/public/.htaccess",
+      "sha256": "b7e379c77639fd56144947dbae84c84eb466d9c686ea81f2f013ae85421da923"
+    },
+    {
+      "source": "sistemafinanceiro/backend/public/favicon.ico",
+      "target": "pingo-back-crm/public/favicon.ico",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "sistemafinanceiro/backend/public/index.php",
+      "target": "pingo-back-crm/public/index.php",
+      "sha256": "eba77cba39695b6bd091fe5211d481f7ebb2ce2d8d26230b5a609465d0a4aff9"
+    },
+    {
+      "source": "sistemafinanceiro/backend/public/robots.txt",
+      "target": "pingo-back-crm/public/robots.txt",
+      "sha256": "e5c4b84484ee4216e9373be99380320c25dd94805f99f0a805846f087636553f"
+    },
+    {
+      "source": "sistemafinanceiro/backend/routes/api.php",
+      "target": "pingo-back-crm/routes/api.php",
+      "sha256": "a2997c459a88bff8e6c1bb5a70a557ee3f5def577281062c9548de962f582c93"
+    },
+    {
+      "source": "sistemafinanceiro/backend/routes/console.php",
+      "target": "pingo-back-crm/routes/console.php",
+      "sha256": "9adccc33e7dd400683e434774077c7fdb2f299c5712cedf16a43fdf56f2850fa"
+    },
+    {
+      "source": "sistemafinanceiro/backend/routes/internal-kanban.php",
+      "target": "pingo-back-crm/routes/internal-kanban.php",
+      "sha256": "d705fde7b8291f8fb762a9f7b232c26c9ae57d12fa856d820bdff813b232feea"
+    },
+    {
+      "source": "sistemafinanceiro/backend/routes/web.php",
+      "target": "pingo-back-crm/routes/web.php",
+      "sha256": "71abf578b2089aec8e452bfee786ffedeea7584443d6e69434f9070617381e57"
+    },
+    {
+      "source": "sistemafinanceiro/backend/storage/app/.gitignore",
+      "target": "pingo-back-crm/storage/app/.gitignore",
+      "sha256": "993b9e3709d7b5189da331725d1169d79e561a509db2490b722b525073d2d976"
+    },
+    {
+      "source": "sistemafinanceiro/backend/storage/app/private/.gitignore",
+      "target": "pingo-back-crm/storage/app/private/.gitignore",
+      "sha256": "240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d"
+    },
+    {
+      "source": "sistemafinanceiro/backend/storage/app/public/.gitignore",
+      "target": "pingo-back-crm/storage/app/public/.gitignore",
+      "sha256": "240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d"
+    },
+    {
+      "source": "sistemafinanceiro/backend/storage/framework/.gitignore",
+      "target": "pingo-back-crm/storage/framework/.gitignore",
+      "sha256": "37bc9570de232e9db87ce530b3e4e2d5fa8d75f3bd587069fd26e2fb4ef1ffa5"
+    },
+    {
+      "source": "sistemafinanceiro/backend/storage/framework/cache/.gitignore",
+      "target": "pingo-back-crm/storage/framework/cache/.gitignore",
+      "sha256": "32f79194633ddb34f013c6ee8819d112104ff822357adf308ec385b46a7f42f6"
+    },
+    {
+      "source": "sistemafinanceiro/backend/storage/framework/cache/data/.gitignore",
+      "target": "pingo-back-crm/storage/framework/cache/data/.gitignore",
+      "sha256": "240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d"
+    },
+    {
+      "source": "sistemafinanceiro/backend/storage/framework/sessions/.gitignore",
+      "target": "pingo-back-crm/storage/framework/sessions/.gitignore",
+      "sha256": "240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d"
+    },
+    {
+      "source": "sistemafinanceiro/backend/storage/framework/testing/.gitignore",
+      "target": "pingo-back-crm/storage/framework/testing/.gitignore",
+      "sha256": "240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d"
+    },
+    {
+      "source": "sistemafinanceiro/backend/storage/framework/views/.gitignore",
+      "target": "pingo-back-crm/storage/framework/views/.gitignore",
+      "sha256": "240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d"
+    },
+    {
+      "source": "sistemafinanceiro/backend/storage/logs/.gitignore",
+      "target": "pingo-back-crm/storage/logs/.gitignore",
+      "sha256": "240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d"
+    },
+    {
+      "source": "sistemafinanceiro/backend/tests/Feature/BootstrapTest.php",
+      "target": "pingo-back-crm/tests/Feature/BootstrapTest.php",
+      "sha256": "fff891c2b2e3495b1d2942e32775f8800f427331e1aa76244da44c221d454ae2"
+    },
+    {
+      "source": "sistemafinanceiro/backend/tests/Feature/CatalogTest.php",
+      "target": "pingo-back-crm/tests/Feature/CatalogTest.php",
+      "sha256": "56dbbffaa090e2ba144d2df626ffb42c5c75bf11c4cea880c393023de5a66792"
+    },
+    {
+      "source": "sistemafinanceiro/backend/tests/Feature/Concerns/FinanceFixtures.php",
+      "target": "pingo-back-crm/tests/Feature/Concerns/FinanceFixtures.php",
+      "sha256": "179785b89751140065b32d95c0030f734027d8f56cd0cb3d9acf3170c608148a"
+    },
+    {
+      "source": "sistemafinanceiro/backend/tests/Feature/DashboardConsistencyTest.php",
+      "target": "pingo-back-crm/tests/Feature/DashboardConsistencyTest.php",
+      "sha256": "47b8df7286a21f9be06ee2476ffa6b7aa4ec535ac20929c8010111e1cf7e34e1"
+    },
+    {
+      "source": "sistemafinanceiro/backend/tests/Feature/DashboardTest.php",
+      "target": "pingo-back-crm/tests/Feature/DashboardTest.php",
+      "sha256": "b9cb7bf63987cab278f9a11fddba9cd7e9318ce88d17328a1c418c3714c571dc"
+    },
+    {
+      "source": "sistemafinanceiro/backend/tests/Feature/ExpenseConcurrencyTest.php",
+      "target": "pingo-back-crm/tests/Feature/ExpenseConcurrencyTest.php",
+      "sha256": "7dec8f48823818c13cff776ef9c5972f9bdf55e8b1007ecdd1826853e19620a8"
+    },
+    {
+      "source": "sistemafinanceiro/backend/tests/Feature/ExpenseTest.php",
+      "target": "pingo-back-crm/tests/Feature/ExpenseTest.php",
+      "sha256": "6262c5342a85e9c26e161f96b703333aa78c96f37f6211e3b7a200261a0e2a82"
+    },
+    {
+      "source": "sistemafinanceiro/backend/tests/Feature/InternalKanbanTest.php",
+      "target": "pingo-back-crm/tests/Feature/InternalKanbanTest.php",
+      "sha256": "84d3d3da1efd5384ac31b9320e2936d2031eac1ff137d68951985e8027f419fd"
+    },
+    {
+      "source": "sistemafinanceiro/backend/tests/Feature/PlatformAdministrationTest.php",
+      "target": "pingo-back-crm/tests/Feature/PlatformAdministrationTest.php",
+      "sha256": "dfca354a6fc73d776351d38874c6cbad7a27a4a2ea4ebb769dd250b69833b190"
+    },
+    {
+      "source": "sistemafinanceiro/backend/tests/Feature/PlatformOrganizationManagementTest.php",
+      "target": "pingo-back-crm/tests/Feature/PlatformOrganizationManagementTest.php",
+      "sha256": "14bf4b7a835ca4798153d83e602a7c33c02d2e5249bbc46d7540f83f0094b36f"
+    },
+    {
+      "source": "sistemafinanceiro/backend/tests/Feature/RevenueConcurrencyTest.php",
+      "target": "pingo-back-crm/tests/Feature/RevenueConcurrencyTest.php",
+      "sha256": "3d3fde856ffbc594f8f989335dfba192e91feac93d410cf6fd038529aa7da4ec"
+    },
+    {
+      "source": "sistemafinanceiro/backend/tests/Feature/RevenueTest.php",
+      "target": "pingo-back-crm/tests/Feature/RevenueTest.php",
+      "sha256": "7aee97c62c5a26ca8b210528c5bc79fcd25be4c7d7b827a079ef540f95835505"
+    },
+    {
+      "source": "sistemafinanceiro/backend/tests/Feature/SettleOnCreateTest.php",
+      "target": "pingo-back-crm/tests/Feature/SettleOnCreateTest.php",
+      "sha256": "3c9310b72fc47e9218fc19a73cb920cd2c296dd21a5654f12cb8af59807ff47f"
+    },
+    {
+      "source": "sistemafinanceiro/backend/tests/Feature/SingleOrganizationAccessTest.php",
+      "target": "pingo-back-crm/tests/Feature/SingleOrganizationAccessTest.php",
+      "sha256": "f8e70141db6c50ba0ba199d266086cdba6620ca379084532c335792a76f32abf"
+    },
+    {
+      "source": "sistemafinanceiro/backend/tests/TestCase.php",
+      "target": "pingo-back-crm/tests/TestCase.php",
+      "sha256": "4bae774c5edd636e72d40f71ff99d25c7d8891edae61ee4dcd419f07d3d83486"
+    },
+    {
+      "source": "sistemafinanceiro/backend/tests/Unit/.gitkeep",
+      "target": "pingo-back-crm/tests/Unit/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "sistemafinanceiro/compose.yaml",
+      "target": "pingo-back-crm/infra/compose.yaml",
+      "sha256": "a7076b6095a0603bd8df221220b6ebd49e1a589e1fbb6d4a1a49af7f8cd58805"
+    },
+    {
+      "source": "sistemafinanceiro/docs/AGENT_CHANGE_LOG.md",
+      "target": "pingo-doc/docs/AGENT_CHANGE_LOG.md",
+      "sha256": "79a59a77fe0189ac04be5db079f765f3a9fc0de7a4e69c7090a9cd40cbdf172b"
+    },
+    {
+      "source": "sistemafinanceiro/docs/BOOTSTRAP_VALIDATION.md",
+      "target": "pingo-doc/docs/BOOTSTRAP_VALIDATION.md",
+      "sha256": "aff7d59fe4b69167a807e1d8da58fcacf690ddc720f3efb7d9798cdb114e5725"
+    },
+    {
+      "source": "sistemafinanceiro/docs/DASHBOARD_VALIDATION.md",
+      "target": "pingo-doc/docs/DASHBOARD_VALIDATION.md",
+      "sha256": "b04cb0d46dddc424cbe0201adcfbc4c638d976441f92aba97aa9c972bb237dc9"
+    },
+    {
+      "source": "sistemafinanceiro/docs/EXPENSE_VALIDATION.md",
+      "target": "pingo-doc/docs/EXPENSE_VALIDATION.md",
+      "sha256": "ad590859a301b1c9829473a2329a6c9b99c8c476d989b686d8ac62aee9818355"
+    },
+    {
+      "source": "sistemafinanceiro/docs/FINANCE_RELEASE_VALIDATION.md",
+      "target": "pingo-doc/docs/FINANCE_RELEASE_VALIDATION.md",
+      "sha256": "cfd90850c3444136887439163b096a1daca702542df7cf4cb9bfd3934ff68797"
+    },
+    {
+      "source": "sistemafinanceiro/docs/INTERNAL_KANBAN.md",
+      "target": "pingo-doc/docs/INTERNAL_KANBAN.md",
+      "sha256": "c161da4123c1d1540ee9c83d508f658d0b2ce31fa1f592613047b6252e3478fc"
+    },
+    {
+      "source": "sistemafinanceiro/docs/PLATFORM_ADMIN_VALIDATION.md",
+      "target": "pingo-doc/docs/PLATFORM_ADMIN_VALIDATION.md",
+      "sha256": "ad7f1a8943dd736e034449a20b5b2169084b2ca65035c13b80a1048a5a508bfc"
+    },
+    {
+      "source": "sistemafinanceiro/docs/SETTLE_ON_CREATE_VALIDATION.md",
+      "target": "pingo-doc/docs/SETTLE_ON_CREATE_VALIDATION.md",
+      "sha256": "c2d5ce71a394e53e844863d9fed87b57b8a9b32b46bd38c99afffbb4fb8be8ba"
+    },
+    {
+      "source": "sistemafinanceiro/docs/assets/brand/README.md",
+      "target": "pingo-doc/docs/assets/brand/README.md",
+      "sha256": "b33073797bb60f7799ccb2089921b4bdedae3037513e4ebfd43259edbd57e0be"
+    },
+    {
+      "source": "sistemafinanceiro/docs/assets/brand/exports/favicon-v1-16.png",
+      "target": "pingo-doc/docs/assets/brand/exports/favicon-v1-16.png",
+      "sha256": "9989e0c62a2fc8d7581492b2db9427d4fc305b85d8a74d6043520849e829a3af"
+    },
+    {
+      "source": "sistemafinanceiro/docs/assets/brand/exports/favicon-v1-256.png",
+      "target": "pingo-doc/docs/assets/brand/exports/favicon-v1-256.png",
+      "sha256": "2a851bd715e49d623d25b1c1c704214f75bd29f41e791c77ee81780d01164c32"
+    },
+    {
+      "source": "sistemafinanceiro/docs/assets/brand/exports/favicon-v1-32.png",
+      "target": "pingo-doc/docs/assets/brand/exports/favicon-v1-32.png",
+      "sha256": "586e57f3e505d5f3a18aeda3fffd551192c2184d1cacbf820e6ef63806427d7d"
+    },
+    {
+      "source": "sistemafinanceiro/docs/assets/brand/exports/favicon-v1-48.png",
+      "target": "pingo-doc/docs/assets/brand/exports/favicon-v1-48.png",
+      "sha256": "7e39c9c12af64faa09d892f1e32ef10daa75614c98642b7aa12ccb5b275b3d30"
+    },
+    {
+      "source": "sistemafinanceiro/docs/assets/brand/exports/favicon-v1.ico",
+      "target": "pingo-doc/docs/assets/brand/exports/favicon-v1.ico",
+      "sha256": "0635352f461220fef8d66577cc02aaf5ec63cfa6434691d0fae7bbc3b662b54b"
+    },
+    {
+      "source": "sistemafinanceiro/docs/assets/brand/exports/pingofin-navbar-v1.png",
+      "target": "pingo-doc/docs/assets/brand/exports/pingofin-navbar-v1.png",
+      "sha256": "30148dc8960fe2cf303cdde1f8fd8ebc7b17acd0a433176f27100725e555779d"
+    },
+    {
+      "source": "sistemafinanceiro/docs/assets/brand/exports/pingofin-navbar-v1@2x.png",
+      "target": "pingo-doc/docs/assets/brand/exports/pingofin-navbar-v1@2x.png",
+      "sha256": "2a851bd715e49d623d25b1c1c704214f75bd29f41e791c77ee81780d01164c32"
+    },
+    {
+      "source": "sistemafinanceiro/docs/assets/brand/pingofin-symbol-v1.png",
+      "target": "pingo-doc/docs/assets/brand/pingofin-symbol-v1.png",
+      "sha256": "da893e10aeb5977544dcfd88ee9dc666f27051c6a29d097811272805fd1a0f39"
+    },
+    {
+      "source": "sistemafinanceiro/docs/assets/brand/source.json",
+      "target": "pingo-doc/docs/assets/brand/source.json",
+      "sha256": "b210e7f57d33e55489498596baf93baee696fc8dd46cd0c48401e5e06ce9cbdc"
+    },
+    {
+      "source": "sistemafinanceiro/docs/assets/pingo-referencia.jpg",
+      "target": "pingo-doc/docs/assets/pingo-referencia.jpg",
+      "sha256": "268b582e5a0fd8e7eb8c1016061358bd8559e79f4faaf2a586072c8da718825a"
+    },
+    {
+      "source": "sistemafinanceiro/docs/capturas/dashboard/desktop-claro.png",
+      "target": "pingo-doc/docs/capturas/dashboard/desktop-claro.png",
+      "sha256": "0731b3fa85ef53cc86bd41d853861af74fa46d9392c0dd378f2bc62f619a774a"
+    },
+    {
+      "source": "sistemafinanceiro/docs/capturas/dashboard/desktop-escuro.png",
+      "target": "pingo-doc/docs/capturas/dashboard/desktop-escuro.png",
+      "sha256": "e047dde29fd9229fbcb2c50d5390d515aa3470321bc2e30b7fc499479a4b22e3"
+    },
+    {
+      "source": "sistemafinanceiro/docs/capturas/dashboard/mobile-320-claro.png",
+      "target": "pingo-doc/docs/capturas/dashboard/mobile-320-claro.png",
+      "sha256": "3646b7f42b3d638fb715b19ca3dbd077ee2f0f3a4def59a3a91f1164494a355f"
+    },
+    {
+      "source": "sistemafinanceiro/docs/capturas/dashboard/mobile-escuro.png",
+      "target": "pingo-doc/docs/capturas/dashboard/mobile-escuro.png",
+      "sha256": "ef8df06c8f16cca7096b8c1b6dd7d75bed3299fc4780f2a0a3f3d55686995aba"
+    },
+    {
+      "source": "sistemafinanceiro/docs/capturas/despesas/detalhe-claro.png",
+      "target": "pingo-doc/docs/capturas/despesas/detalhe-claro.png",
+      "sha256": "5ebb5a10cf12d121e5659bc62cd23b1645f74f5a899c005a9f8ab464b5916ffb"
+    },
+    {
+      "source": "sistemafinanceiro/docs/capturas/despesas/detalhe-mobile-escuro.png",
+      "target": "pingo-doc/docs/capturas/despesas/detalhe-mobile-escuro.png",
+      "sha256": "75bf12d6877d9140f7ff1d91561b1c938525f2918df31134cc3dd51e9c6d50bf"
+    },
+    {
+      "source": "sistemafinanceiro/docs/capturas/despesas/lista-mobile-320.png",
+      "target": "pingo-doc/docs/capturas/despesas/lista-mobile-320.png",
+      "sha256": "9e933f299567a45497bc312b261c3c082668f186061f43b3bf7c04a6e9ee0805"
+    },
+    {
+      "source": "sistemafinanceiro/docs/capturas/historico-master-claro.png",
+      "target": "pingo-doc/docs/capturas/historico-master-claro.png",
+      "sha256": "50f07346adf050ad24c9b3b3d6c89ba09539954582527c2fcbab0a7f5028af93"
+    },
+    {
+      "source": "sistemafinanceiro/docs/capturas/historico-master-escuro.png",
+      "target": "pingo-doc/docs/capturas/historico-master-escuro.png",
+      "sha256": "ee86dce04f79cbd9df24dd13121033a8ae3a03ec3ea3d95ddb56d3d76bd76691"
+    },
+    {
+      "source": "sistemafinanceiro/docs/capturas/historico-master-mobile.png",
+      "target": "pingo-doc/docs/capturas/historico-master-mobile.png",
+      "sha256": "73c022daca9bfc5cd5615739a334028799335f6947a84ee970c06bc363bca8fa"
+    },
+    {
+      "source": "sistemafinanceiro/docs/capturas/historico-master-resumo.png",
+      "target": "pingo-doc/docs/capturas/historico-master-resumo.png",
+      "sha256": "0787330ea3912c1b3a984f4c89b8a128a47681823b6d79e9e7fcbff77cef36c2"
+    },
+    {
+      "source": "sistemafinanceiro/docs/capturas/kanban-proximos-passos-2026-10-06.png",
+      "target": "pingo-doc/docs/capturas/kanban-proximos-passos-2026-10-06.png",
+      "sha256": "f432e7fb6b95861a5c8ad1f56ca4ea3ae615bbeaad5af3056d1a92d1c4463b8f"
+    },
+    {
+      "source": "sistemafinanceiro/docs/referencias-visuais/README.md",
+      "target": "pingo-doc/docs/referencias-visuais/README.md",
+      "sha256": "e601bf634352efbb3c7caf580af73ee698ee0bd9bab4f7ffea4472d6ab939f1d"
+    },
+    {
+      "source": "sistemafinanceiro/docs/referencias-visuais/capturas/galeria-dark.png",
+      "target": "pingo-doc/docs/referencias-visuais/capturas/galeria-dark.png",
+      "sha256": "37c24485020c403bdcc53da086578a5b54467e5e3fbbaf464b10c9c917753d18"
+    },
+    {
+      "source": "sistemafinanceiro/docs/referencias-visuais/capturas/galeria-light.png",
+      "target": "pingo-doc/docs/referencias-visuais/capturas/galeria-light.png",
+      "sha256": "59e092b05fabfba47dc52be3780b62a70340d8d313fddb57a6c173561c2a202d"
+    },
+    {
+      "source": "sistemafinanceiro/docs/referencias-visuais/capturas/galeria-mobile-dark.png",
+      "target": "pingo-doc/docs/referencias-visuais/capturas/galeria-mobile-dark.png",
+      "sha256": "eb69cdd9cb6161b7de19fa023f2cf9d5c6854478af2d3fc4b40caeb311609270"
+    },
+    {
+      "source": "sistemafinanceiro/docs/referencias-visuais/capturas/pingo-interface.png",
+      "target": "pingo-doc/docs/referencias-visuais/capturas/pingo-interface.png",
+      "sha256": "c322fa591b0299f9e3712f04e244b87850770a6c8317e1cf30c83f517414e59e"
+    },
+    {
+      "source": "sistemafinanceiro/docs/referencias-visuais/capturas/propostas/a-desktop-claro.jpg",
+      "target": "pingo-doc/docs/referencias-visuais/capturas/propostas/a-desktop-claro.jpg",
+      "sha256": "21c79bacec609cc5c50fa9ab88a14835562fd8355966c391184cc3eb2d6be359"
+    },
+    {
+      "source": "sistemafinanceiro/docs/referencias-visuais/capturas/propostas/a-desktop-escuro.jpg",
+      "target": "pingo-doc/docs/referencias-visuais/capturas/propostas/a-desktop-escuro.jpg",
+      "sha256": "f27fb25c7a7a1ad093ecb2a2398d7e311dc1f81a3d7d8825cf0634dbe74e6706"
+    },
+    {
+      "source": "sistemafinanceiro/docs/referencias-visuais/capturas/propostas/a-mobile-claro.jpg",
+      "target": "pingo-doc/docs/referencias-visuais/capturas/propostas/a-mobile-claro.jpg",
+      "sha256": "050f0398a58cdadab1d426c5ec88abe29612006277380194a134a44ab7eed778"
+    },
+    {
+      "source": "sistemafinanceiro/docs/referencias-visuais/capturas/propostas/a-pingo-aberto.jpg",
+      "target": "pingo-doc/docs/referencias-visuais/capturas/propostas/a-pingo-aberto.jpg",
+      "sha256": "406e7e4fdd4f928d14537ffbf79e20ae69bd45823c5d406baf420b71f52fd220"
+    },
+    {
+      "source": "sistemafinanceiro/docs/referencias-visuais/capturas/propostas/b-desktop-claro.jpg",
+      "target": "pingo-doc/docs/referencias-visuais/capturas/propostas/b-desktop-claro.jpg",
+      "sha256": "3cd562c06fd844e8bdefc3be6e115fdc245129bc03cfa6041ac762426bdf210f"
+    },
+    {
+      "source": "sistemafinanceiro/docs/referencias-visuais/capturas/propostas/b-desktop-escuro.jpg",
+      "target": "pingo-doc/docs/referencias-visuais/capturas/propostas/b-desktop-escuro.jpg",
+      "sha256": "6c8c6f534a5e2ee5e3febbe893600ed17ece87df64aa5b1395de106bb21882ca"
+    },
+    {
+      "source": "sistemafinanceiro/docs/referencias-visuais/capturas/propostas/b-mobile-claro.jpg",
+      "target": "pingo-doc/docs/referencias-visuais/capturas/propostas/b-mobile-claro.jpg",
+      "sha256": "b21da59186a47c629406d6a6c905298cdb6716c328367b4c59a48360edeea68a"
+    },
+    {
+      "source": "sistemafinanceiro/docs/referencias-visuais/capturas/propostas/b-mobile-lista.jpg",
+      "target": "pingo-doc/docs/referencias-visuais/capturas/propostas/b-mobile-lista.jpg",
+      "sha256": "acec368db6d782db6c043d094c33c89d22a4808cd5df377781609c2d52986dd2"
+    },
+    {
+      "source": "sistemafinanceiro/docs/referencias-visuais/capturas/propostas/b-pingo-aberto.jpg",
+      "target": "pingo-doc/docs/referencias-visuais/capturas/propostas/b-pingo-aberto.jpg",
+      "sha256": "9ae49c3a6e47a25c92c4765fc2898a1d062b78895ee22e381e4d57b239880f3c"
+    },
+    {
+      "source": "sistemafinanceiro/docs/referencias-visuais/capturas/refinamento/antes/empresa-assistente.jpg",
+      "target": "pingo-doc/docs/referencias-visuais/capturas/refinamento/antes/empresa-assistente.jpg",
+      "sha256": "f0299e35730f3af19d68c37839855b69e00f01a9b801e263e549a0bab0b26abc"
+    },
+    {
+      "source": "sistemafinanceiro/docs/referencias-visuais/capturas/refinamento/antes/empresa-inicio.jpg",
+      "target": "pingo-doc/docs/referencias-visuais/capturas/refinamento/antes/empresa-inicio.jpg",
+      "sha256": "eff0425b923b73480ccc08f04471c5b32f27261874813d1a7a218e697cd7bb88"
+    },
+    {
+      "source": "sistemafinanceiro/docs/referencias-visuais/capturas/refinamento/antes/plataforma-cadastro.jpg",
+      "target": "pingo-doc/docs/referencias-visuais/capturas/refinamento/antes/plataforma-cadastro.jpg",
+      "sha256": "8db7bb8624902f732595745819845234068e1991bc4fc285483e0a7618be84d4"
+    },
+    {
+      "source": "sistemafinanceiro/docs/referencias-visuais/capturas/refinamento/antes/plataforma-empresas.jpg",
+      "target": "pingo-doc/docs/referencias-visuais/capturas/refinamento/antes/plataforma-empresas.jpg",
+      "sha256": "f2dc8497117d7de21c6a80b7d250a05ba31746ea9eac948848119e0da7a7206c"
+    },
+    {
+      "source": "sistemafinanceiro/docs/referencias-visuais/capturas/refinamento/depois/empresa-assistente-claro.jpg",
+      "target": "pingo-doc/docs/referencias-visuais/capturas/refinamento/depois/empresa-assistente-claro.jpg",
+      "sha256": "286dbe0c6e3f2359214d555e5930209bb3a93403ee695e40f8061e4f6956977e"
+    },
+    {
+      "source": "sistemafinanceiro/docs/referencias-visuais/capturas/refinamento/depois/empresa-escolher-organizacao.jpg",
+      "target": "pingo-doc/docs/referencias-visuais/capturas/refinamento/depois/empresa-escolher-organizacao.jpg",
+      "sha256": "71956e0474c04dd87b94edbd7714df4aa466f5661193a45aaa4193e77c83d020"
+    },
+    {
+      "source": "sistemafinanceiro/docs/referencias-visuais/capturas/refinamento/depois/empresa-inicio-320.jpg",
+      "target": "pingo-doc/docs/referencias-visuais/capturas/refinamento/depois/empresa-inicio-320.jpg",
+      "sha256": "535ccf1e97d0bf94a2ae5ff84f37a1334f748bdfe3cd7d46ed50c3bcf9a2fbe6"
+    },
+    {
+      "source": "sistemafinanceiro/docs/referencias-visuais/capturas/refinamento/depois/empresa-inicio-claro.jpg",
+      "target": "pingo-doc/docs/referencias-visuais/capturas/refinamento/depois/empresa-inicio-claro.jpg",
+      "sha256": "a620c4ec9dd9cfd86b5b9466b7f91ba92b1dfb75370092bc1227662b9b602eec"
+    },
+    {
+      "source": "sistemafinanceiro/docs/referencias-visuais/capturas/refinamento/depois/empresa-inicio-escuro-sistema.jpg",
+      "target": "pingo-doc/docs/referencias-visuais/capturas/refinamento/depois/empresa-inicio-escuro-sistema.jpg",
+      "sha256": "0efe452fb6cc62059fb41ad95d6ddf6995c0e76519b515be9113b2a74cb262bf"
+    },
+    {
+      "source": "sistemafinanceiro/docs/referencias-visuais/capturas/refinamento/depois/empresa-inicio-mobile-escuro.jpg",
+      "target": "pingo-doc/docs/referencias-visuais/capturas/refinamento/depois/empresa-inicio-mobile-escuro.jpg",
+      "sha256": "7ca52cb2d775e9a0a8d4a0fd8ee6268d576f6e61614d38dc81f65f54a984ebbf"
+    },
+    {
+      "source": "sistemafinanceiro/docs/referencias-visuais/capturas/refinamento/depois/empresa-inicio-tablet.jpg",
+      "target": "pingo-doc/docs/referencias-visuais/capturas/refinamento/depois/empresa-inicio-tablet.jpg",
+      "sha256": "fd2d7d2caadb9316736fce13bec9033b6d68accf3367114580a5e8ee91ebead3"
+    },
+    {
+      "source": "sistemafinanceiro/docs/referencias-visuais/capturas/refinamento/depois/empresa-inicio-zoom-200.jpg",
+      "target": "pingo-doc/docs/referencias-visuais/capturas/refinamento/depois/empresa-inicio-zoom-200.jpg",
+      "sha256": "4f4fcfce26cf162aaa6c27ec3d8cef3c59e2ccb256f3c1ca94764a309d42bc7a"
+    },
+    {
+      "source": "sistemafinanceiro/docs/referencias-visuais/capturas/refinamento/depois/empresa-pingo-aberto-escuro.jpg",
+      "target": "pingo-doc/docs/referencias-visuais/capturas/refinamento/depois/empresa-pingo-aberto-escuro.jpg",
+      "sha256": "b2f7e8eb464823dd8b627b92ecd5b8444d82aca4dc4e9f5b448f7d97291cf326"
+    },
+    {
+      "source": "sistemafinanceiro/docs/referencias-visuais/capturas/refinamento/depois/empresa-seletor-organizacao.jpg",
+      "target": "pingo-doc/docs/referencias-visuais/capturas/refinamento/depois/empresa-seletor-organizacao.jpg",
+      "sha256": "5381993f018e3d5c7bf1ae9a088c2829570b2747d454928fdfa5d14ae73b9010"
+    },
+    {
+      "source": "sistemafinanceiro/docs/referencias-visuais/capturas/refinamento/depois/galeria-dashboard-ilustrativo.jpg",
+      "target": "pingo-doc/docs/referencias-visuais/capturas/refinamento/depois/galeria-dashboard-ilustrativo.jpg",
+      "sha256": "6e99fe9546eb00da9e99df4a9d3fe8f662960eabfc3fab24aaf655b9d4d80169"
+    },
+    {
+      "source": "sistemafinanceiro/docs/referencias-visuais/capturas/refinamento/depois/login-empresa.jpg",
+      "target": "pingo-doc/docs/referencias-visuais/capturas/refinamento/depois/login-empresa.jpg",
+      "sha256": "5ef6e5267e37c9cc84a8b3c665b077cad655f66fc60376d292ddf245b822ab51"
+    },
+    {
+      "source": "sistemafinanceiro/docs/referencias-visuais/capturas/refinamento/depois/plataforma-area-restrita.jpg",
+      "target": "pingo-doc/docs/referencias-visuais/capturas/refinamento/depois/plataforma-area-restrita.jpg",
+      "sha256": "98e862ab7c0aab4815bd0ef3aee33fd16c27660a1f6965cc642e7bb9f5c79f4a"
+    },
+    {
+      "source": "sistemafinanceiro/docs/referencias-visuais/capturas/refinamento/depois/plataforma-cadastro-claro.jpg",
+      "target": "pingo-doc/docs/referencias-visuais/capturas/refinamento/depois/plataforma-cadastro-claro.jpg",
+      "sha256": "99dd4a73fc192f5f4963912fdec2ffcf4d174b31c529b86c71cb72b26b5acd32"
+    },
+    {
+      "source": "sistemafinanceiro/docs/referencias-visuais/capturas/refinamento/depois/plataforma-cadastro-erros.jpg",
+      "target": "pingo-doc/docs/referencias-visuais/capturas/refinamento/depois/plataforma-cadastro-erros.jpg",
+      "sha256": "3c8d9801059927f716a023f3ab303b7a34ff3d35e6d8d08161a3c65705442959"
+    },
+    {
+      "source": "sistemafinanceiro/docs/referencias-visuais/capturas/refinamento/depois/plataforma-detalhe-claro.jpg",
+      "target": "pingo-doc/docs/referencias-visuais/capturas/refinamento/depois/plataforma-detalhe-claro.jpg",
+      "sha256": "52f42cd252e7aa18505e7c27618073c3a78e77f9e901ee406de00d7a362a092a"
+    },
+    {
+      "source": "sistemafinanceiro/docs/referencias-visuais/capturas/refinamento/depois/plataforma-empresas-claro.jpg",
+      "target": "pingo-doc/docs/referencias-visuais/capturas/refinamento/depois/plataforma-empresas-claro.jpg",
+      "sha256": "c634801649f301845c6db14ac601d39e4e9afd87142ba63e44f716e0bb00e1a8"
+    },
+    {
+      "source": "sistemafinanceiro/docs/referencias-visuais/capturas/refinamento/depois/plataforma-empresas-mobile.jpg",
+      "target": "pingo-doc/docs/referencias-visuais/capturas/refinamento/depois/plataforma-empresas-mobile.jpg",
+      "sha256": "a80f7af89fc92bfce51baf1fd8ad4c3f5f3190951d5616eacdd1e1fbf873dc1e"
+    },
+    {
+      "source": "sistemafinanceiro/docs/referencias-visuais/capturas/refinamento/depois/plataforma-gaveta-mobile.jpg",
+      "target": "pingo-doc/docs/referencias-visuais/capturas/refinamento/depois/plataforma-gaveta-mobile.jpg",
+      "sha256": "cfd58bb87df892cb27ba9e7d6c5ca3dc2151a99e23a1138857946541a7ae9715"
+    },
+    {
+      "source": "sistemafinanceiro/docs/referencias-visuais/capturas/refinamento/depois/plataforma-menu-conta.jpg",
+      "target": "pingo-doc/docs/referencias-visuais/capturas/refinamento/depois/plataforma-menu-conta.jpg",
+      "sha256": "e94f46609dcbdcf4a85f4d5611ce63a7c403ee2350318fd4e0a0e13c51b58a1d"
+    },
+    {
+      "source": "sistemafinanceiro/docs/referencias-visuais/capturas/refinamento/depois/plataforma-pingo-mobile.jpg",
+      "target": "pingo-doc/docs/referencias-visuais/capturas/refinamento/depois/plataforma-pingo-mobile.jpg",
+      "sha256": "0143f60501779d2fdd98b18991ceca90104c65da0f14e8112a6e720cebb83b35"
+    },
+    {
+      "source": "sistemafinanceiro/docs/referencias-visuais/graficos/despesas-categoria-dark.svg",
+      "target": "pingo-doc/docs/referencias-visuais/graficos/despesas-categoria-dark.svg",
+      "sha256": "6b5ab6095bbd7d9b0df9370661cc43d52159e4be6d3a92287a3d30eca0a80e35"
+    },
+    {
+      "source": "sistemafinanceiro/docs/referencias-visuais/graficos/despesas-categoria-light.svg",
+      "target": "pingo-doc/docs/referencias-visuais/graficos/despesas-categoria-light.svg",
+      "sha256": "34e41476b7347726bce40989b54a374e8b2432cffa44a6d45947c6d2d712170e"
+    },
+    {
+      "source": "sistemafinanceiro/docs/referencias-visuais/graficos/fluxo-caixa-dark.svg",
+      "target": "pingo-doc/docs/referencias-visuais/graficos/fluxo-caixa-dark.svg",
+      "sha256": "a78a4646709593c5544dc1b5606fe647de886c5bf048b60d87cb3f722e1db23e"
+    },
+    {
+      "source": "sistemafinanceiro/docs/referencias-visuais/graficos/fluxo-caixa-light.svg",
+      "target": "pingo-doc/docs/referencias-visuais/graficos/fluxo-caixa-light.svg",
+      "sha256": "84c6c50c0ce9843cb6b6467ff6f35a877cf29b4bc17b55383757f7f9cd8226b3"
+    },
+    {
+      "source": "sistemafinanceiro/docs/referencias-visuais/graficos/recebimentos-semana-dark.svg",
+      "target": "pingo-doc/docs/referencias-visuais/graficos/recebimentos-semana-dark.svg",
+      "sha256": "a0032318a6c7145c87045a8f2ddc6a02a0515abe9e32c295c4bc8908a0683a00"
+    },
+    {
+      "source": "sistemafinanceiro/docs/referencias-visuais/graficos/recebimentos-semana-light.svg",
+      "target": "pingo-doc/docs/referencias-visuais/graficos/recebimentos-semana-light.svg",
+      "sha256": "6c6490e8859b2824ea66c293f25d93b7ca5f2f0b5fbe09206d704fb05fa11a9f"
+    },
+    {
+      "source": "sistemafinanceiro/docs/referencias-visuais/horizon/horizon-barras.png",
+      "target": "pingo-doc/docs/referencias-visuais/horizon/horizon-barras.png",
+      "sha256": "2ef24de43976fcfb2561bb6bdbfe38ed24441e70d786cb86b355e75dd13ca9c2"
+    },
+    {
+      "source": "sistemafinanceiro/docs/referencias-visuais/horizon/horizon-dashboard-light.png",
+      "target": "pingo-doc/docs/referencias-visuais/horizon/horizon-dashboard-light.png",
+      "sha256": "70d5817fc9c4050ffbca0b74cbf0faa9c1a8295276a6f01c6c56154b68746098"
+    },
+    {
+      "source": "sistemafinanceiro/docs/referencias-visuais/horizon/horizon-distribuicao.png",
+      "target": "pingo-doc/docs/referencias-visuais/horizon/horizon-distribuicao.png",
+      "sha256": "fb2c6516590527cf77678c9eae5e818d3c103fbf4c6759417e7b292673594c14"
+    },
+    {
+      "source": "sistemafinanceiro/docs/referencias-visuais/manifest.json",
+      "target": "pingo-doc/docs/referencias-visuais/manifest.json",
+      "sha256": "b4f043c594c6d95b982a0392612041ee9ed4ad1544f504a82365246276dd64ee"
+    },
+    {
+      "source": "sistemafinanceiro/docs/referencias-visuais/pingo/pingo-insight.png",
+      "target": "pingo-doc/docs/referencias-visuais/pingo/pingo-insight.png",
+      "sha256": "7d046058bba2a6235bfad21ef56a23cba11619b243ceaa91ea3a22f8b3a92cef"
+    },
+    {
+      "source": "sistemafinanceiro/docs/referencias-visuais/pingo/pingo-normal.png",
+      "target": "pingo-doc/docs/referencias-visuais/pingo/pingo-normal.png",
+      "sha256": "3e7e24df10b19b1c63381b09f86363fcd0fede1bfa6ae36ec169b1fa2bed3a90"
+    },
+    {
+      "source": "sistemafinanceiro/docs/referencias-visuais/pingo/pingo-pensando.png",
+      "target": "pingo-doc/docs/referencias-visuais/pingo/pingo-pensando.png",
+      "sha256": "6c455092f6f354870cf31bffc7af349870880b0f219c8015af7b969e208c56c0"
+    },
+    {
+      "source": "sistemafinanceiro/docs/referencias-visuais/pingo/pingo-referencia-original.jpg",
+      "target": "pingo-doc/docs/referencias-visuais/pingo/pingo-referencia-original.jpg",
+      "sha256": "268b582e5a0fd8e7eb8c1016061358bd8559e79f4faaf2a586072c8da718825a"
+    },
+    {
+      "source": "sistemafinanceiro/docs/referencias-visuais/pingo/prompts.json",
+      "target": "pingo-doc/docs/referencias-visuais/pingo/prompts.json",
+      "sha256": "9b31a2e08ac2865d20ecca01431e9e7761259170819c29ac163c357cfd34a1a3"
+    },
+    {
+      "source": "sistemafinanceiro/docs/validation/shell-dark.png",
+      "target": "pingo-doc/docs/validation/shell-dark.png",
+      "sha256": "bba81f8aeb943019c556514f5bd8bc5ea37b43f7abe010afbc1a5deff7effd4b"
+    },
+    {
+      "source": "sistemafinanceiro/docs/validation/shell-light.png",
+      "target": "pingo-doc/docs/validation/shell-light.png",
+      "sha256": "4ac38d305b5b45bc9c7157ee17fd8fc7f91a5619bb329da4f8d82b96df197678"
+    },
+    {
+      "source": "sistemafinanceiro/docs/validation/shell-mobile-dark.png",
+      "target": "pingo-doc/docs/validation/shell-mobile-dark.png",
+      "sha256": "fc5edb0071768904eb455f57255a261e62d98410d3c017eb9f9af0ba1ded97b9"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/.env.example",
+      "target": "pingo-front-crm/.env.example",
+      "sha256": "3e3ee6514e0216ad72762cddfabc13d20cb9462d42f1216e8cef15d7dd63ed17"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/.prettierignore",
+      "target": "pingo-front-crm/.prettierignore",
+      "sha256": "c362eed29fa24e77b95e86ab090ca4708dea43a06742e0a33f289b205e6cc9af"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/.prettierrc.json",
+      "target": "pingo-front-crm/.prettierrc.json",
+      "sha256": "9cdf6628de8244e2d10f436a224dd2e7800d7d702aa04bb69b2bd2f9b19cf359"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/app.vue",
+      "target": "pingo-front-crm/app/app.vue",
+      "sha256": "523ccbc29b5efb68d354ce15730518d9c45714e95fa13eb161c9ed57cfc5da8a"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/assets/styles/base.css",
+      "target": "pingo-front-crm/app/assets/styles/base.css",
+      "sha256": "607f3389c8cd4464e6f0e96b1c18cc8e1c77704af090fd877499a40ac5bcd615"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/PingoChatBox.vue",
+      "target": "pingo-front-crm/app/components/PingoChatBox.vue",
+      "sha256": "8943901ce336fb61529e0fa41d653b1365b74fb603433944a69310015e2cc022"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/PingoVisual.vue",
+      "target": "pingo-front-crm/app/components/PingoVisual.vue",
+      "sha256": "554bf25e2bdf444624be276a9f2bcf182d6799e61e5290d6c5de02a05a653206"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/PlatformConfirmDialog.vue",
+      "target": "pingo-front-crm/app/components/PlatformConfirmDialog.vue",
+      "sha256": "03c2601c94518465bf3711b859d492a984656062f146c65581f8126ae6b38f67"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/PlatformStatusBadge.vue",
+      "target": "pingo-front-crm/app/components/PlatformStatusBadge.vue",
+      "sha256": "a824cd4bd06e58c966808df0b271b9c191102226f14764e085f407437d2a944f"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ThemeSelect.vue",
+      "target": "pingo-front-crm/app/components/ThemeSelect.vue",
+      "sha256": "603bea73bc8db1875c6c81a92f2da6a7e04b1dc47e1e94aaf7bab487503c3bbd"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/app/AccountMenu.vue",
+      "target": "pingo-front-crm/app/components/app/AccountMenu.vue",
+      "sha256": "083f57c5f05c0452880c97be831780e3b1cec4ae5c6b01c6d4e97cd0191dfcbc"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/app/OrganizationName.vue",
+      "target": "pingo-front-crm/app/components/app/OrganizationName.vue",
+      "sha256": "576fbe44a2f33ec31b795bb6a24d9bc409f25ed0c807417f919765b6d6121354"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/app/Segmented.vue",
+      "target": "pingo-front-crm/app/components/app/Segmented.vue",
+      "sha256": "f16bef0890b2c7caaa06be8175aad292f670c40e07f7eeafd33cb7856d1ff949"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/app/Shell.vue",
+      "target": "pingo-front-crm/app/components/app/Shell.vue",
+      "sha256": "743135d114c154c3da37b9d1c3a1130f952f7d0e4919c8b787784079e4195d45"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/app/Sidebar.vue",
+      "target": "pingo-front-crm/app/components/app/Sidebar.vue",
+      "sha256": "3246a74f085e762794653c87285b9149f0d8ba9614fa536e47607d07debb7b16"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/finance/ArchiveBadge.vue",
+      "target": "pingo-front-crm/app/components/finance/ArchiveBadge.vue",
+      "sha256": "d38bc5efd8abb80dba014e8f0d97fdac4a9075ff4cc6d39fc62bfec59b2d653c"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/finance/CategoryDialog.vue",
+      "target": "pingo-front-crm/app/components/finance/CategoryDialog.vue",
+      "sha256": "7ff60105860e376f84678837607f69dc9a2df34ceaf4057c94a2e1899461966f"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/finance/ContextGate.vue",
+      "target": "pingo-front-crm/app/components/finance/ContextGate.vue",
+      "sha256": "1cf5e898b4f475b8368afb3305a274936c73bab987ab0cad979f2c6637a264ab"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/finance/CustomerDialog.vue",
+      "target": "pingo-front-crm/app/components/finance/CustomerDialog.vue",
+      "sha256": "6845370c1b87086d17cd3d553b2694e4e7efc841840d11c472619db7886bf580"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/finance/DashboardChart.vue",
+      "target": "pingo-front-crm/app/components/finance/DashboardChart.vue",
+      "sha256": "ede2fb46333b94c3c2103b8ab5f6a74bce56da84859e2c8ffd9845f1a2085efd"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/finance/DashboardDue.vue",
+      "target": "pingo-front-crm/app/components/finance/DashboardDue.vue",
+      "sha256": "7e528dc92d1546da446c252065ffc88208a953f26030fa0ebae6550af2112ce6"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/finance/DashboardOverview.vue",
+      "target": "pingo-front-crm/app/components/finance/DashboardOverview.vue",
+      "sha256": "3a3cbb9f69c08551d21abde9c58b99b8a5ba0939689770a4ec73ebf66c50d7b8"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/finance/ListCard.vue",
+      "target": "pingo-front-crm/app/components/finance/ListCard.vue",
+      "sha256": "1ee03e0a7989f9cde2a2794e5b5e2f5b8ce71bf39400d719ed1d8ad80d3d529a"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/finance/Pager.vue",
+      "target": "pingo-front-crm/app/components/finance/Pager.vue",
+      "sha256": "3d413b279510ff1ff2d0aaa2b1956c131ea64b537a2af1d3ee9c14bd2a9f1c15"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/finance/SearchField.vue",
+      "target": "pingo-front-crm/app/components/finance/SearchField.vue",
+      "sha256": "db4a4534f0aef525e7f65403ebd25881f1bbc1fb9434b622acacfdc91c57c842"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/finance/StatusBadge.vue",
+      "target": "pingo-front-crm/app/components/finance/StatusBadge.vue",
+      "sha256": "75c7c02b0f3c3378c13c88c8d41b433ddd00eed0be96c75481fb07172a6ab1eb"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/internal/KanbanCard.vue",
+      "target": "pingo-front-crm/app/components/internal/KanbanCard.vue",
+      "sha256": "a7defc5d353c64b64026c4895781db0a12f19b467258519dae3368d6a6146d96"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/internal/KanbanColumn.vue",
+      "target": "pingo-front-crm/app/components/internal/KanbanColumn.vue",
+      "sha256": "b98e873bbe85d97491a6da24ae5105686919402ef77a20baf76d4b22558c09dd"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/internal/KanbanDeleteDialog.vue",
+      "target": "pingo-front-crm/app/components/internal/KanbanDeleteDialog.vue",
+      "sha256": "af47857fd900b0cc5d756b9615a909053737884ac3fc877c08872f5084c27733"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/internal/KanbanTaskDialog.vue",
+      "target": "pingo-front-crm/app/components/internal/KanbanTaskDialog.vue",
+      "sha256": "9c521854d3424cc225f0fc6c66dbc4b8e5dfefaac4760144f4a6cd1fe109ab25"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/pingo/Conversation.vue",
+      "target": "pingo-front-crm/app/components/pingo/Conversation.vue",
+      "sha256": "70bb3fc8e96db0d512419f9c4211e2e24ea443060b9e80e3b5fd0731936924a0"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/pingo/Dock.vue",
+      "target": "pingo-front-crm/app/components/pingo/Dock.vue",
+      "sha256": "f4ec777494a62737c745e254712a81fef2e8999e59961d102c7968bc3248f0e5"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/preview/DashboardPreview.vue",
+      "target": "pingo-front-crm/app/components/preview/DashboardPreview.vue",
+      "sha256": "a0c47a9ff17c435684d95096d3c449d3f16dd880a081cfddda032a036922825b"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/alert/Alert.vue",
+      "target": "pingo-front-crm/app/components/ui/alert/Alert.vue",
+      "sha256": "6ccaafd5a0b331e43fc730da6ec4e2fd3424164a568272986bdaed590de7b524"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/alert/AlertDescription.vue",
+      "target": "pingo-front-crm/app/components/ui/alert/AlertDescription.vue",
+      "sha256": "b5fe4548abdb5871e5c1d9dcc03c8107bcebf8fc91975411495f9ff3c3ab9343"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/alert/AlertTitle.vue",
+      "target": "pingo-front-crm/app/components/ui/alert/AlertTitle.vue",
+      "sha256": "18c43f4f8f6aa119c89e07e63c8c6559013fae43e236e97a789d71d571be118c"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/alert/index.ts",
+      "target": "pingo-front-crm/app/components/ui/alert/index.ts",
+      "sha256": "b837846b2d51897419b4f71a4693b8ccb592fbefd65eec69fb1c6f2f5261f2d6"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/avatar/Avatar.vue",
+      "target": "pingo-front-crm/app/components/ui/avatar/Avatar.vue",
+      "sha256": "f29961f7e86173ccb2f3463cc5783edba2960eec8bf60920ebef70312f3bb7fb"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/avatar/AvatarFallback.vue",
+      "target": "pingo-front-crm/app/components/ui/avatar/AvatarFallback.vue",
+      "sha256": "92e58fa864cc3ce2178921272000373443899a1d0b333c06a828ed0aa5a8c6ae"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/avatar/AvatarImage.vue",
+      "target": "pingo-front-crm/app/components/ui/avatar/AvatarImage.vue",
+      "sha256": "93ac78fa020226a60dbe6b4ed5eb05c40da6022cc2496ebb69abd73658d52962"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/avatar/index.ts",
+      "target": "pingo-front-crm/app/components/ui/avatar/index.ts",
+      "sha256": "7a769dfa24a76cdd4406a870f6ce33d5434b376a76bbd0502b0ba45e614326ce"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/badge/Badge.vue",
+      "target": "pingo-front-crm/app/components/ui/badge/Badge.vue",
+      "sha256": "72762ff3f07b23afd1dd3544b63c66f575004dcda9c0d31ca35c2b09edd7f064"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/badge/index.ts",
+      "target": "pingo-front-crm/app/components/ui/badge/index.ts",
+      "sha256": "66421c54a84e5a71c85edf6cc757b3bf5d81e415f3774efda156143debb681f9"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/button/Button.vue",
+      "target": "pingo-front-crm/app/components/ui/button/Button.vue",
+      "sha256": "eb0d050c8d191da6d03e5fb542a1f37ebca6ce8d4328f22c062b582d1fe49c8e"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/button/index.ts",
+      "target": "pingo-front-crm/app/components/ui/button/index.ts",
+      "sha256": "0287653c3538726c95f417a73a1c87bc2ea9a049eef2911fa5308adb6e8b3c22"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/dialog/Dialog.vue",
+      "target": "pingo-front-crm/app/components/ui/dialog/Dialog.vue",
+      "sha256": "f300ad38f300fa7ed7249185fe322c6f878c2a98d50c9a1c335a2afd7ded7f8e"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/dialog/DialogClose.vue",
+      "target": "pingo-front-crm/app/components/ui/dialog/DialogClose.vue",
+      "sha256": "58c8a6c78f7e4753a0b933baf54e8fd4e2821e1d16f818e0f7644f31f068e249"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/dialog/DialogContent.vue",
+      "target": "pingo-front-crm/app/components/ui/dialog/DialogContent.vue",
+      "sha256": "eb6602c88d1afec2156fbcf085bdc2ac6fdc3db9796838b86e8e614b9edcd0af"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/dialog/DialogDescription.vue",
+      "target": "pingo-front-crm/app/components/ui/dialog/DialogDescription.vue",
+      "sha256": "18d8fdb20b43f5b5f93fcbc4905d3edefc3a4752e617557978826d2e06cfc51c"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/dialog/DialogFooter.vue",
+      "target": "pingo-front-crm/app/components/ui/dialog/DialogFooter.vue",
+      "sha256": "9b6018909bc0aee5456685b03034e279a7d9de0abdf43498e4090ef1fd070938"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/dialog/DialogHeader.vue",
+      "target": "pingo-front-crm/app/components/ui/dialog/DialogHeader.vue",
+      "sha256": "ece5808875b66798f57ea332a0885cb14925541030170a4b11f2d16fd547d9ea"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/dialog/DialogOverlay.vue",
+      "target": "pingo-front-crm/app/components/ui/dialog/DialogOverlay.vue",
+      "sha256": "f7c5c86abce76551684c730a816208dd6348c5ec4fec7156941dafa2a23f479c"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/dialog/DialogScrollContent.vue",
+      "target": "pingo-front-crm/app/components/ui/dialog/DialogScrollContent.vue",
+      "sha256": "c1e9c762cecadd30483566d6b87413a3c505556cc651dc61e4f2bf40214f3bb3"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/dialog/DialogTitle.vue",
+      "target": "pingo-front-crm/app/components/ui/dialog/DialogTitle.vue",
+      "sha256": "80ef5901c251de900441f0e92de4cda3b5f105c481afe084d81cbfae72650ccf"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/dialog/DialogTrigger.vue",
+      "target": "pingo-front-crm/app/components/ui/dialog/DialogTrigger.vue",
+      "sha256": "72019550de3ce2dde6c01f6e9f330e86910251d7b861260e6cb079be81921e11"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/dialog/index.ts",
+      "target": "pingo-front-crm/app/components/ui/dialog/index.ts",
+      "sha256": "8a51c81fc89c7b71908f9192875632720d8fa58e3f7fbe9b8e9a6e3a308bdc46"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/dropdown-menu/DropdownMenu.vue",
+      "target": "pingo-front-crm/app/components/ui/dropdown-menu/DropdownMenu.vue",
+      "sha256": "c5a371cdcfbada33378ec4a32f196678cd6b498ca20a0b7c0ffe604ee1ee9fef"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/dropdown-menu/DropdownMenuCheckboxItem.vue",
+      "target": "pingo-front-crm/app/components/ui/dropdown-menu/DropdownMenuCheckboxItem.vue",
+      "sha256": "5fcc192fe7841f6d188f402954777d80886c08773917f3b2d5918e9571f6ba57"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/dropdown-menu/DropdownMenuContent.vue",
+      "target": "pingo-front-crm/app/components/ui/dropdown-menu/DropdownMenuContent.vue",
+      "sha256": "aa59359ab95341d31bd47fd8ccee8f520ea96f25bba593a2fcb83fe30a6e57e3"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/dropdown-menu/DropdownMenuGroup.vue",
+      "target": "pingo-front-crm/app/components/ui/dropdown-menu/DropdownMenuGroup.vue",
+      "sha256": "c312c6d2f788180d5f24f6aa1fe182dd7f3cc39e1ceb8bb2f7a2ae7fa34f2287"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/dropdown-menu/DropdownMenuItem.vue",
+      "target": "pingo-front-crm/app/components/ui/dropdown-menu/DropdownMenuItem.vue",
+      "sha256": "82c863751c1f6354f33cbdb667ac9b1996cad18bb15ef583e650faf422661a17"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/dropdown-menu/DropdownMenuLabel.vue",
+      "target": "pingo-front-crm/app/components/ui/dropdown-menu/DropdownMenuLabel.vue",
+      "sha256": "40b4ab1fdd7089be2d19974b042ffbaa7680ed8faaaaf94f821dee0c683b113c"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/dropdown-menu/DropdownMenuRadioGroup.vue",
+      "target": "pingo-front-crm/app/components/ui/dropdown-menu/DropdownMenuRadioGroup.vue",
+      "sha256": "2822ecd5f919149f99381c68d9594359b404d08961a9a2a9f1f0c5a8026c4568"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/dropdown-menu/DropdownMenuRadioItem.vue",
+      "target": "pingo-front-crm/app/components/ui/dropdown-menu/DropdownMenuRadioItem.vue",
+      "sha256": "68b2b93c0050821a2f046c387d341d650bbac5a2ff3bfb3567d8fa2f3b76b27e"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/dropdown-menu/DropdownMenuSeparator.vue",
+      "target": "pingo-front-crm/app/components/ui/dropdown-menu/DropdownMenuSeparator.vue",
+      "sha256": "5a5e98174ef3b69e75a1fc90ddf6a22de3f0e889bff5559b8175d74628020554"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/dropdown-menu/DropdownMenuShortcut.vue",
+      "target": "pingo-front-crm/app/components/ui/dropdown-menu/DropdownMenuShortcut.vue",
+      "sha256": "6a2e7fc4f580ebfa824022e9f2e4cf08e3a5358ca158a579856cbd09f169569d"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/dropdown-menu/DropdownMenuSub.vue",
+      "target": "pingo-front-crm/app/components/ui/dropdown-menu/DropdownMenuSub.vue",
+      "sha256": "dd8efd38b677153e64728c5b4368b80579c7f0031ba6560b1533d923c020c9f4"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/dropdown-menu/DropdownMenuSubContent.vue",
+      "target": "pingo-front-crm/app/components/ui/dropdown-menu/DropdownMenuSubContent.vue",
+      "sha256": "91bcfa0fb3f1b79f0a35172f2a0c673dbfa6e2ededa0d884b4a3eae2dfd5fce2"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/dropdown-menu/DropdownMenuSubTrigger.vue",
+      "target": "pingo-front-crm/app/components/ui/dropdown-menu/DropdownMenuSubTrigger.vue",
+      "sha256": "6a6c24b70e773195c1f122df13b23dc0021929299f807802f5a653e3056f7834"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/dropdown-menu/DropdownMenuTrigger.vue",
+      "target": "pingo-front-crm/app/components/ui/dropdown-menu/DropdownMenuTrigger.vue",
+      "sha256": "26efc7f92bfdf4d185a8288a372ecb25cf2a9442b1fb1f8b47e7bef14ddcccaa"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/dropdown-menu/index.ts",
+      "target": "pingo-front-crm/app/components/ui/dropdown-menu/index.ts",
+      "sha256": "ac38993e66061ce6cbf4dc89abf6fa3bfc792c05c1ef00536a4ef2447eb352a2"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/input/Input.vue",
+      "target": "pingo-front-crm/app/components/ui/input/Input.vue",
+      "sha256": "c3f7f1db022544e8f5ddb3713524c53a6527bb06196bdbb07e4e7a6960102682"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/input/index.ts",
+      "target": "pingo-front-crm/app/components/ui/input/index.ts",
+      "sha256": "09ebfb7b7805ec2c311ba2285b6f4ba2592f85244e1abe12c0dc2ac106c10318"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/label/Label.vue",
+      "target": "pingo-front-crm/app/components/ui/label/Label.vue",
+      "sha256": "7244db20d5950d67f0d2b98ae3b2c1a3c07ec605893be7725aa4c6b786439254"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/label/index.ts",
+      "target": "pingo-front-crm/app/components/ui/label/index.ts",
+      "sha256": "4f6cdf31660b5464e5f7f888727ad12d39190fb98f3d0ece46ac9f557ca08ef7"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/select/Select.vue",
+      "target": "pingo-front-crm/app/components/ui/select/Select.vue",
+      "sha256": "2cfdcfd04580e9100daea5fddd43f236f35e4e8ce2dc5a755992107c89c05c24"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/select/SelectContent.vue",
+      "target": "pingo-front-crm/app/components/ui/select/SelectContent.vue",
+      "sha256": "8b331b948c8160ef54c6b44fb50ed67233acf6a031b59121da15416fa3038fda"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/select/SelectGroup.vue",
+      "target": "pingo-front-crm/app/components/ui/select/SelectGroup.vue",
+      "sha256": "00516daea77932f2b400b2ebc98b3714407c917287be03f3511dd669e7f48ef8"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/select/SelectItem.vue",
+      "target": "pingo-front-crm/app/components/ui/select/SelectItem.vue",
+      "sha256": "edc729dbc0d6d6917cf737078128e6b01ddd6a0a062535d569018764b74e2d85"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/select/SelectItemText.vue",
+      "target": "pingo-front-crm/app/components/ui/select/SelectItemText.vue",
+      "sha256": "c832153a19c896432c194ca509c3e88f56b9040f813eb40e2f62d84c611bd038"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/select/SelectLabel.vue",
+      "target": "pingo-front-crm/app/components/ui/select/SelectLabel.vue",
+      "sha256": "e30e31d1d7686fef925495daccb1e86af449146004d512047b0c441b9a913b74"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/select/SelectScrollDownButton.vue",
+      "target": "pingo-front-crm/app/components/ui/select/SelectScrollDownButton.vue",
+      "sha256": "d8b814d34b1adef7e239b78fd1a81de742b0e389e278a2a7b2929fc6cccfbc84"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/select/SelectScrollUpButton.vue",
+      "target": "pingo-front-crm/app/components/ui/select/SelectScrollUpButton.vue",
+      "sha256": "37f968a72329e9fa78f1b6cbad9f17c13e274ff3d9388d81e1f8155f8199f5fb"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/select/SelectSeparator.vue",
+      "target": "pingo-front-crm/app/components/ui/select/SelectSeparator.vue",
+      "sha256": "292161f52f89e8d64a0acdbf41fbd8a0c6d0e712b13c59f6d3f94d0fafeadc49"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/select/SelectTrigger.vue",
+      "target": "pingo-front-crm/app/components/ui/select/SelectTrigger.vue",
+      "sha256": "ee320bd6c26765929f8f946e55cdfff2b52f0ecbaff2c193a854e54d9c2d1717"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/select/SelectValue.vue",
+      "target": "pingo-front-crm/app/components/ui/select/SelectValue.vue",
+      "sha256": "59976cab7ffe0199e98e8a9fac67674ea6d8765a491c8d831c0e77e3078ed280"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/select/index.ts",
+      "target": "pingo-front-crm/app/components/ui/select/index.ts",
+      "sha256": "d4473646a10c1d549c6d2ac3ee1b4931bfbed093354ba5fe354db214e563196d"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/sheet/Sheet.vue",
+      "target": "pingo-front-crm/app/components/ui/sheet/Sheet.vue",
+      "sha256": "aa28c0b5625c0ce2ac9a72b7f1148da8016bdee15c481f503a598306a9b16830"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/sheet/SheetClose.vue",
+      "target": "pingo-front-crm/app/components/ui/sheet/SheetClose.vue",
+      "sha256": "cb8ac67793dfdb71cdfad0448a612be5f3ea9c7a2ab74fcf8e98e9ffb979335f"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/sheet/SheetContent.vue",
+      "target": "pingo-front-crm/app/components/ui/sheet/SheetContent.vue",
+      "sha256": "6966d4dab638628f2ce66cdbaebb715f4a74d2c92a3fd1839122a9b31b7af0fa"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/sheet/SheetDescription.vue",
+      "target": "pingo-front-crm/app/components/ui/sheet/SheetDescription.vue",
+      "sha256": "e3bc969794651f7256c0f814eb08707cd56894758ac39030ffda74aa03837382"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/sheet/SheetFooter.vue",
+      "target": "pingo-front-crm/app/components/ui/sheet/SheetFooter.vue",
+      "sha256": "353e78b85fc3094245440f2275947e7dd4e081ce5f5d62de0c85e3d08e5649af"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/sheet/SheetHeader.vue",
+      "target": "pingo-front-crm/app/components/ui/sheet/SheetHeader.vue",
+      "sha256": "8a7af07abfa32ec00e60e30fbeda456f83dc8fda43da07d5327d54676d7ae849"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/sheet/SheetOverlay.vue",
+      "target": "pingo-front-crm/app/components/ui/sheet/SheetOverlay.vue",
+      "sha256": "2b7f6981c7479891e91049e458d12a649868381237ea3ad411a10e90a770cf3d"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/sheet/SheetTitle.vue",
+      "target": "pingo-front-crm/app/components/ui/sheet/SheetTitle.vue",
+      "sha256": "a50f42462181728a9b739861f3859ec5ae74710641502c6daa213e8171fce977"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/sheet/SheetTrigger.vue",
+      "target": "pingo-front-crm/app/components/ui/sheet/SheetTrigger.vue",
+      "sha256": "e938b3f2d2fc712a8057f11ec692f19d5c8a5af5038d430abb309a8f4c2aa111"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/sheet/index.ts",
+      "target": "pingo-front-crm/app/components/ui/sheet/index.ts",
+      "sha256": "52047325f9198d637ef3201481d2e4827bd783d72d7454ee97e4c2bc1f1c5d57"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/skeleton/Skeleton.vue",
+      "target": "pingo-front-crm/app/components/ui/skeleton/Skeleton.vue",
+      "sha256": "cc217c6cc9d6192a40ccad4bc91f92031276b7c633a313d2ca6cdea76bf62fc8"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/skeleton/index.ts",
+      "target": "pingo-front-crm/app/components/ui/skeleton/index.ts",
+      "sha256": "63c46cdea19ddec2f05cca4e8c45d32e04b87a0ec5fdda7277fa6ab3b33051c2"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/table/Table.vue",
+      "target": "pingo-front-crm/app/components/ui/table/Table.vue",
+      "sha256": "27d3459166c2ddb83be9f0c6c2d73ec4d9c5615b19dccd00e1220eaea9074ed2"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/table/TableBody.vue",
+      "target": "pingo-front-crm/app/components/ui/table/TableBody.vue",
+      "sha256": "97452ed89c3c65b4885704fd3bae7d3e9fd9b7bfcf625b5d9709aa25be443b17"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/table/TableCaption.vue",
+      "target": "pingo-front-crm/app/components/ui/table/TableCaption.vue",
+      "sha256": "fe6a19339693b581fb6c6393ef336a765390b21b24adf3b5e3b6721b84091948"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/table/TableCell.vue",
+      "target": "pingo-front-crm/app/components/ui/table/TableCell.vue",
+      "sha256": "32b14ecce6f1a79986b56c1fd86437cae03261e7e3c7b139f9653df296e0c8dd"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/table/TableEmpty.vue",
+      "target": "pingo-front-crm/app/components/ui/table/TableEmpty.vue",
+      "sha256": "8ce6a49b8a2c10b54af2a575b81f2ed07782cf595bd22e15c7e3a69fa9968590"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/table/TableFooter.vue",
+      "target": "pingo-front-crm/app/components/ui/table/TableFooter.vue",
+      "sha256": "a5fe4b8c820da26add6faf5e82d28e4a666f8753d65262ee53e2326ad5490466"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/table/TableHead.vue",
+      "target": "pingo-front-crm/app/components/ui/table/TableHead.vue",
+      "sha256": "65b23ecc260759d505ddb33b40d29d0da66c0465337116311ce53efebd0ba3f1"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/table/TableHeader.vue",
+      "target": "pingo-front-crm/app/components/ui/table/TableHeader.vue",
+      "sha256": "348280135505b29e5ffceefff681e69ffb1fdf00f0587cff0a0b5423cbfe1500"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/table/TableRow.vue",
+      "target": "pingo-front-crm/app/components/ui/table/TableRow.vue",
+      "sha256": "461b104939269aa04dce343f92234bf9244864a0dce9c4904fca013304f1b429"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/table/index.ts",
+      "target": "pingo-front-crm/app/components/ui/table/index.ts",
+      "sha256": "3da973b51b2d27d9c878e764b811ee9e6881bf91bf4e75a31eaad15d58e7e409"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/textarea/Textarea.vue",
+      "target": "pingo-front-crm/app/components/ui/textarea/Textarea.vue",
+      "sha256": "0f1007ef43ce4b10641435176c8e7ab8678a890fdd58e19356cbffc52f059804"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/textarea/index.ts",
+      "target": "pingo-front-crm/app/components/ui/textarea/index.ts",
+      "sha256": "1b7316231e53ee33c5e1536c24066a28655b9ccfeac9ccba5ff90a531ba07cf6"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/tooltip/Tooltip.vue",
+      "target": "pingo-front-crm/app/components/ui/tooltip/Tooltip.vue",
+      "sha256": "b39987ed5289df3c8e90e8a0c6c9c08cc56c70cecf41d388b406e59df4379484"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/tooltip/TooltipContent.vue",
+      "target": "pingo-front-crm/app/components/ui/tooltip/TooltipContent.vue",
+      "sha256": "ed33c6bf28f0b714942bb6753f5365baad7c4dd9ce84f9ec1d9419dcaa512709"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/tooltip/TooltipProvider.vue",
+      "target": "pingo-front-crm/app/components/ui/tooltip/TooltipProvider.vue",
+      "sha256": "fe51d03562de09c2be41e4cf0375c9e8d40b1cebae156f8d4937f48f45dd70c7"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/tooltip/TooltipTrigger.vue",
+      "target": "pingo-front-crm/app/components/ui/tooltip/TooltipTrigger.vue",
+      "sha256": "bf1680f2048c3ec52a6dbf0677bd17e2b689afdd28ad4ebc6979f94b5488f674"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/components/ui/tooltip/index.ts",
+      "target": "pingo-front-crm/app/components/ui/tooltip/index.ts",
+      "sha256": "650df5228e6bb52079e32d0bd1ae35bbac004dfbd2dd8b562c2802025764839b"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/composables/useAgentChanges.ts",
+      "target": "pingo-front-crm/app/composables/useAgentChanges.ts",
+      "sha256": "d1f939a9d64e8978dfa17586cc2aeaf7c8918ae4e29d0d6049196b683482676d"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/composables/useFinance.ts",
+      "target": "pingo-front-crm/app/composables/useFinance.ts",
+      "sha256": "677848a834248277dfa70ba18537dca68b7b9d9800e9e8ebcfb2e1659854b782"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/composables/useInternalKanban.ts",
+      "target": "pingo-front-crm/app/composables/useInternalKanban.ts",
+      "sha256": "3d567020d3ffe11beb5b01d22d5197c1d10a0fec66d41c92abddc71e9fe56d09"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/composables/usePageHeading.ts",
+      "target": "pingo-front-crm/app/composables/usePageHeading.ts",
+      "sha256": "f8686e34912271c17caf8c46191b9062575f68213c6ff9251a053cb1e4c8e3be"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/composables/usePingoConversation.ts",
+      "target": "pingo-front-crm/app/composables/usePingoConversation.ts",
+      "sha256": "a7691f369f799c61508b6ae5cfae25f99c5d166b7e2968bb1cd5f11146bb5953"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/composables/usePlatform.ts",
+      "target": "pingo-front-crm/app/composables/usePlatform.ts",
+      "sha256": "34d062bd14ca3eb104c2871d786c2a95740c7a38b1a9d629caee7f143bd93630"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/composables/useSession.ts",
+      "target": "pingo-front-crm/app/composables/useSession.ts",
+      "sha256": "2c08dc51cfd903f88c2597279ba9c0be80678369283fc75b3d0bada1685f4d9f"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/composables/useTheme.ts",
+      "target": "pingo-front-crm/app/composables/useTheme.ts",
+      "sha256": "f223bb81e01252ca576a76e2100bb72fb09026e28b8fab1f6ff9803a9367976b"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/config/navigation.ts",
+      "target": "pingo-front-crm/app/config/navigation.ts",
+      "sha256": "81ae5961bbfdee2f3e9dde6a1db39dc83feb538c3e47793f1fd15e161054a97c"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/config/visual-references.ts",
+      "target": "pingo-front-crm/app/config/visual-references.ts",
+      "sha256": "f8e6df034a3bf05dc92d045edc6c26d213c9e76023a41f419c7c575b9d88b8dd"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/design-core/component-tokens.css",
+      "target": "pingo-front-crm/app/design-core/component-tokens.css",
+      "sha256": "a3c422765819936ab5c8cf3aceaae507451d064e53cab69a663f9ebbed8083b6"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/design-core/primitives.css",
+      "target": "pingo-front-crm/app/design-core/primitives.css",
+      "sha256": "ae6b0a8fe22f0a47f5d3d1d4db82560f7ceb7e6e24da7217aa0476800514a0ec"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/design-core/semantic-tokens.css",
+      "target": "pingo-front-crm/app/design-core/semantic-tokens.css",
+      "sha256": "005282a6901b142dcc20c35cc68092f43b19e38c228362f9f331daa97baee6cf"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/design-core/theme.ts",
+      "target": "pingo-front-crm/app/design-core/theme.ts",
+      "sha256": "23997c74121742cce911be28a39f453af92385381cf1661b6cda08d95df1007c"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/design-core/typography.css",
+      "target": "pingo-front-crm/app/design-core/typography.css",
+      "sha256": "73f278f0d598e3518cf364be5fab6199e2f2179388e06c6c553c1eb075d487c1"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/layouts/default.vue",
+      "target": "pingo-front-crm/app/layouts/default.vue",
+      "sha256": "fdf40cd16249994c37e9c8c9f5b78427e4c8418fa5f65d6fb6a2778d06622c94"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/layouts/internal.vue",
+      "target": "pingo-front-crm/app/layouts/internal.vue",
+      "sha256": "7692a90cc80398a7807d58aa72b512520f5e08bfee1ff17e55618ed29515f70d"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/layouts/platform.vue",
+      "target": "pingo-front-crm/app/layouts/platform.vue",
+      "sha256": "78979684beab034427cb7f368d3621a654ef6c14590936e06df0a539fcb5cfd9"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/lib/utils.ts",
+      "target": "pingo-front-crm/app/lib/utils.ts",
+      "sha256": "1f220dc4695697dadeba9d04b6851b87dcbe37faf945950c0f43349ff3eb02c3"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/middleware/auth.ts",
+      "target": "pingo-front-crm/app/middleware/auth.ts",
+      "sha256": "01ca82b6beda8b5cc673b788b1c9e8e60743c4bc2b455cf69580dda90af30daf"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/middleware/platform.ts",
+      "target": "pingo-front-crm/app/middleware/platform.ts",
+      "sha256": "1a086083408462fbbc3b61db2e7775dfa72778c8836eb66645324710ba8d5294"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/middleware/session.ts",
+      "target": "pingo-front-crm/app/middleware/session.ts",
+      "sha256": "db23555cfef24c37f10000fdc01b7e1b99002ea81ae9044465fb1f657af7888d"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/pages/acesso-indisponivel.vue",
+      "target": "pingo-front-crm/app/pages/acesso-indisponivel.vue",
+      "sha256": "64f6c127177183511a2e6d0c096b2cf90d141bae08287e89b35bb44cf55a22ed"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/pages/assistente.vue",
+      "target": "pingo-front-crm/app/pages/assistente.vue",
+      "sha256": "5ee0abe3dc28022aa62b421e8192b88ae3c432e06e667530c93e20f1d58fabc8"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/pages/categorias.vue",
+      "target": "pingo-front-crm/app/pages/categorias.vue",
+      "sha256": "4449e22c2bb1fe03e2d15b0de217f1826a7640a356351d15073bafb806aa1842"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/pages/clientes.vue",
+      "target": "pingo-front-crm/app/pages/clientes.vue",
+      "sha256": "0e912e687a9c2144451362872781ea5fc5899fef9a691de3a9ce7dd1895ea9ab"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/pages/despesas/[id].vue",
+      "target": "pingo-front-crm/app/pages/despesas/[id].vue",
+      "sha256": "e715fafeb2a9108da75ef6f9c4aa50ea5501e46639975f5958273bf9f6d7cd5e"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/pages/despesas/index.vue",
+      "target": "pingo-front-crm/app/pages/despesas/index.vue",
+      "sha256": "4fa94b481970fbda8f74c35672960a1a3a9bf0e85af15fd15ba9a6ff58017ba4"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/pages/despesas/nova.vue",
+      "target": "pingo-front-crm/app/pages/despesas/nova.vue",
+      "sha256": "64c6e4d5988875f4b664616a5694a37f1b30d414227850f895bf71c7054e3e7f"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/pages/dev/diagnostics.vue",
+      "target": "pingo-front-crm/app/pages/dev/diagnostics.vue",
+      "sha256": "9d6e7d000455bc9c84baabeb840c37876522d2be42e558f8f3bf58c51d9dd762"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/pages/dev/referencias.vue",
+      "target": "pingo-front-crm/app/pages/dev/referencias.vue",
+      "sha256": "7fdf48aecf01a2fd29acad420e18d7f34de33dfe6c8c6dff361910764f82cbf9"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/pages/index.vue",
+      "target": "pingo-front-crm/app/pages/index.vue",
+      "sha256": "4ab582bf6030ec8843edea4a215a1bb39974c05816984249704cbe81e22835a7"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/pages/kanban.vue",
+      "target": "pingo-front-crm/app/pages/kanban.vue",
+      "sha256": "9891ac7f8ba5a92f4d0fcfd47fe7dffbf7ba92e1885813e94a030d623ddbe344"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/pages/login.vue",
+      "target": "pingo-front-crm/app/pages/login.vue",
+      "sha256": "a0800f66ca0153e876f65499924e9a00373604e8b76dc6c05a6059f4a157ece1"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/pages/plataforma/acesso-negado.vue",
+      "target": "pingo-front-crm/app/pages/plataforma/acesso-negado.vue",
+      "sha256": "db3f38b78694acf2ac19a9d13d16c3eb689c94d082eebd3c4ef40699c550c479"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/pages/plataforma/alteracoes.vue",
+      "target": "pingo-front-crm/app/pages/plataforma/alteracoes.vue",
+      "sha256": "1cf477ffcd61fbbb2e1743270fd3a928dbbe4311d20aceccbd94b769ff61d391"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/pages/plataforma/empresas/[id].vue",
+      "target": "pingo-front-crm/app/pages/plataforma/empresas/[id].vue",
+      "sha256": "da4f9d0c43a8f82493260b6addd7ef15377cfec6ef7abb88f307f071cc520971"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/pages/plataforma/empresas/nova.vue",
+      "target": "pingo-front-crm/app/pages/plataforma/empresas/nova.vue",
+      "sha256": "1727fd63dfbfa2ecf8a6912912c27d264311f46d1fa1e79d491cc7bd3f68d266"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/pages/plataforma/index.vue",
+      "target": "pingo-front-crm/app/pages/plataforma/index.vue",
+      "sha256": "ae4bf3e597312f9924942081d1a341e3841aa516827f94c0004e1946b7cacc12"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/pages/plataforma/login.vue",
+      "target": "pingo-front-crm/app/pages/plataforma/login.vue",
+      "sha256": "ea1e9d55b2e546887bb74751ff5434cf53603bd112b1c57fe811162e093c65e6"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/pages/receitas/[id].vue",
+      "target": "pingo-front-crm/app/pages/receitas/[id].vue",
+      "sha256": "a3b519a41569f0a919a5f420706e70b8bc6398f1937a64002cc401ac0d07bd6d"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/pages/receitas/index.vue",
+      "target": "pingo-front-crm/app/pages/receitas/index.vue",
+      "sha256": "3038debd3c481ac69698e2ee3243a480be548db1ad4938db0d8bc68c7a22cb38"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/pages/receitas/nova.vue",
+      "target": "pingo-front-crm/app/pages/receitas/nova.vue",
+      "sha256": "b0ee7fc7385c182173b0d148346e35b6bc99c5ed1000eaefd1a96b5598994a6f"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/plugins/api.client.ts",
+      "target": "pingo-front-crm/app/plugins/api.client.ts",
+      "sha256": "3804fa4dbc0d5f3040d7b2a183a55f07e8379840e02c92923422a3c1c9d5b3bd"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/plugins/theme.client.ts",
+      "target": "pingo-front-crm/app/plugins/theme.client.ts",
+      "sha256": "5ecc114a32b8ca82ef8de17d8e134d4eb0cb35f25ba3bb830ed0000ef07892af"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/services/finance.ts",
+      "target": "pingo-front-crm/app/services/finance.ts",
+      "sha256": "e971699652a1e7a254da0c4118218537df669811ed8aa71541dc97d5d56fd081"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/services/health.ts",
+      "target": "pingo-front-crm/app/services/health.ts",
+      "sha256": "cf7b1d46f450701c18835e83b8e9b6efb51dfec0403797ae54f66077b8ffe043"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/services/http.ts",
+      "target": "pingo-front-crm/app/services/http.ts",
+      "sha256": "6f423a3ae4723daccb6a926408ee8eb2bd12b777638a13ea727257615dfccccf"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/services/internal-kanban.ts",
+      "target": "pingo-front-crm/app/services/internal-kanban.ts",
+      "sha256": "c38dee11854bcd97e81883c2cd737bc18c1d01d61fda91cb4cf21aa4072a1615"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/services/platform.ts",
+      "target": "pingo-front-crm/app/services/platform.ts",
+      "sha256": "b76a4e7724ccc347a74f31c9a57efb8b55dcb6d5795c813d74c6faedfa7cac5c"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/services/session.ts",
+      "target": "pingo-front-crm/app/services/session.ts",
+      "sha256": "beac234814f7e789c4ee25f23db2d73451e68a99a6d1e44482209c688f2c9163"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/types/api.ts",
+      "target": "pingo-front-crm/app/types/api.ts",
+      "sha256": "d0c424d85f99c0ab73958c2f61630f65490da1c84204375a5ef64920798a6d7f"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/types/dashboard.ts",
+      "target": "pingo-front-crm/app/types/dashboard.ts",
+      "sha256": "62400642bc7848fd0be2ea604aca3a2c86128c3d98911a27e073653a28695d26"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/types/finance.ts",
+      "target": "pingo-front-crm/app/types/finance.ts",
+      "sha256": "28451f9142d94a1901fa44eb7d43e1614e02d41ede36a6b5c80f5eeae7f5bdae"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/types/internal-kanban.ts",
+      "target": "pingo-front-crm/app/types/internal-kanban.ts",
+      "sha256": "e37844b73bfcd79077fa3ab9c54f4def300099b722fea0e43f3ff3de6a02dc11"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/utils/company-access.ts",
+      "target": "pingo-front-crm/app/utils/company-access.ts",
+      "sha256": "bdfe0cdb7bdb39df3d71d64d110323b07c7e47b70e2db957266a15a44ff1f887"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/utils/dashboard-chart.ts",
+      "target": "pingo-front-crm/app/utils/dashboard-chart.ts",
+      "sha256": "2680b72863fa7c0b298396469b263347dff9e2e381106eb1a0a5b9b29ac20e86"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/utils/idempotency.ts",
+      "target": "pingo-front-crm/app/utils/idempotency.ts",
+      "sha256": "9d9c656c0f4eb81a023c5278dc9d63df6750984974fb11b35c61b563a35175ad"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/utils/internal-kanban.ts",
+      "target": "pingo-front-crm/app/utils/internal-kanban.ts",
+      "sha256": "89c03943c2d38bb4f94b96e223d2230a3f7e13191dd214ee764d98a3f240dc14"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/utils/latest-request.ts",
+      "target": "pingo-front-crm/app/utils/latest-request.ts",
+      "sha256": "56fc31145775bea07ca7dd8263f3c03bbc496394e6d5d77c7ce665b157a1683f"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/utils/money.ts",
+      "target": "pingo-front-crm/app/utils/money.ts",
+      "sha256": "37d37b1fbf7b389941d39cd32373783df85bbe50420d24cc4f596e8dab64f912"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/utils/org-time.ts",
+      "target": "pingo-front-crm/app/utils/org-time.ts",
+      "sha256": "664a408b35101240efe9a06d98a99254a50fbbe06e54876324dad378b81a09aa"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/utils/pingo-conversation.ts",
+      "target": "pingo-front-crm/app/utils/pingo-conversation.ts",
+      "sha256": "e35cfa4d076274c62aeaacefd00c235e32b50a6b5f132d25b4b4a1480a468bbb"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/utils/platform-state.ts",
+      "target": "pingo-front-crm/app/utils/platform-state.ts",
+      "sha256": "d671ae06db06a7f01d986e0eb1c250ac4fc50f1f99d2651142058e7b78511f5b"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/app/utils/tenant-scope.ts",
+      "target": "pingo-front-crm/app/utils/tenant-scope.ts",
+      "sha256": "879919a59453ac60e3f3ace83a376da2cb2d615c42590086a968ddb3a84678a6"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/data/agent-changes.json",
+      "target": "pingo-front-crm/data/agent-changes.json",
+      "sha256": "3fe0c18d8f7fc2d447eac1badf0ade7208c8b4422fa6aef8b13f66018b41ff02"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/eslint.config.mjs",
+      "target": "pingo-front-crm/eslint.config.mjs",
+      "sha256": "98109ea85c9476ded99ee00c7544e657ef0887658ccea98f50c932de9708159e"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/nuxt.config.ts",
+      "target": "pingo-front-crm/nuxt.config.ts",
+      "sha256": "2e7088a2fde1e6c6787ec11abe381a4b8e0a33113e23dc9bd2567aabddaed54e"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/package-lock.json",
+      "target": "pingo-front-crm/package-lock.json",
+      "sha256": "89976a6676b0426a2ddf6f8aa5fb004b2e99e24e0c92c823ae2239b12a388389"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/package.json",
+      "target": "pingo-front-crm/package.json",
+      "sha256": "7b4f55b904afe0fb8b7b5cd8be3d631bdf494fa24445c0265337455d2e7ab949"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/public/brand/favicon-v1-16.png",
+      "target": "pingo-front-crm/public/brand/favicon-v1-16.png",
+      "sha256": "9989e0c62a2fc8d7581492b2db9427d4fc305b85d8a74d6043520849e829a3af"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/public/brand/favicon-v1-256.png",
+      "target": "pingo-front-crm/public/brand/favicon-v1-256.png",
+      "sha256": "2a851bd715e49d623d25b1c1c704214f75bd29f41e791c77ee81780d01164c32"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/public/brand/favicon-v1-32.png",
+      "target": "pingo-front-crm/public/brand/favicon-v1-32.png",
+      "sha256": "586e57f3e505d5f3a18aeda3fffd551192c2184d1cacbf820e6ef63806427d7d"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/public/brand/favicon-v1-48.png",
+      "target": "pingo-front-crm/public/brand/favicon-v1-48.png",
+      "sha256": "7e39c9c12af64faa09d892f1e32ef10daa75614c98642b7aa12ccb5b275b3d30"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/public/brand/favicon-v1.ico",
+      "target": "pingo-front-crm/public/brand/favicon-v1.ico",
+      "sha256": "0635352f461220fef8d66577cc02aaf5ec63cfa6434691d0fae7bbc3b662b54b"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/public/brand/pingofin-navbar-v1.png",
+      "target": "pingo-front-crm/public/brand/pingofin-navbar-v1.png",
+      "sha256": "30148dc8960fe2cf303cdde1f8fd8ebc7b17acd0a433176f27100725e555779d"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/public/brand/pingofin-navbar-v1@2x.png",
+      "target": "pingo-front-crm/public/brand/pingofin-navbar-v1@2x.png",
+      "sha256": "2a851bd715e49d623d25b1c1c704214f75bd29f41e791c77ee81780d01164c32"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/public/brand/pingofin-symbol-v1.png",
+      "target": "pingo-front-crm/public/brand/pingofin-symbol-v1.png",
+      "sha256": "da893e10aeb5977544dcfd88ee9dc666f27051c6a29d097811272805fd1a0f39"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/public/favicon.ico",
+      "target": "pingo-front-crm/public/favicon.ico",
+      "sha256": "0635352f461220fef8d66577cc02aaf5ec63cfa6434691d0fae7bbc3b662b54b"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/public/referencias/graficos/despesas-categoria-dark.svg",
+      "target": "pingo-front-crm/public/referencias/graficos/despesas-categoria-dark.svg",
+      "sha256": "6b5ab6095bbd7d9b0df9370661cc43d52159e4be6d3a92287a3d30eca0a80e35"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/public/referencias/graficos/despesas-categoria-light.svg",
+      "target": "pingo-front-crm/public/referencias/graficos/despesas-categoria-light.svg",
+      "sha256": "34e41476b7347726bce40989b54a374e8b2432cffa44a6d45947c6d2d712170e"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/public/referencias/graficos/fluxo-caixa-dark.svg",
+      "target": "pingo-front-crm/public/referencias/graficos/fluxo-caixa-dark.svg",
+      "sha256": "a78a4646709593c5544dc1b5606fe647de886c5bf048b60d87cb3f722e1db23e"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/public/referencias/graficos/fluxo-caixa-light.svg",
+      "target": "pingo-front-crm/public/referencias/graficos/fluxo-caixa-light.svg",
+      "sha256": "84c6c50c0ce9843cb6b6467ff6f35a877cf29b4bc17b55383757f7f9cd8226b3"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/public/referencias/graficos/recebimentos-semana-dark.svg",
+      "target": "pingo-front-crm/public/referencias/graficos/recebimentos-semana-dark.svg",
+      "sha256": "a0032318a6c7145c87045a8f2ddc6a02a0515abe9e32c295c4bc8908a0683a00"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/public/referencias/graficos/recebimentos-semana-light.svg",
+      "target": "pingo-front-crm/public/referencias/graficos/recebimentos-semana-light.svg",
+      "sha256": "6c6490e8859b2824ea66c293f25d93b7ca5f2f0b5fbe09206d704fb05fa11a9f"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/public/referencias/pingo/pingo-insight.png",
+      "target": "pingo-front-crm/public/referencias/pingo/pingo-insight.png",
+      "sha256": "7d046058bba2a6235bfad21ef56a23cba11619b243ceaa91ea3a22f8b3a92cef"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/public/referencias/pingo/pingo-normal.png",
+      "target": "pingo-front-crm/public/referencias/pingo/pingo-normal.png",
+      "sha256": "3e7e24df10b19b1c63381b09f86363fcd0fede1bfa6ae36ec169b1fa2bed3a90"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/public/referencias/pingo/pingo-pensando.png",
+      "target": "pingo-front-crm/public/referencias/pingo/pingo-pensando.png",
+      "sha256": "6c455092f6f354870cf31bffc7af349870880b0f219c8015af7b969e208c56c0"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/server/api/platform/agent-changes.get.ts",
+      "target": "pingo-front-crm/server/api/platform/agent-changes.get.ts",
+      "sha256": "5c1cca9697e84de35de2271eae1b467062b34379452511a69ebe7c9618312b3c"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/server/utils/master-session.ts",
+      "target": "pingo-front-crm/server/utils/master-session.ts",
+      "sha256": "0fded6955d4595141e8b3abe36289074d2f1fa655efcc1d28b8c593584f43822"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/shared/utils/agent-changes.ts",
+      "target": "pingo-front-crm/shared/utils/agent-changes.ts",
+      "sha256": "511707e679f2444674a2ef5df826488714836737489ba7c97e5c6aac030490e5"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/tests/agent-changes-gate.test.ts",
+      "target": "pingo-front-crm/tests/agent-changes-gate.test.ts",
+      "sha256": "0849267b0d5517e8a24ce59aeea53ff70056a5a2e8a461591650cd489ca4321b"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/tests/agent-changes.test.ts",
+      "target": "pingo-front-crm/tests/agent-changes.test.ts",
+      "sha256": "e97e48f6c4db27b1f7795768d915381ed8b229fa4826694c55ddf19e069828c8"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/tests/company-access.test.ts",
+      "target": "pingo-front-crm/tests/company-access.test.ts",
+      "sha256": "7fdb01708bd7a8775c06e4223bed34986e5dc1d223714dd161a1c9a9cf225d8d"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/tests/dashboard.test.ts",
+      "target": "pingo-front-crm/tests/dashboard.test.ts",
+      "sha256": "49ac82c21dbf2d3b741dcf70c6de6a7909c272e81c1f1ec8a7dce7882c8f7596"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/tests/finance.test.ts",
+      "target": "pingo-front-crm/tests/finance.test.ts",
+      "sha256": "154f3ffd8211e93d6f7f6f85263935f110ef225a433f38b60d20078db0e1cea0"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/tests/foundation.test.ts",
+      "target": "pingo-front-crm/tests/foundation.test.ts",
+      "sha256": "c1b6e887d142f4fb2f04b829515b98cd1f834fadb646491d727b785f32889669"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/tests/internal-kanban.test.ts",
+      "target": "pingo-front-crm/tests/internal-kanban.test.ts",
+      "sha256": "a63fb2c95b2861f15190e1df5315d2b2fb57eb3e0d43787a133bee95e903af58"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/tests/pingo-conversation.test.ts",
+      "target": "pingo-front-crm/tests/pingo-conversation.test.ts",
+      "sha256": "3a8dab49b6431aec78875ab3660f5277489664057d9cdac821e06e1f312a0aff"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/tests/platform.test.ts",
+      "target": "pingo-front-crm/tests/platform.test.ts",
+      "sha256": "958c10b0bab6e9748f1981e2e0c1edf6c59077675ea8bc9ecd2c1829b424c58a"
+    },
+    {
+      "source": "sistemafinanceiro/frontend/tsconfig.json",
+      "target": "pingo-front-crm/tsconfig.json",
+      "sha256": "665bfd2725ef0790a0173aacdd820037c4420f3df365ae3873953f8c953b9b08"
+    },
+    {
+      "source": "sistemafinanceiro/infra/mysql/init.sh",
+      "target": "pingo-back-crm/infra/mysql/init.sh",
+      "sha256": "e91dc06238d0a4d49aff703b4c9759651aa38d93e80df52ea9d6d389cdd7973f"
+    },
+    {
+      "source": "sistemafinanceiro/scripts/check-agent-changes.mjs",
+      "target": "pingo-front-crm/scripts/check-agent-changes.mjs",
+      "sha256": "e7ce99441bf7d3aa28230ab9f4ad4acb8fd6a2e6019dc36c2e9f7755d5a7d072"
+    },
+    {
+      "source": "sistemafinanceiro/scripts/composer.ps1",
+      "target": "pingo-back-crm/scripts/composer.ps1",
+      "sha256": "34e3708a2c507eaf5feb8c8b4ee69f59c7edbd3381868d808c1fc533bf1707a9"
+    },
+    {
+      "source": "sistemafinanceiro/scripts/configure-local.ps1",
+      "target": "pingo-back-crm/scripts/configure-local.ps1",
+      "sha256": "edd9049ff32174bde92b3549fe9b9e767795eba10f5b5afd9d5f90ba535cd595"
+    },
+    {
+      "source": "sistemafinanceiro/scripts/export-brand-assets.ps1",
+      "target": "pingo-doc/scripts/export-brand-assets.ps1",
+      "sha256": "e522bf9accec469c6ca56d6f0d7f587117e60399190056f94aaf91edf9d82ede"
+    },
+    {
+      "source": "sistemafinanceiro/scripts/generate-visual-references.mjs",
+      "target": "pingo-doc/scripts/generate-visual-references.mjs",
+      "sha256": "00be6b73e34f77522e4c1b72d7bd97ad4484a4b9429b92cd71cbba39a4016d6d"
+    },
+    {
+      "source": "sistemafinanceiro/scripts/npm.ps1",
+      "target": "pingo-front-crm/scripts/npm.ps1",
+      "sha256": "2587b0542940fc128a4c9de16e586b849b5af493a872b7687548ff1692b0ccec"
+    },
+    {
+      "source": "sistemafinanceiro/scripts/php.ps1",
+      "target": "pingo-back-crm/scripts/php.ps1",
+      "sha256": "cee5db7044677443a14193fcc49bd3649269634f8c12742bf572890327de1c23"
+    },
+    {
+      "source": "sistemafinanceiro/scripts/setup-node.ps1",
+      "target": "pingo-front-crm/scripts/setup-node.ps1",
+      "sha256": "7cce90795abc7b21148384ef12dc8bc1539b2c0362b9c701b088658ebe55fd41"
+    },
+    {
+      "source": "sistemafinanceiro/scripts/setup-tools.ps1",
+      "target": "pingo-back-crm/scripts/setup-tools.ps1",
+      "sha256": "18c0e839ad9ea7af33e23c4d53f15f7c5bf8e22896831a4a92937cc8f2086f5c"
+    },
+    {
+      "source": "sistemafinanceiro/scripts/sync-visual-references.ps1",
+      "target": "pingo-doc/scripts/sync-visual-references.ps1",
+      "sha256": "7946f162aa14c38067d53b8ae30e38932ceaa343e2a0f3fcbb51901aa58b3eae"
+    },
+    {
+      "source": "sistemafinanceiro/scripts/test-agent-change-access.mjs",
+      "target": "pingo-front-crm/scripts/test-agent-change-access.mjs",
+      "sha256": "d2af618d7f1a3fd49f8ed478ee16ef4c920df86edd3c9856807c4b4824ff2096"
+    },
+    {
+      "source": "pingolandingpage/.env.example",
+      "target": "pingo-landingpage/.env.example",
+      "sha256": "85954e8bf180c2a84df0cc81d71468545579dfedf6dd098b375715d7f8c66d2f"
+    },
+    {
+      "source": "pingolandingpage/.gitignore",
+      "target": "pingo-landingpage/.gitignore",
+      "sha256": "81582c44761ed81b9210349e770e55515c9fa96b175c6a2b465f2b1aab0fafc8"
+    },
+    {
+      "source": "pingolandingpage/.openai/hosting.json",
+      "target": "pingo-landingpage/.openai/hosting.json",
+      "sha256": "686e41aee6f5f8b7c0a50e029cfc3f3831d084c050ef96108321bd832d602cfe"
+    },
+    {
+      "source": "pingolandingpage/.prettierrc.json",
+      "target": "pingo-landingpage/.prettierrc.json",
+      "sha256": "9cdf6628de8244e2d10f436a224dd2e7800d7d702aa04bb69b2bd2f9b19cf359"
+    },
+    {
+      "source": "pingolandingpage/AGENTS.md",
+      "target": "pingo-landingpage/AGENTS.md",
+      "sha256": "1f6306b270506b16178cb79147f343639e263040ddfb49a15cdf936ab9587ac9"
+    },
+    {
+      "source": "pingolandingpage/DIRECAO_VISUAL_LANDING_PAGE.md",
+      "target": "pingo-landingpage/DIRECAO_VISUAL_LANDING_PAGE.md",
+      "sha256": "d5f8cfb5a481f8d1d7755a832132c1dee308968ca70dd3a76ccebd04891ff9f8"
+    },
+    {
+      "source": "pingolandingpage/README.md",
+      "target": "pingo-landingpage/README.md",
+      "sha256": "a938271a8e57bec8263bd0ac5dfffaee7edeacbe7466382722d0e32a55d4fa59"
+    },
+    {
+      "source": "pingolandingpage/THIRD_PARTY_NOTICES.md",
+      "target": "pingo-landingpage/THIRD_PARTY_NOTICES.md",
+      "sha256": "c2e13b8c443707eb522da9369c7040c0ce466a60c153ef41c2c7de729c33d8c4"
+    },
+    {
+      "source": "pingolandingpage/assets/brand/README.md",
+      "target": "pingo-landingpage/assets/brand/README.md",
+      "sha256": "b33073797bb60f7799ccb2089921b4bdedae3037513e4ebfd43259edbd57e0be"
+    },
+    {
+      "source": "pingolandingpage/assets/brand/exports/favicon-v1-16.png",
+      "target": "pingo-landingpage/assets/brand/exports/favicon-v1-16.png",
+      "sha256": "9989e0c62a2fc8d7581492b2db9427d4fc305b85d8a74d6043520849e829a3af"
+    },
+    {
+      "source": "pingolandingpage/assets/brand/exports/favicon-v1-256.png",
+      "target": "pingo-landingpage/assets/brand/exports/favicon-v1-256.png",
+      "sha256": "2a851bd715e49d623d25b1c1c704214f75bd29f41e791c77ee81780d01164c32"
+    },
+    {
+      "source": "pingolandingpage/assets/brand/exports/favicon-v1-32.png",
+      "target": "pingo-landingpage/assets/brand/exports/favicon-v1-32.png",
+      "sha256": "586e57f3e505d5f3a18aeda3fffd551192c2184d1cacbf820e6ef63806427d7d"
+    },
+    {
+      "source": "pingolandingpage/assets/brand/exports/favicon-v1-48.png",
+      "target": "pingo-landingpage/assets/brand/exports/favicon-v1-48.png",
+      "sha256": "7e39c9c12af64faa09d892f1e32ef10daa75614c98642b7aa12ccb5b275b3d30"
+    },
+    {
+      "source": "pingolandingpage/assets/brand/exports/favicon-v1.ico",
+      "target": "pingo-landingpage/assets/brand/exports/favicon-v1.ico",
+      "sha256": "0635352f461220fef8d66577cc02aaf5ec63cfa6434691d0fae7bbc3b662b54b"
+    },
+    {
+      "source": "pingolandingpage/assets/brand/exports/pingofin-navbar-v1.png",
+      "target": "pingo-landingpage/assets/brand/exports/pingofin-navbar-v1.png",
+      "sha256": "30148dc8960fe2cf303cdde1f8fd8ebc7b17acd0a433176f27100725e555779d"
+    },
+    {
+      "source": "pingolandingpage/assets/brand/exports/pingofin-navbar-v1@2x.png",
+      "target": "pingo-landingpage/assets/brand/exports/pingofin-navbar-v1@2x.png",
+      "sha256": "2a851bd715e49d623d25b1c1c704214f75bd29f41e791c77ee81780d01164c32"
+    },
+    {
+      "source": "pingolandingpage/assets/brand/pingofin-symbol-v1.png",
+      "target": "pingo-landingpage/assets/brand/pingofin-symbol-v1.png",
+      "sha256": "da893e10aeb5977544dcfd88ee9dc666f27051c6a29d097811272805fd1a0f39"
+    },
+    {
+      "source": "pingolandingpage/assets/brand/source.json",
+      "target": "pingo-landingpage/assets/brand/source.json",
+      "sha256": "b210e7f57d33e55489498596baf93baee696fc8dd46cd0c48401e5e06ce9cbdc"
+    },
+    {
+      "source": "pingolandingpage/assets/pingo/README.md",
+      "target": "pingo-landingpage/assets/pingo/README.md",
+      "sha256": "f954b15271cd838d665384b0eeb5c1ce97050746d872cff80389093bcfcc5d9a"
+    },
+    {
+      "source": "pingolandingpage/assets/pingo/manifest.json",
+      "target": "pingo-landingpage/assets/pingo/manifest.json",
+      "sha256": "8e85766a94d386d48a1ad9f335451a1335f1c26ecdf1763d5105374ad4992385"
+    },
+    {
+      "source": "pingolandingpage/assets/pingo/pingo-3d-acenando-v1.png",
+      "target": "pingo-landingpage/assets/pingo/pingo-3d-acenando-v1.png",
+      "sha256": "69ab5d7dbf158b71c62704a9e442efa5f1a5d0322fc8c61b00a485dc6f3de7c7"
+    },
+    {
+      "source": "pingolandingpage/assets/pingo/pingo-3d-acenando-v1.prompt.txt",
+      "target": "pingo-landingpage/assets/pingo/pingo-3d-acenando-v1.prompt.txt",
+      "sha256": "06dc0614ab923592fe27c0f39aa06b0b86d49b90be77ebad2f9d772b3d12e890"
+    },
+    {
+      "source": "pingolandingpage/assets/pingo/pingo-3d-analisando-v1.png",
+      "target": "pingo-landingpage/assets/pingo/pingo-3d-analisando-v1.png",
+      "sha256": "c725892e8a924f871e3a5a6ca0e7be9fe4949f04a1f935c9db16ede055034352"
+    },
+    {
+      "source": "pingolandingpage/assets/pingo/pingo-3d-analisando-v1.prompt.txt",
+      "target": "pingo-landingpage/assets/pingo/pingo-3d-analisando-v1.prompt.txt",
+      "sha256": "674a80977e569d086b8a7f600fb7632c3d0b9a4513f00b103eea3649d0c64130"
+    },
+    {
+      "source": "pingolandingpage/assets/pingo/pingo-3d-atencao-v1.png",
+      "target": "pingo-landingpage/assets/pingo/pingo-3d-atencao-v1.png",
+      "sha256": "e6c1a2802581079dd10909d2f31e1aa68ae63ec45bc4827b3470de5f719b8597"
+    },
+    {
+      "source": "pingolandingpage/assets/pingo/pingo-3d-atencao-v1.prompt.txt",
+      "target": "pingo-landingpage/assets/pingo/pingo-3d-atencao-v1.prompt.txt",
+      "sha256": "4938cda6ff6badfc2c97abe0bfa3a488fd51873cdaff6136a41fdd6571ebd36b"
+    },
+    {
+      "source": "pingolandingpage/assets/pingo/pingo-3d-comemorando-v1.png",
+      "target": "pingo-landingpage/assets/pingo/pingo-3d-comemorando-v1.png",
+      "sha256": "663b394582cd45096adffb8441d110fa5679c6576fe3962a0925bc19ea774aa0"
+    },
+    {
+      "source": "pingolandingpage/assets/pingo/pingo-3d-comemorando-v1.prompt.txt",
+      "target": "pingo-landingpage/assets/pingo/pingo-3d-comemorando-v1.prompt.txt",
+      "sha256": "af18a24d3747953bbfe0d59ae1eb362daf2e322dc114511c14b6fed050fd3eb0"
+    },
+    {
+      "source": "pingolandingpage/assets/pingo/pingo-3d-descansando-v1.png",
+      "target": "pingo-landingpage/assets/pingo/pingo-3d-descansando-v1.png",
+      "sha256": "ddc527a537651965b985f5db8eb388f2254a00de2777a643bce6f173032eab25"
+    },
+    {
+      "source": "pingolandingpage/assets/pingo/pingo-3d-descansando-v1.prompt.txt",
+      "target": "pingo-landingpage/assets/pingo/pingo-3d-descansando-v1.prompt.txt",
+      "sha256": "5db9a56e6218809fae678a38ae4f448a26029e46c662c7638d9f9f5018342a85"
+    },
+    {
+      "source": "pingolandingpage/assets/pingo/pingo-3d-explicando-v1.png",
+      "target": "pingo-landingpage/assets/pingo/pingo-3d-explicando-v1.png",
+      "sha256": "e3b866b0c215086a9652a01554b9edfcc8c7dd0e0230f589b016cbdd56e9eedf"
+    },
+    {
+      "source": "pingolandingpage/assets/pingo/pingo-3d-explicando-v1.prompt.txt",
+      "target": "pingo-landingpage/assets/pingo/pingo-3d-explicando-v1.prompt.txt",
+      "sha256": "93f635db62b9938fd60baa655b3574ad75b1f68e109558e64c59ba12e35670c2"
+    },
+    {
+      "source": "pingolandingpage/assets/pingo/pingo-3d-feliz-v1.png",
+      "target": "pingo-landingpage/assets/pingo/pingo-3d-feliz-v1.png",
+      "sha256": "875593ec0d8ce1b661ed0ad0197eadbd124a69882c8fb059a9650984d62ad82c"
+    },
+    {
+      "source": "pingolandingpage/assets/pingo/pingo-3d-feliz-v1.prompt.txt",
+      "target": "pingo-landingpage/assets/pingo/pingo-3d-feliz-v1.prompt.txt",
+      "sha256": "047ce23b34d8a758711fe06e853bdb036f88dc03354c22a814e3e230abb3c73b"
+    },
+    {
+      "source": "pingolandingpage/assets/pingo/pingo-3d-insight-v1.png",
+      "target": "pingo-landingpage/assets/pingo/pingo-3d-insight-v1.png",
+      "sha256": "30c59a822c2423240fb9fcacb0a6771c7879ac2ea57ea96b45d8ebd6053afe66"
+    },
+    {
+      "source": "pingolandingpage/assets/pingo/pingo-3d-insight-v1.prompt.txt",
+      "target": "pingo-landingpage/assets/pingo/pingo-3d-insight-v1.prompt.txt",
+      "sha256": "68ac2daa0e89ce14ba4ede32facc12249f76e1dd7cfe2acc930040ab1f018af5"
+    },
+    {
+      "source": "pingolandingpage/assets/pingo/pingo-3d-organizando-v1.png",
+      "target": "pingo-landingpage/assets/pingo/pingo-3d-organizando-v1.png",
+      "sha256": "7a1a4e23786d27c19f60c6b2542bf143b11c3de5cd4c8ec678cea7a6da3e630a"
+    },
+    {
+      "source": "pingolandingpage/assets/pingo/pingo-3d-organizando-v1.prompt.txt",
+      "target": "pingo-landingpage/assets/pingo/pingo-3d-organizando-v1.prompt.txt",
+      "sha256": "a33a9c2a82eb31a4754539e524870d810f8eb104a872623583e7dbc03a94f52c"
+    },
+    {
+      "source": "pingolandingpage/assets/pingo/pingo-3d-pensando-v1.png",
+      "target": "pingo-landingpage/assets/pingo/pingo-3d-pensando-v1.png",
+      "sha256": "e48b28be57c31691c57966155e20ac4c730f0dff00819b7c087a7d2a3036e583"
+    },
+    {
+      "source": "pingolandingpage/assets/pingo/pingo-3d-pensando-v1.prompt.txt",
+      "target": "pingo-landingpage/assets/pingo/pingo-3d-pensando-v1.prompt.txt",
+      "sha256": "0f1bc8cd7ab622a92c9999745a15eb16e940038f2ffd5ac0ae362a69f5c36e9d"
+    },
+    {
+      "source": "pingolandingpage/assets/product/cronograma.png",
+      "target": "pingo-landingpage/assets/product/cronograma.png",
+      "sha256": "8b2ae77d7909a25ac06efff52688ace2fefaa955d4da76f28c992cabdb24fed6"
+    },
+    {
+      "source": "pingolandingpage/assets/product/dashboard-escuro.png",
+      "target": "pingo-landingpage/assets/product/dashboard-escuro.png",
+      "sha256": "d3ac875f6f2c7c8ec30ae8d3bd82027c9278321863a7ddb82cf77e2bf619a87d"
+    },
+    {
+      "source": "pingolandingpage/assets/product/dashboard-mobile.png",
+      "target": "pingo-landingpage/assets/product/dashboard-mobile.png",
+      "sha256": "a4aa81317294aa3bdf3a4da60fab61f88c328a3656587465e2de082b6bda6978"
+    },
+    {
+      "source": "pingolandingpage/assets/product/dashboard.png",
+      "target": "pingo-landingpage/assets/product/dashboard.png",
+      "sha256": "fb3eed238c61ad0ded7c22366bde904db4c5b220e578f9f1837a477887c50fbe"
+    },
+    {
+      "source": "pingolandingpage/assets/product/despesas-mobile.png",
+      "target": "pingo-landingpage/assets/product/despesas-mobile.png",
+      "sha256": "fb031631fdca4896aaaef58c3f7df6c85fa70c14b0e6c4b8e965a24a038da79a"
+    },
+    {
+      "source": "pingolandingpage/assets/product/despesas.png",
+      "target": "pingo-landingpage/assets/product/despesas.png",
+      "sha256": "73bcfff6a5da18fd340e0df374bb8eec397f317a7dbe1e49315924c6b483c3fe"
+    },
+    {
+      "source": "pingolandingpage/assets/product/grafico.png",
+      "target": "pingo-landingpage/assets/product/grafico.png",
+      "sha256": "2515ed9762d17783bbd87c3c9d4b69bb553235099b5d8d171eb2547e576871f2"
+    },
+    {
+      "source": "pingolandingpage/assets/product/manifest.json",
+      "target": "pingo-landingpage/assets/product/manifest.json",
+      "sha256": "104dbb9b616be511f11f2f015fe92dec867b78ef32a4e5b7efd38c6f9178da1f"
+    },
+    {
+      "source": "pingolandingpage/assets/product/pagar-card.png",
+      "target": "pingo-landingpage/assets/product/pagar-card.png",
+      "sha256": "b624210e4ec30aa8335bbd80494ab16881a6e5fc867165f7eebb4e0bc6c45bac"
+    },
+    {
+      "source": "pingolandingpage/assets/product/parcelas-mobile.png",
+      "target": "pingo-landingpage/assets/product/parcelas-mobile.png",
+      "sha256": "2436aa59ba1453784a92cf23cbd22985322cf2471690221eb03d357d7f6ce7f3"
+    },
+    {
+      "source": "pingolandingpage/assets/product/parcelas.png",
+      "target": "pingo-landingpage/assets/product/parcelas.png",
+      "sha256": "9f78ca673b8d301e58c3d3dc8e01bdb36b6c292d3c0bbe58af883a7de19a84b0"
+    },
+    {
+      "source": "pingolandingpage/assets/product/pendencias-mobile.png",
+      "target": "pingo-landingpage/assets/product/pendencias-mobile.png",
+      "sha256": "e6efe7bbce4c29ca5ccae7e98133dbb6a46f064c07c2502948cf685d71439869"
+    },
+    {
+      "source": "pingolandingpage/assets/product/pendencias.png",
+      "target": "pingo-landingpage/assets/product/pendencias.png",
+      "sha256": "20b27ad65164942be4a3ac2f09afde49dd8f0cc872c388c4c495422ef66ab77a"
+    },
+    {
+      "source": "pingolandingpage/assets/product/receber-card.png",
+      "target": "pingo-landingpage/assets/product/receber-card.png",
+      "sha256": "293beb5be0924a67616d81b373c50994a83d85e6dd769eb45296b4a73758061a"
+    },
+    {
+      "source": "pingolandingpage/assets/product/recebido-card.png",
+      "target": "pingo-landingpage/assets/product/recebido-card.png",
+      "sha256": "55713be470e30748c9cbd00d7b861567bc1739602adc2e11b6e1a23948677f69"
+    },
+    {
+      "source": "pingolandingpage/assets/product/receitas-mobile.png",
+      "target": "pingo-landingpage/assets/product/receitas-mobile.png",
+      "sha256": "8568eaae104f05c342ad1a4f63c0792a6e2c50d8d56a98fd8ca2304b98ccf1f4"
+    },
+    {
+      "source": "pingolandingpage/assets/product/receitas.png",
+      "target": "pingo-landingpage/assets/product/receitas.png",
+      "sha256": "90c0d74254078b00c93eee087c68fadfaa52dae03121bc5248148d4bdb53af8d"
+    },
+    {
+      "source": "pingolandingpage/assets/product/relatorios-mobile.png",
+      "target": "pingo-landingpage/assets/product/relatorios-mobile.png",
+      "sha256": "b2efb4e4705e27b654168f2701896c635954d7ce611cc758407f918591ae7350"
+    },
+    {
+      "source": "pingolandingpage/assets/product/relatorios.png",
+      "target": "pingo-landingpage/assets/product/relatorios.png",
+      "sha256": "2e5a10a597bbe40810c2a3ba37b0d493ad25892c1d11df5ce4a1019f11e2498b"
+    },
+    {
+      "source": "pingolandingpage/assets/product/resultado-card.png",
+      "target": "pingo-landingpage/assets/product/resultado-card.png",
+      "sha256": "f4c598932a6ef0f070dd664eee5979d394b958006ea74ef25e28875f7fc0e857"
+    },
+    {
+      "source": "pingolandingpage/components.json",
+      "target": "pingo-landingpage/components.json",
+      "sha256": "f614e3af3a17e8d0655aa6f59dc229c97d1ebab0c9c38db928a30d6ffacb7e34"
+    },
+    {
+      "source": "pingolandingpage/docs/MEDIA_CATALOG.md",
+      "target": "pingo-landingpage/docs/MEDIA_CATALOG.md",
+      "sha256": "65b3db4f3613fcc336c9f0325a388ea857265b1d46feb2d178cdf692ec649d5f"
+    },
+    {
+      "source": "pingolandingpage/docs/capturas/landing-completa.png",
+      "target": "pingo-landingpage/docs/capturas/landing-completa.png",
+      "sha256": "b562f44e46032be0b4b78daa0f6d7b95cacc7ec6d894b4fe54e7ed2e1eb59597"
+    },
+    {
+      "source": "pingolandingpage/docs/capturas/landing-desktop.png",
+      "target": "pingo-landingpage/docs/capturas/landing-desktop.png",
+      "sha256": "88ddf2212ebb25eb861c8c298c42ad8a6b4aa0ada3a9fe4fe4a932627a26048e"
+    },
+    {
+      "source": "pingolandingpage/docs/capturas/landing-mobile.png",
+      "target": "pingo-landingpage/docs/capturas/landing-mobile.png",
+      "sha256": "8f668e856c4b6e2bbe2a730689bff72c17d1fac20fe4a0c126867518e7ae4fd3"
+    },
+    {
+      "source": "pingolandingpage/docs/capturas/real-product/clareza-1440.png",
+      "target": "pingo-landingpage/docs/capturas/real-product/clareza-1440.png",
+      "sha256": "eb2e802f98d0c08515219aee730b7831da6faf7f4c50b418999ed451f1607ec9"
+    },
+    {
+      "source": "pingolandingpage/docs/capturas/real-product/clareza-320.png",
+      "target": "pingo-landingpage/docs/capturas/real-product/clareza-320.png",
+      "sha256": "4a0f91f6a91f08cf73e2d7ac54d9af6104ca8f65fc82d90a47c16e829ac537f4"
+    },
+    {
+      "source": "pingolandingpage/docs/capturas/real-product/clareza-390.png",
+      "target": "pingo-landingpage/docs/capturas/real-product/clareza-390.png",
+      "sha256": "5fea515838101ec60576e103810324c989967202c4c3070393e0a55079d685fb"
+    },
+    {
+      "source": "pingolandingpage/docs/capturas/real-product/clareza-768.png",
+      "target": "pingo-landingpage/docs/capturas/real-product/clareza-768.png",
+      "sha256": "09783951e704b204afaf15bd119beaee860d7cdbaa493e0cff9cef00bb7839d2"
+    },
+    {
+      "source": "pingolandingpage/docs/capturas/real-product/como-funciona-1440.png",
+      "target": "pingo-landingpage/docs/capturas/real-product/como-funciona-1440.png",
+      "sha256": "c2bf945a58dc0481b75892f88e6ded9dc86b3f3bbf31ded3a588acb124237652"
+    },
+    {
+      "source": "pingolandingpage/docs/capturas/real-product/como-funciona-320.png",
+      "target": "pingo-landingpage/docs/capturas/real-product/como-funciona-320.png",
+      "sha256": "498c93f7162bad32d08c579a737c80d7879811ef7485148590c60414ea63e66c"
+    },
+    {
+      "source": "pingolandingpage/docs/capturas/real-product/como-funciona-390.png",
+      "target": "pingo-landingpage/docs/capturas/real-product/como-funciona-390.png",
+      "sha256": "591c09ecd8f1565bc4c18032e274b424e0a0bf087dfa147f43463bd59853310c"
+    },
+    {
+      "source": "pingolandingpage/docs/capturas/real-product/como-funciona-768.png",
+      "target": "pingo-landingpage/docs/capturas/real-product/como-funciona-768.png",
+      "sha256": "76ec53a1299c14af057c8320f31ec1c9f0f44d0ab94d1d1f8ab4396e06b27e5f"
+    },
+    {
+      "source": "pingolandingpage/docs/capturas/real-product/hero-1440.png",
+      "target": "pingo-landingpage/docs/capturas/real-product/hero-1440.png",
+      "sha256": "a20f02d6903803588b3323c7108422d9897f25a042392e1c648118c13281034a"
+    },
+    {
+      "source": "pingolandingpage/docs/capturas/real-product/hero-320.png",
+      "target": "pingo-landingpage/docs/capturas/real-product/hero-320.png",
+      "sha256": "03a08885b8ba5e36c84b5e2b63606fdea74739480a57f650c8b4eae29ba3345d"
+    },
+    {
+      "source": "pingolandingpage/docs/capturas/real-product/hero-390.png",
+      "target": "pingo-landingpage/docs/capturas/real-product/hero-390.png",
+      "sha256": "a90f2f6f63bd812390fcce7981152f7182a7f1058a6efd0df70b4b8d529adfaf"
+    },
+    {
+      "source": "pingolandingpage/docs/capturas/real-product/hero-768.png",
+      "target": "pingo-landingpage/docs/capturas/real-product/hero-768.png",
+      "sha256": "343a20e9d7e9527b49cf40ef6d5da1eed689812e77b77808d7e0ed6a17d8964f"
+    },
+    {
+      "source": "pingolandingpage/docs/capturas/real-product/produto-1440.png",
+      "target": "pingo-landingpage/docs/capturas/real-product/produto-1440.png",
+      "sha256": "0508699e39b6db6114b09ebe8feeec54c811bb27838000a66c40d5bc56cd6359"
+    },
+    {
+      "source": "pingolandingpage/docs/capturas/real-product/produto-320.png",
+      "target": "pingo-landingpage/docs/capturas/real-product/produto-320.png",
+      "sha256": "7f58192e0930ed3ed154aac48aa8eed5929893c2212e4deb82c5519a5a883068"
+    },
+    {
+      "source": "pingolandingpage/docs/capturas/real-product/produto-390.png",
+      "target": "pingo-landingpage/docs/capturas/real-product/produto-390.png",
+      "sha256": "7183e19ff9200f45b87e7efdc38f44e5d483fac914e3995f1e4889bb870c745d"
+    },
+    {
+      "source": "pingolandingpage/docs/capturas/real-product/produto-768.png",
+      "target": "pingo-landingpage/docs/capturas/real-product/produto-768.png",
+      "sha256": "2ff948ac97dd4c2bf4f6a27c223e06bf572f411a8d3a9f92a7df0e198bf59941"
+    },
+    {
+      "source": "pingolandingpage/docs/capturas/real-product/reports-1440.png",
+      "target": "pingo-landingpage/docs/capturas/real-product/reports-1440.png",
+      "sha256": "c086375d6fdb68540de23ddfa85471c5a8993602f5613ed6764762f5beb9336a"
+    },
+    {
+      "source": "pingolandingpage/docs/capturas/real-product/reports-320.png",
+      "target": "pingo-landingpage/docs/capturas/real-product/reports-320.png",
+      "sha256": "98869d3c77c95dcaed3659bfd670eb42ee0e577f2e1f24e7cfbbe5d53d56e357"
+    },
+    {
+      "source": "pingolandingpage/docs/capturas/real-product/reports-390.png",
+      "target": "pingo-landingpage/docs/capturas/real-product/reports-390.png",
+      "sha256": "dab5f3611b2572a218ffbcc3636fa94e3315a6a44e47f71909cb9eb1f4184dae"
+    },
+    {
+      "source": "pingolandingpage/docs/capturas/real-product/reports-768.png",
+      "target": "pingo-landingpage/docs/capturas/real-product/reports-768.png",
+      "sha256": "94ec280161e45934d844d1d0239aa641cfb6549fe723c502906d92c617924a89"
+    },
+    {
+      "source": "pingolandingpage/index.html",
+      "target": "pingo-landingpage/index.html",
+      "sha256": "dd6a7059885b5fbe41508e229508df2d61f3d09abead95d3772063ae585b4e6b"
+    },
+    {
+      "source": "pingolandingpage/package-lock.json",
+      "target": "pingo-landingpage/package-lock.json",
+      "sha256": "245b4c70cf82e57d7a45e50f73746f14393bc77db15fab76971b3981d5df1d89"
+    },
+    {
+      "source": "pingolandingpage/package.json",
+      "target": "pingo-landingpage/package.json",
+      "sha256": "d089cf1fcd1d90873a37bfdc6eceed53248c9a98028d9e0300fb50a6af09b5d8"
+    },
+    {
+      "source": "pingolandingpage/public/brand/favicon-v1-16.png",
+      "target": "pingo-landingpage/public/brand/favicon-v1-16.png",
+      "sha256": "9989e0c62a2fc8d7581492b2db9427d4fc305b85d8a74d6043520849e829a3af"
+    },
+    {
+      "source": "pingolandingpage/public/brand/favicon-v1-256.png",
+      "target": "pingo-landingpage/public/brand/favicon-v1-256.png",
+      "sha256": "2a851bd715e49d623d25b1c1c704214f75bd29f41e791c77ee81780d01164c32"
+    },
+    {
+      "source": "pingolandingpage/public/brand/favicon-v1-32.png",
+      "target": "pingo-landingpage/public/brand/favicon-v1-32.png",
+      "sha256": "586e57f3e505d5f3a18aeda3fffd551192c2184d1cacbf820e6ef63806427d7d"
+    },
+    {
+      "source": "pingolandingpage/public/brand/favicon-v1-48.png",
+      "target": "pingo-landingpage/public/brand/favicon-v1-48.png",
+      "sha256": "7e39c9c12af64faa09d892f1e32ef10daa75614c98642b7aa12ccb5b275b3d30"
+    },
+    {
+      "source": "pingolandingpage/public/brand/favicon-v1.ico",
+      "target": "pingo-landingpage/public/brand/favicon-v1.ico",
+      "sha256": "0635352f461220fef8d66577cc02aaf5ec63cfa6434691d0fae7bbc3b662b54b"
+    },
+    {
+      "source": "pingolandingpage/public/brand/pingofin-navbar-v1.png",
+      "target": "pingo-landingpage/public/brand/pingofin-navbar-v1.png",
+      "sha256": "30148dc8960fe2cf303cdde1f8fd8ebc7b17acd0a433176f27100725e555779d"
+    },
+    {
+      "source": "pingolandingpage/public/brand/pingofin-navbar-v1@2x.png",
+      "target": "pingo-landingpage/public/brand/pingofin-navbar-v1@2x.png",
+      "sha256": "2a851bd715e49d623d25b1c1c704214f75bd29f41e791c77ee81780d01164c32"
+    },
+    {
+      "source": "pingolandingpage/public/brand/pingofin-symbol-v1.png",
+      "target": "pingo-landingpage/public/brand/pingofin-symbol-v1.png",
+      "sha256": "da893e10aeb5977544dcfd88ee9dc666f27051c6a29d097811272805fd1a0f39"
+    },
+    {
+      "source": "pingolandingpage/public/favicon.ico",
+      "target": "pingo-landingpage/public/favicon.ico",
+      "sha256": "0635352f461220fef8d66577cc02aaf5ec63cfa6434691d0fae7bbc3b662b54b"
+    },
+    {
+      "source": "pingolandingpage/public/media/pingo-3d-acenando-v1.png",
+      "target": "pingo-landingpage/public/media/pingo-3d-acenando-v1.png",
+      "sha256": "69ab5d7dbf158b71c62704a9e442efa5f1a5d0322fc8c61b00a485dc6f3de7c7"
+    },
+    {
+      "source": "pingolandingpage/public/media/product/cronograma.webp",
+      "target": "pingo-landingpage/public/media/product/cronograma.webp",
+      "sha256": "59dd674ed34480a252e48e290aa409fb62fcd01bc6159ce3baf2515430491785"
+    },
+    {
+      "source": "pingolandingpage/public/media/product/dashboard-escuro.webp",
+      "target": "pingo-landingpage/public/media/product/dashboard-escuro.webp",
+      "sha256": "98fe621f2bdd4a0341c88db695e6c4e35cef354479a89ce4591e4c7d8297182f"
+    },
+    {
+      "source": "pingolandingpage/public/media/product/dashboard-mobile.webp",
+      "target": "pingo-landingpage/public/media/product/dashboard-mobile.webp",
+      "sha256": "79cf4fdc589f859b8234beebe1f64adf58f54e6a43d81cae3df14c3629347995"
+    },
+    {
+      "source": "pingolandingpage/public/media/product/dashboard.webp",
+      "target": "pingo-landingpage/public/media/product/dashboard.webp",
+      "sha256": "8d675d18ae07fbf53574c3bb989d36dd5ea158b21d47297019d73d49f1738df3"
+    },
+    {
+      "source": "pingolandingpage/public/media/product/despesas-mobile.webp",
+      "target": "pingo-landingpage/public/media/product/despesas-mobile.webp",
+      "sha256": "92c37edf32c7f12d845ea3887dc418304686dd18ad359617a83ce61ac75fdc83"
+    },
+    {
+      "source": "pingolandingpage/public/media/product/despesas.webp",
+      "target": "pingo-landingpage/public/media/product/despesas.webp",
+      "sha256": "d32d434d81657761b6e42ebfb8ad0261db0eaef0f9f0a4d0550db9ebacfe18c5"
+    },
+    {
+      "source": "pingolandingpage/public/media/product/grafico.webp",
+      "target": "pingo-landingpage/public/media/product/grafico.webp",
+      "sha256": "19df718797f4fce7e7072fcd74a229caba9a3a33f88cab14f27d321465a316b6"
+    },
+    {
+      "source": "pingolandingpage/public/media/product/pagar-card.webp",
+      "target": "pingo-landingpage/public/media/product/pagar-card.webp",
+      "sha256": "5994aeaa4b6757e2772bea53274bf35b5916938c3e5449c9d32dd69751863041"
+    },
+    {
+      "source": "pingolandingpage/public/media/product/parcelas-mobile.webp",
+      "target": "pingo-landingpage/public/media/product/parcelas-mobile.webp",
+      "sha256": "a7c1064041ff3d3cbb2d7df8a90b3cca6b310d4aab65a5b66b7acfe5df7894b9"
+    },
+    {
+      "source": "pingolandingpage/public/media/product/parcelas.webp",
+      "target": "pingo-landingpage/public/media/product/parcelas.webp",
+      "sha256": "42224db076ee4353d940355008d0941b3e9463423dc4729c580c7c3196f67d81"
+    },
+    {
+      "source": "pingolandingpage/public/media/product/pendencias-mobile.webp",
+      "target": "pingo-landingpage/public/media/product/pendencias-mobile.webp",
+      "sha256": "b821b0e0b59294095486fc65f7014044887fc124e6fb125c3191cab91c7eab88"
+    },
+    {
+      "source": "pingolandingpage/public/media/product/pendencias.webp",
+      "target": "pingo-landingpage/public/media/product/pendencias.webp",
+      "sha256": "567657145eca41f95f6c4a3796566ce027c2e8d2db3538c2cc9a16b27dbf6ef9"
+    },
+    {
+      "source": "pingolandingpage/public/media/product/receber-card.webp",
+      "target": "pingo-landingpage/public/media/product/receber-card.webp",
+      "sha256": "f59fb4450a4102efb3c0aebfb9722be3ee59e7797d0fdcab7bc54932dcf19aa6"
+    },
+    {
+      "source": "pingolandingpage/public/media/product/recebido-card.webp",
+      "target": "pingo-landingpage/public/media/product/recebido-card.webp",
+      "sha256": "ab56fa7bdaba39f8fa66918463ece5d66567b2e630ed3facaf87e8fe78bb7035"
+    },
+    {
+      "source": "pingolandingpage/public/media/product/receitas-mobile.webp",
+      "target": "pingo-landingpage/public/media/product/receitas-mobile.webp",
+      "sha256": "bfaa92b138648125c2540d67923fc734d8b7ee99ac0221042fb43c223b23a6b1"
+    },
+    {
+      "source": "pingolandingpage/public/media/product/receitas.webp",
+      "target": "pingo-landingpage/public/media/product/receitas.webp",
+      "sha256": "28dbb4931d44294414f36225d81c83aa7443624fc9ec836a61997b8903a38337"
+    },
+    {
+      "source": "pingolandingpage/public/media/product/relatorios-mobile.webp",
+      "target": "pingo-landingpage/public/media/product/relatorios-mobile.webp",
+      "sha256": "e8ef52b9c1fb7ad33a79642155b9c905ff803753e6c74e7e808a9667516caf94"
+    },
+    {
+      "source": "pingolandingpage/public/media/product/relatorios.webp",
+      "target": "pingo-landingpage/public/media/product/relatorios.webp",
+      "sha256": "ac47b2f90cf74cc671c6a47ea7567ab81cc4a3db13124c4bd5f6317d1386c01f"
+    },
+    {
+      "source": "pingolandingpage/public/media/product/resultado-card.webp",
+      "target": "pingo-landingpage/public/media/product/resultado-card.webp",
+      "sha256": "48a70cc93149dcf19fa5e5135ac1573e12d15449efbf4968f4ff1a742c1cfb96"
+    },
+    {
+      "source": "pingolandingpage/src/App.vue",
+      "target": "pingo-landingpage/src/App.vue",
+      "sha256": "0a657c045974d9137c710817a81a82949ecab58641c127b7f56a29356793673a"
+    },
+    {
+      "source": "pingolandingpage/src/components/MediaSlot.vue",
+      "target": "pingo-landingpage/src/components/MediaSlot.vue",
+      "sha256": "7d587a70cc220a8a2ec79694fd512952d3932e54918b6b695f166c0c61b66150"
+    },
+    {
+      "source": "pingolandingpage/src/components/Rail.vue",
+      "target": "pingo-landingpage/src/components/Rail.vue",
+      "sha256": "79950b5383425d3b028087a755bc7944480382fecd0e6066a492fd929c0709ad"
+    },
+    {
+      "source": "pingolandingpage/src/components/ui/accordion/AccordionContent.vue",
+      "target": "pingo-landingpage/src/components/ui/accordion/AccordionContent.vue",
+      "sha256": "f7e8b876661067b32e188ca1653539662163199f6805f6f3d7643fc36e2f8583"
+    },
+    {
+      "source": "pingolandingpage/src/components/ui/accordion/AccordionItem.vue",
+      "target": "pingo-landingpage/src/components/ui/accordion/AccordionItem.vue",
+      "sha256": "ec00e1e0c39d59c2ac577079788ed43e16ec931ea69b71ea8c7759d7d301c2bd"
+    },
+    {
+      "source": "pingolandingpage/src/components/ui/accordion/AccordionTrigger.vue",
+      "target": "pingo-landingpage/src/components/ui/accordion/AccordionTrigger.vue",
+      "sha256": "3812c6829f5bdb96d7a9ddd19c9a7f9910d1bf4cd821ef90ed7ab13e8fa848a5"
+    },
+    {
+      "source": "pingolandingpage/src/components/ui/accordion/index.ts",
+      "target": "pingo-landingpage/src/components/ui/accordion/index.ts",
+      "sha256": "a2a552be7cdf7b4756f7327295bc94a70e3d786473e8b33758844cc1f573e2d3"
+    },
+    {
+      "source": "pingolandingpage/src/components/ui/button/Button.vue",
+      "target": "pingo-landingpage/src/components/ui/button/Button.vue",
+      "sha256": "eb0d050c8d191da6d03e5fb542a1f37ebca6ce8d4328f22c062b582d1fe49c8e"
+    },
+    {
+      "source": "pingolandingpage/src/components/ui/button/index.ts",
+      "target": "pingo-landingpage/src/components/ui/button/index.ts",
+      "sha256": "0287653c3538726c95f417a73a1c87bc2ea9a049eef2911fa5308adb6e8b3c22"
+    },
+    {
+      "source": "pingolandingpage/src/components/ui/tabs/Tabs.vue",
+      "target": "pingo-landingpage/src/components/ui/tabs/Tabs.vue",
+      "sha256": "e426468631fbc656634439fbfc7eb51d71e556c4772067ceb1c6e8ae45d12cfb"
+    },
+    {
+      "source": "pingolandingpage/src/components/ui/tabs/TabsContent.vue",
+      "target": "pingo-landingpage/src/components/ui/tabs/TabsContent.vue",
+      "sha256": "cf91fb7eb6f6c74623158dea98aa0346b63003e0cf81b383cad26e3cc314a426"
+    },
+    {
+      "source": "pingolandingpage/src/components/ui/tabs/TabsList.vue",
+      "target": "pingo-landingpage/src/components/ui/tabs/TabsList.vue",
+      "sha256": "f9fe666b937246c5c112d013bbc8554750349248239657a13314093e66c9fe50"
+    },
+    {
+      "source": "pingolandingpage/src/components/ui/tabs/TabsTrigger.vue",
+      "target": "pingo-landingpage/src/components/ui/tabs/TabsTrigger.vue",
+      "sha256": "3fffd3e3dd6fc9ef5bdecd2a67bd8f5988e139f586746712b35dd2317c325dd9"
+    },
+    {
+      "source": "pingolandingpage/src/components/ui/tabs/index.ts",
+      "target": "pingo-landingpage/src/components/ui/tabs/index.ts",
+      "sha256": "5fb16584e6e39390772e71d4067d4242e46bfe7af3960efda73f12563c0b9681"
+    },
+    {
+      "source": "pingolandingpage/src/composables/useLandingMotion.ts",
+      "target": "pingo-landingpage/src/composables/useLandingMotion.ts",
+      "sha256": "42664ec932d681e78b314f7f445aa11fa8b52c28153a9827815fbd16f856d9bf"
+    },
+    {
+      "source": "pingolandingpage/src/config/media.ts",
+      "target": "pingo-landingpage/src/config/media.ts",
+      "sha256": "4be60444a8ad8a88793569e4a8407a841cfa4688d339c014c8a2b02c1fe53c54"
+    },
+    {
+      "source": "pingolandingpage/src/lib/utils.ts",
+      "target": "pingo-landingpage/src/lib/utils.ts",
+      "sha256": "352c1b01069ec8a78b65062328bb86fbbfa223c0b0344d6149f30717c42c48fb"
+    },
+    {
+      "source": "pingolandingpage/src/main.ts",
+      "target": "pingo-landingpage/src/main.ts",
+      "sha256": "cf5ade3b12635be8feee1cecf22f8d4e60c3079b49d01da5e02225bb2ae4c44a"
+    },
+    {
+      "source": "pingolandingpage/src/styles.css",
+      "target": "pingo-landingpage/src/styles.css",
+      "sha256": "356fc470af203abdaa96f9eeb73ca5764bf3be08aed48c41db7d73266f14a433"
+    },
+    {
+      "source": "pingolandingpage/tsconfig.json",
+      "target": "pingo-landingpage/tsconfig.json",
+      "sha256": "f78234ac56232ed447dab064dbb577d34a3ddfc12c1af9e04be8f7b30a994751"
+    },
+    {
+      "source": "pingolandingpage/vite.config.ts",
+      "target": "pingo-landingpage/vite.config.ts",
+      "sha256": "02ca1eb50b127ec4f96ec5359112c8fdf0b79e358b87da277b9329f1cb4fa6e5"
+    },
+    {
+      "source": "sistemafinanceiro/.gitattributes",
+      "target": "pingo-front-crm/.gitattributes",
+      "sha256": "9fcfac6559a508e2d32ce9b5639ab7c76d86bec889fb2ed32d0203908027855d"
+    },
+    {
+      "source": "sistemafinanceiro/.gitattributes",
+      "target": "pingo-back-crm/.gitattributes",
+      "sha256": "9fcfac6559a508e2d32ce9b5639ab7c76d86bec889fb2ed32d0203908027855d"
+    },
+    {
+      "source": "sistemafinanceiro/.gitattributes",
+      "target": "pingo-doc/.gitattributes",
+      "sha256": "9fcfac6559a508e2d32ce9b5639ab7c76d86bec889fb2ed32d0203908027855d"
+    },
+    {
+      "source": "sistemafinanceiro/.gitattributes",
+      "target": "pingo-landingpage/.gitattributes",
+      "sha256": "9fcfac6559a508e2d32ce9b5639ab7c76d86bec889fb2ed32d0203908027855d"
+    },
+    {
+      "source": "sistemafinanceiro/scripts/setup-node.ps1",
+      "target": "pingo-landingpage/scripts/setup-node.ps1",
+      "sha256": "7cce90795abc7b21148384ef12dc8bc1539b2c0362b9c701b088658ebe55fd41"
+    },
+    {
+      "source": "sistemafinanceiro/scripts/setup-node.ps1",
+      "target": "pingo-doc/scripts/setup-node.ps1",
+      "sha256": "7cce90795abc7b21148384ef12dc8bc1539b2c0362b9c701b088658ebe55fd41"
+    }
+  ]
+}

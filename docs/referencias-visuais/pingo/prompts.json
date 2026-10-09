@@ -1,0 +1,20 @@
+{
+  "tool": "image_gen built-in",
+  "reference": "docs/assets/pingo-referencia.jpg",
+  "transparent_background": true,
+  "status": "exemplos para validação",
+  "variants": [
+    {
+      "name": "pingo-normal",
+      "prompt": "Use case: identity-preserve. Input image: official Pingo identity board, reference only. Create ONE individual isolated mascot asset for PingoFin. Faithfully preserve the SMALL bottom-row character design: a friendly plump purple teardrop body, curled yellow droplet tip, thick dark purple outlines, short arms and feet, large expressive eyes, simple flat 2D illustration. Match proportions, face and yellow tip closely; this is the same character, not a redesign. Clean flat vector-like finish, no 3D, no texture, no gradients. Center complete full body with all extremities visible and generous transparent padding. Actual transparent background, no text, labels, logos, collage, panels, scenery or watermark. Intended for small UI avatar/empty state use. Pose: neutral friendly welcome, standing upright with both feet grounded, eyes open, small warm smile, one hand gently raised in a hello. No props."
+    },
+    {
+      "name": "pingo-pensando",
+      "prompt": "Use case: identity-preserve. Input image: official Pingo identity board, reference only. Create ONE individual isolated mascot asset for PingoFin. Faithfully preserve the SMALL bottom-row character design: a friendly plump purple teardrop body, curled yellow droplet tip, thick dark purple outlines, short arms and feet, large expressive eyes, simple flat 2D illustration. Match proportions, face and yellow tip closely; this is the same character, not a redesign. Clean flat vector-like finish, no 3D, no texture, no gradients. Center complete full body with all extremities visible and generous transparent padding. Actual transparent background, no text, labels, logos, collage, panels, scenery or watermark. Intended for small UI avatar/empty state use. Pose: thoughtful, one hand touching chin, looking slightly up, curious gentle expression like the bottom-row Pensando reference. No question mark or props."
+    },
+    {
+      "name": "pingo-insight",
+      "prompt": "Use case: identity-preserve. Input image: official Pingo identity board, reference only. Create ONE individual isolated mascot asset for PingoFin. Faithfully preserve the SMALL bottom-row character design: a friendly plump purple teardrop body, curled yellow droplet tip, thick dark purple outlines, short arms and feet, large expressive eyes, simple flat 2D illustration. Match proportions, face and yellow tip closely; this is the same character, not a redesign. Clean flat vector-like finish, no 3D, no texture, no gradients. Center complete full body with all extremities visible and generous transparent padding. Actual transparent background, no text, labels, logos, collage, panels, scenery or watermark. Intended for small UI avatar/empty state use. Pose: delighted discovery, open eyes and small happy smile, holding a simple small yellow lightbulb in one raised hand, similar to bottom-row Insight reference. No extra background objects."
+    }
+  ]
+}

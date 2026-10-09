@@ -1,0 +1,70 @@
+{
+  "occurredAt": "2026-10-09T15:51:00.254Z",
+  "command": "npm audit --json",
+  "repository": "pingo-front-crm",
+  "counts": {
+    "info": 0,
+    "low": 0,
+    "moderate": 0,
+    "high": 8,
+    "critical": 6,
+    "total": 14
+  },
+  "advisories": [
+    {
+      "name": "@simple-git/argv-parser",
+      "severity": "critical",
+      "advisories": [
+        {
+          "title": "simple-git: `VISUAL` editor environment variable is omitted from unsafe editor detection",
+          "url": "https://github.com/advisories/GHSA-v5rq-49vh-5v5c",
+          "range": "<2.0.1"
+        }
+      ]
+    },
+    {
+      "name": "braces",
+      "severity": "high",
+      "advisories": [
+        {
+          "title": "braces vulnerable to stack-exhaustion denial of service through deeply nested patterns",
+          "url": "https://github.com/advisories/GHSA-vfj7-8cjw-p6xm",
+          "range": "<=3.0.3"
+        }
+      ]
+    },
+    {
+      "name": "node-forge",
+      "severity": "high",
+      "advisories": [
+        {
+          "title": "node-forge RSA PKCS#1 v1.5 signature verification accepts extra nested DigestAlgorithm elements",
+          "url": "https://github.com/advisories/GHSA-86w9-cpqp-85rv",
+          "range": "<=1.4.0"
+        }
+      ]
+    },
+    {
+      "name": "simple-git",
+      "severity": "critical",
+      "advisories": [
+        {
+          "title": "simple-git unsafe-operation guard does not block trailer command configuration",
+          "url": "https://github.com/advisories/GHSA-x6jw-m9v5-85vh",
+          "range": ">=3.15.0 <4.0.1"
+        },
+        {
+          "title": "simple-git allows command execution through unblocked Git configuration includes",
+          "url": "https://github.com/advisories/GHSA-g4wm-2vf7-vfgr",
+          "range": "<=3.36.0"
+        },
+        {
+          "title": "simple-git: unsafe-operations plugin bypass via git long-option abbreviation (--receive-p/--exe) -> command execution (residual of CVE-2026-28291)",
+          "url": "https://github.com/advisories/GHSA-858h-whjf-mvg5",
+          "range": "<=3.36.0"
+        }
+      ]
+    }
+  ],
+  "limitation": "Contagens incluem dependências transitivas e propagação dos avisos. Não equivalem a 14 falhas independentes nem comprovam exploração na aplicação. Não houve alteração de versões nesta migração."
+}

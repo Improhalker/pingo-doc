@@ -1,0 +1,125 @@
+{
+  "project": "PingoFin",
+  "date": "2026-10-05",
+  "status": "exemplos visuais para validação",
+  "gallery": "/dev/referencias",
+  "assistant": "/assistente",
+  "aiIntegration": false,
+  "catalog": "../pingo-front-crm/app/config/visual-references.ts",
+  "officialPingo": "docs/assets/pingo-referencia.jpg",
+  "pingo": [
+    {
+      "state": "normal",
+      "source": "pingo/pingo-normal.png",
+      "public": "/referencias/pingo/pingo-normal.png",
+      "format": "png",
+      "transparent": true,
+      "tool": "image_gen built-in",
+      "editable": "substituir PNG ou regenerar com prompt",
+      "dimensions": {
+        "width": 1374,
+        "height": 1145
+      }
+    },
+    {
+      "state": "pensando",
+      "source": "pingo/pingo-pensando.png",
+      "public": "/referencias/pingo/pingo-pensando.png",
+      "format": "png",
+      "transparent": true,
+      "tool": "image_gen built-in",
+      "editable": "substituir PNG ou regenerar com prompt",
+      "dimensions": {
+        "width": 1302,
+        "height": 1208
+      }
+    },
+    {
+      "state": "insight",
+      "source": "pingo/pingo-insight.png",
+      "public": "/referencias/pingo/pingo-insight.png",
+      "format": "png",
+      "transparent": true,
+      "tool": "image_gen built-in",
+      "editable": "substituir PNG ou regenerar com prompt",
+      "dimensions": {
+        "width": 1312,
+        "height": 1199
+      }
+    }
+  ],
+  "charts": {
+    "generator": "scripts/generate-visual-references.mjs",
+    "format": "svg",
+    "themes": [
+      "light",
+      "dark"
+    ],
+    "ids": [
+      "fluxo-caixa",
+      "recebimentos-semana",
+      "despesas-categoria"
+    ],
+    "data": "synthetic",
+    "independentDatasets": true,
+    "sourcePattern": "graficos/{id}-{theme}.svg",
+    "publicPattern": "/referencias/graficos/{id}-{theme}.svg"
+  },
+  "horizon": {
+    "author": "Simmmple",
+    "license": "CC BY 4.0 — origem pública Horizon Community",
+    "fileKey": "GvdP43pVkG1wNryDPczmlY",
+    "url": "https://www.figma.com/design/GvdP43pVkG1wNryDPczmlY/Horizon-UI---Trendiest-Open-Source-Admin-Template-Dashboard--Community-?node-id=201-1804",
+    "page": "0:1",
+    "exports": [
+      {
+        "nodeId": "201:1804",
+        "file": "horizon/horizon-dashboard-light.png",
+        "name": "Main Dashboard"
+      },
+      {
+        "nodeId": "201:1918",
+        "file": "horizon/horizon-barras.png",
+        "name": "Medium_Traffic"
+      },
+      {
+        "nodeId": "201:1949",
+        "file": "horizon/horizon-distribuicao.png",
+        "name": "Medium_Pie Chart"
+      }
+    ],
+    "lineChart": {
+      "nodeId": "201:1835",
+      "name": "Large_Double Chart2",
+      "evidence": "horizon/horizon-dashboard-light.png"
+    },
+    "modifiedExternalFile": false,
+    "limitation": "Limite de chamadas do plano impediu exportações adicionais.",
+    "navbarAttempt": {
+      "nodeId": "201:2093",
+      "date": "2026-10-05",
+      "tool": "Figma MCP get_screenshot",
+      "result": "Não consultado: limite de chamadas do plano Starter do conector. A navbar da direção B foi composta a partir da exportação local 201:1804 e do DESIGN_SYSTEM; nenhuma medida foi atribuída ao nó."
+    }
+  },
+  "captures": [
+    "capturas/galeria-light.png",
+    "capturas/galeria-dark.png",
+    "capturas/galeria-mobile-dark.png",
+    "capturas/pingo-interface.png",
+    "capturas/propostas/a-desktop-claro.jpg",
+    "capturas/propostas/b-desktop-claro.jpg",
+    "capturas/propostas/a-mobile-claro.jpg",
+    "capturas/propostas/b-mobile-claro.jpg",
+    "capturas/propostas/a-desktop-escuro.jpg",
+    "capturas/propostas/b-desktop-escuro.jpg",
+    "capturas/refinamento/antes/",
+    "capturas/refinamento/depois/"
+  ],
+  "designDirection": {
+    "chosen": "B · Acolhedora",
+    "date": "2026-10-05",
+    "record": "DESIGN_SYSTEM.md §16",
+    "note": "Capturas de desktop foram feitas em viewport 1440×900 e gravadas pela ferramenta em 800×500; mobile em 375×812 e 320×700."
+  }
+}

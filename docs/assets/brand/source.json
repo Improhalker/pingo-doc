@@ -1,0 +1,25 @@
+{
+  "project": "PingoFin",
+  "version": "v1",
+  "selectedAt": "2026-10-06",
+  "selection": "Usuário escolheu a primeira proposta: olhos expressivos e sorriso amigável.",
+  "master": "pingofin-symbol-v1.png",
+  "dimensions": { "width": 1280, "height": 1280 },
+  "sha256": "DA893E10AEB5977544DCFD88EE9DC666F27051C6A29D097811272805FD1A0F39",
+  "tool": "image_gen built-in",
+  "transparent_background": true,
+  "references": [
+    "docs/assets/pingo-referencia.jpg",
+    "docs/referencias-visuais/pingo/pingo-normal.png"
+  ],
+  "prompt": "Create ONE minimalist brand symbol proposal for PingoFin by synthesizing the supplied approved Pingo mascot. Image 1 is the official character reference board; image 2 shows the individual character clearly. Use these references for identity and silhouette only, not their illustration rendering or extra details. Deliver a single isolated centered symbol on a genuinely transparent square canvas, with balanced clear margins, occupying approximately 80% of the canvas. No text or typography anywhere. Preserve the recognizable rounded purple droplet body and its distinctive softly curled, hooked yellow top: the yellow area follows the curved tip and sweeps inward like the supplied mascot, not a separate flame or detached accessory. Reduce the face to two simple friendly eyes and one small rounded smile. Make those facial shapes generous, optically balanced, with clear negative-space cutouts that remain readable at favicon scale and can work in a future single-color silhouette. Remove arms, hands, legs, eyebrows, blush, tongue, eye glints, props and all decorative marks. Strong compact outer silhouette, clean smooth Bézier-like curves, minimal anchor-point aesthetic, no thin delicate lines, no tiny enclosed gaps. Exact flat palette only: body purple #5B2A86, deep purple #371653 for a restrained robust outer contour where necessary, yellow #FBBF24 for the curved top. All fills solid and uniform. The recognizable character-to-brand-symbol relationship is the goal; Wiser is only a conceptual analogy for this relationship, do not reproduce or reference its logo geometry. The result should feel like a professional, approachable financial software brand symbol synthesized from Pingo, never a generic water-drop logo or a detailed cartoon. Design one fixed geometry suitable for future color, monochrome and light/dark adaptations; produce only this one color version now. Flat vector-friendly graphic appearance appropriate for subsequent manual vector construction. Absolutely no gradients, shading, shadows, 3D, lighting effects, gloss, texture, background shapes, rounded-square icon container, mockups, application screenshots, variant grids, lettering, or watermarks. Transparent background including facial negative spaces.",
+  "resultNote": "O resultado v1 foi escolhido apesar de manter olhos detalhados e pequenas variações de preenchimento. A seleção do usuário prevalece; exportações não alteram a imagem para impor o prompt original.",
+  "export": {
+    "method": "Redimensionamento bicúbico com System.Drawing; ICO com quatro frames PNG. Sem nova geração, recoloração ou alteração geométrica.",
+    "script": "scripts/export-brand-assets.ps1",
+    "navbar": [128, 256],
+    "favicon": [16, 32, 48, 256],
+    "publicBase": "/brand/",
+    "defaultFavicon": "/favicon.ico"
+  }
+}
