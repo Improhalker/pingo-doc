@@ -1,0 +1,96 @@
+{
+  "date": "2026-10-09T18:10:33.291Z",
+  "frontend": {
+    "tests": 121,
+    "typecheck": true,
+    "lint": true,
+    "format": true,
+    "build": true,
+    "privateHistoryHttp": true
+  },
+  "backend": {
+    "tests": 158,
+    "assertions": 2096,
+    "pint": true,
+    "composerValidate": true,
+    "platformRequirements": true
+  },
+  "landing": {
+    "typecheck": true,
+    "format": true,
+    "build": true
+  },
+  "integration": {
+    "received": "400.00",
+    "paid": "100.00",
+    "remaining": "600.00",
+    "idempotentReplayVerified": true,
+    "excessiveReceiptRejected": true,
+    "monthly": {
+      "income": "400.00",
+      "expenses": "100.00",
+      "result": "300.00"
+    },
+    "outstanding": {
+      "receivable": "600.00",
+      "payable": "0.00",
+      "overdue_receivable": "0.00",
+      "overdue_payable": "0.00"
+    },
+    "csrfWithoutToken": 419,
+    "visitor": 401,
+    "otherOrganization": 404,
+    "historyAdmin": 403,
+    "historyMaster": 200,
+    "masterBusinessData": 403,
+    "customerCreatedViaBrowser": true
+  },
+  "docker": {
+    "mysql": "8.4.11",
+    "redis": "8.2.10",
+    "health": "healthy",
+    "mysqlSessionTimezone": "+00:00",
+    "database": "pingofin_test",
+    "realRedisWorker": true,
+    "volumesPreserved": true
+  },
+  "browser": {
+    "crmDesktop": 1280,
+    "landingDesktop": 1440,
+    "mobile": 320,
+    "noDocumentOverflow": true,
+    "noBrokenLandingImages": true,
+    "noConsoleErrorsObserved": true,
+    "mobileMenus": true,
+    "landingTabs": true,
+    "landingEscape": true,
+    "crmDarkTheme": true
+  },
+  "cleanup": {
+    "organizations": 2,
+    "users": 4,
+    "developmentDatabaseUntouched": true
+  },
+  "audit": {
+    "frontend": {
+      "info": 0,
+      "low": 0,
+      "moderate": 0,
+      "high": 8,
+      "critical": 6,
+      "total": 14
+    },
+    "landing": {
+      "info": 0,
+      "low": 0,
+      "moderate": 0,
+      "high": 0,
+      "critical": 0,
+      "total": 0
+    },
+    "composer": {
+      "advisories": 0,
+      "abandoned": 0
+    }
+  }
+}
