@@ -4,6 +4,12 @@ Produto, arquitetura, design system, validações, referências visuais e script
 
 Leia README.md, ../pingo-doc/MIGRACAO_REPOSITORIOS.md e, antes de alterar código do produto, ../pingo-doc/DEFINICAO_PRODUTO.md, ARCHITECTURE.md, DESIGN_SYSTEM.md e docs/referencias-visuais/README.md. O estado implementado está no README histórico e nas validações, não apenas no planejamento inicial.
 
+## NFS-e pausada — 15/10/2026
+
+A emissão de NFS-e está pausada por pedido explícito do usuário. Leia [o lembrete de retomada](./docs/PAUSA_NFSE.md). O planejamento fica na branch paused/nfse; main mantém o financeiro. Ao usuário pedir continuidade fiscal, lembre que a análise começou e que não foi encontrada implementação fiscal. Não retome por um pedido genérico de continuar o projeto.
+
+O próximo foco é revisar o MVP financeiro e o Kanban e depois planejar IA. Esta tarefa não autoriza implementar IA, alterar Kanban ou declarar o MVP pronto.
+
 # PingoFin — guia para agentes
 
 ## 1. Contexto e ordem de leitura
