@@ -2,6 +2,7 @@
 
 Fonte central de produto, arquitetura, direção visual, evidências e responsabilidades dos quatro repositórios. Os aplicativos executáveis ficam nos repositórios irmãos; este repositório não é publicado como site.
 
+- [NFS-e: planejamento arquivado nesta branch, sem implementação](./docs/planejamento/NFSE_ARQUIVADA.md)
 - [Mapa, migração e preparação para deploy](./MIGRACAO_REPOSITORIOS.md)
 - [Produto — planejamento inicial](./DEFINICAO_PRODUTO.md)
 - [Arquitetura e decisões](./ARCHITECTURE.md)
